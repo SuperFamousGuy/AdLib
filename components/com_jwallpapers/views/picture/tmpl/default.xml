@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<layout title="JW_PIC_VIEW_TITLE_DEFAULT">
+		<message><![CDATA[JW_PIC_VIEW_DESC_DEFAULT]]></message>
+	</layout>
+	<state>
+		<name><![CDATA[JW_PIC_VIEW_TITLE]]></name>
+		<description><![CDATA[JW_PIC_VIEW_DESC]]></description>
+		<params>
+			<param name="picture_area_width" type="text" default="70"
+				label="PARAMS_PIC_AREA_WIDTH_LABEL" description="PARAMS_PIC_AREA_WIDTH_DESC"
+				size="2">
+			</param>
+			<param name="show_credits" type="radio" default="1"
+				label="PARAMS_SHOW_CREDITS_LABEL" description="PARAMS_SHOW_CREDITS_DESC">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="menu_item_type" type="hidden" default="jw_picture">
+			</param>
+		</params>
+		<url>
+			<param name="id" type="text" default=""
+				label="PARAMS_JW_PIC_VIEW_ID_LABEL" description="PARAMS_JW_PIC_VIEW_ID_DESC" />
+		</url>
+	</state>
+</metadata>

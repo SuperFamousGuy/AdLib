@@ -1,0 +1,25 @@
+#s5_header_area_inner2, #s5_header_wrap, #s5_search input, .module_round_box, .module_round_box-dark, #s5_component_wrap, #s5_footer_area_inner2, .inputbox, .registration input, .login input, #jform_contact_message, .contact-form input, .padded, .padded:hover {
+behavior: url(templates/sienna/css/PIE.htc);
+position:relative;
+}
+
+.module_round_box .s5_mod_h3 {
+background:url(../images/internet_explorer/s5_mod_h3.png) repeat-x bottom left;
+}
+
+.module_round_box-dark .s5_mod_h3 {
+background:url(../images/internet_explorer/s5_mod_h3_dark.png) repeat-x bottom left;
+}
+
+#s5_search input {
+background:#0F0F0F;
+margin-top:11px;
+}
+
+#s5_breadcrumb_fonts_wrap {
+padding-bottom:2px;
+}
+
+#login-form #modlgn-remember {
+margin:0px;
+}

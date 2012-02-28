@@ -1,0 +1,81 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimpleGrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla LLC. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla LLC                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+/* user pages */
+#userlogin_wrap, #userlogout_wrap, 
+#userregister_wrap, #userreminder_wrap,
+#userprofile_wrap{
+	width:100%;
+	overflow:hidden;
+	padding:30px 0;
+	background: url(../images/login_lock.jpg) no-repeat right center;
+	text-shadow:1px 1px #fff;
+}
+
+#userpages{
+	width:350px;
+	margin:0 auto;
+	overflow:hidden;
+	padding:10px 20px;
+	border:1px dashed #121212;
+	background:#E8E8E8;
+}
+
+#userpages h1 {
+	font-size:200%;
+	text-align:center;
+	padding:0;
+	margin:0;
+	color:#555555;
+	font-weight:normal;
+}
+#userpages label {
+	font-size:130%;
+}
+#userpages .inputbox {
+	height:35px;
+	width:100%;
+	font-size:130%;
+	margin:0 0 10px 0;
+}
+
+/* Logout */
+#userlogout_wrap {
+	font-size:150%;
+	text-align:center;
+	background: url(../images/logout.jpg) no-repeat right center;
+	padding:50px 0;
+}
+
+/* Register */
+#userregister_wrap {
+	background: url(../images/register_key.jpg) no-repeat right center;
+}
+/* Profile */
+#userprofile_wrap{
+	background: url(../images/user.jpg) no-repeat right center;
+}
+#userprofile_wrap #userpages{
+	width:450px;
+}
+#userprofile_wrap dt{
+	font-weight:bold;
+	background:#fff;
+	padding:5px;
+	margin:0 0 5px 0;
+	border:1px solid #ccc;
+}
+#userprofile_wrap dd{
+	padding:0 0 5px 0;
+	font-size:120%;
+}

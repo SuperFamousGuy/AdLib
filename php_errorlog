@@ -1,0 +1,45 @@
+[08-Feb-2012 01:29:34] PHP Fatal error:  Call to a member function get() on a non-object in /home/updatec6/public_html/ad-lib2/templates/gratis/error.php on line 19
+[13-Feb-2012 17:58:13] Got no response code when fetching http://mastershan/
+[13-Feb-2012 17:58:13] CURL error (6): Couldn't resolve host 'mastershan'
+[13-Feb-2012 22:21:56] Got no response code when fetching http://ickygricky/
+[13-Feb-2012 22:21:56] CURL error (6): Couldn't resolve host 'ickygricky'
+[14-Feb-2012 21:24:18] URL fetching not allowed for ''
+[14-Feb-2012 21:24:34] Got no response code when fetching http://mastershan/
+[14-Feb-2012 21:24:34] CURL error (6): Couldn't resolve host 'mastershan'
+[15-Feb-2012 01:04:15] PHP Fatal error:  Call to a member function get() on a non-object in /home/updatec6/public_html/ad-lib/templates/gratis/error.php on line 19
+[15-Feb-2012 18:49:49] Successfully fetched 'https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=http://mail.google.com/mail/&scc=1&ltmpl=default&ltmplcache=2': GET response code 200
+[15-Feb-2012 23:31:35] Successfully fetched 'http://www.yahoo.com/': GET response code 200
+[15-Feb-2012 23:31:35] Successfully fetched 'http://open.login.yahooapis.com/openid20/www.yahoo.com/xrds': GET response code 200
+[15-Feb-2012 23:31:37] Successfully fetched 'https://open.login.yahooapis.com/openid/op/auth': POST response code 200
+[15-Feb-2012 23:32:06] Successfully fetched 'http://www.yahoo.com/': GET response code 200
+[15-Feb-2012 23:32:06] Successfully fetched 'http://open.login.yahooapis.com/openid20/www.yahoo.com/xrds': GET response code 200
+[15-Feb-2012 23:32:08] Successfully fetched 'https://me.yahoo.com/a/qja.JigroPegGeekh_H6wkbY3ykZTVvkTY7z': GET response code 200
+[15-Feb-2012 23:32:09] Successfully fetched 'https://open.login.yahooapis.com/openid20/user_profile/xrds': GET response code 200
+[16-Feb-2012 09:30:40] Successfully fetched 'http://www.yahoo.com/': GET response code 200
+[16-Feb-2012 09:30:40] Successfully fetched 'http://open.login.yahooapis.com/openid20/www.yahoo.com/xrds': GET response code 200
+[16-Feb-2012 09:30:42] Successfully fetched 'https://open.login.yahooapis.com/openid/op/auth': POST response code 200
+[16-Feb-2012 09:31:16] Successfully fetched 'https://me.yahoo.com/a/vskGu2AHm4WTmpQ4u6GF9OvUxnMI': GET response code 200
+[16-Feb-2012 09:31:16] Successfully fetched 'https://open.login.yahooapis.com/openid20/user_profile/xrds': GET response code 200
+[16-Feb-2012 15:15:55] Got no response code when fetching http://karl/
+[16-Feb-2012 15:15:55] CURL error (6): Couldn't resolve host 'karl'
+[17-Feb-2012 13:36:57] Got no response code when fetching http://ickygricky/
+[17-Feb-2012 13:36:57] CURL error (6): Couldn't resolve host 'ickygricky'
+[22-Feb-2012 01:22:21] Got no response code when fetching http://mastershan/
+[22-Feb-2012 01:22:21] CURL error (6): Couldn't resolve host 'mastershan'
+[23-Feb-2012 00:06:18] Got no response code when fetching http://arbitrary/
+[23-Feb-2012 00:06:18] CURL error (6): Couldn't resolve host 'arbitrary'
+[23-Feb-2012 00:07:57] Got no response code when fetching http://karl/
+[23-Feb-2012 00:07:57] CURL error (6): Couldn't resolve host 'karl'
+[23-Feb-2012 00:08:13] Got no response code when fetching http://test/
+[23-Feb-2012 00:08:13] CURL error (6): Couldn't resolve host 'test'
+[23-Feb-2012 00:08:45] Got no response code when fetching http://karl/
+[23-Feb-2012 00:08:45] CURL error (6): Couldn't resolve host 'karl'
+[23-Feb-2012 12:52:05] Got no response code when fetching http://karl/
+[23-Feb-2012 12:52:05] CURL error (6): Couldn't resolve host 'karl'
+[23-Feb-2012 12:52:22] Got no response code when fetching http://karl/
+[23-Feb-2012 12:52:22] CURL error (6): Couldn't resolve host 'karl'
+[23-Feb-2012 12:52:36] Got no response code when fetching http://karl/
+[23-Feb-2012 12:52:36] CURL error (6): Couldn't resolve host 'karl'
+[23-Feb-2012 17:25:25] Got no response code when fetching http://mastershan/
+[23-Feb-2012 17:25:25] CURL error (6): Couldn't resolve host 'mastershan'
+[26-Feb-2012 05:25:28] PHP Fatal error:  Call to a member function get() on a non-object in /home/updatec6/public_html/ad-lib/templates/gratis/error.php on line 19

@@ -1,0 +1,44 @@
+/**
+ * JWallpapers - A lightweight yet powerful image gallery component with community building capabilities
+ * 
+ * @version 2.0.1 $Id: ajax_cat_select.css 277 2010-04-14 09:17:56Z amazeika $
+ * @package JWallpapers
+ * @copyright Copyright (C) 2009 Arunas Mazeika, http://www.wextend.com. All rights reserved
+ * @author Arunas Mazeika
+ * @license GNU General Public License v2+ (GNU GPL v2+). See license.php
+ * 
+ */
+
+/** Ajax Category Selector
+	*/
+#ajax_category_list li {
+	background: none !important;
+	padding: 0 !important;
+}
+
+li a.ajax_cat_link {
+	background: transparent url('../images/default/icons/fileopen.png') top left no-repeat;
+	padding-left: 20px;
+}
+
+#up_link {
+	display: block;
+	height: 16px;
+	background: url('../images/default/icons/up.png') top left no-repeat;
+	padding-left: 20px;
+}
+
+#ajax_cat_pathString {
+	background: none;
+	padding: 0;
+}
+
+#new_cat_link {
+	background: url('../images/default/icons/folder_new.png') top right no-repeat;
+	padding-right: 20px;
+}
+
+.red_msg {
+	font-weight: bold;
+	color: red;
+}

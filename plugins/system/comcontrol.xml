@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.50" type="plugin" group="system">
+	<name>System - Component Content Control</name>
+	<author>Roger Noar</author>
+	<creationDate>March 29, 2010</creationDate>
+	<copyright>Copyright (C) 2010 Roger Noar. All rights reserved.</copyright>
+	<license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+	<authorEmail>webmaster@rayonics.com</authorEmail>
+	<authorUrl>www.rayonics.com</authorUrl>
+	<version>1.52a</version>
+	<description>
+	Component Content Control V1.52 - this plugin allows you to specify the pages of particular components that are visible to guests 
+	versus those pages that require the user to login first. 
+	To use this extension, be sure to first set the components that you wish to control to 'public' in the component's administration page. 
+	Then enter the parameters here so that Component Content Control will control whether the component pages are public vs private.
+	For components where you want most of the pages to be public, but have some private pages (requires login) - 
+	put those component names in the Mostly Public Components parameter. 
+	The component name is the part of the url that comes after '/index.php?option=' . For example, for MyBlog, it is 'com_myblog' .
+	If you have an SEF component installed, you may want to temporarily disable it so that you can see the component name in the url for the page.
+	You can enter several component names, just leave a space between them. 
+	Then enter the 'Private Tags' (url fragments) for the Mostly Public component pages that you want to make private - for example: article&amp;id=1&amp;Itemid=53 or blogger=Roger  etc.
+	You can enter several tags, just leave a space between them. This is case-sensitive, so be sure capital letters are correct!
+	For components where you want most of the pages to be private (require login), but have some public pages - 
+	put those component names in the Mostly Private Components parameter. 
+	You can enter several component names, just leave a space between them. 
+	Then enter the 'Public Tags' (url fragments) for the Mostly Private component pages that you want to make public.
+	You can use both the Mostly Public and Mostly Private parameters - of course, do not enter the same component name in both the Mostly Public 
+	and Mostly Private parameters.
+	</description>
+	
+	<files>
+		<filename plugin="comcontrol">comcontrol.php</filename> 
+	</files>
+	<params>
+		<param type="spacer" default="MOSTLY PUBLIC COMPONENTS:" />
+		<param name="com_name1" type="text" size="75" default="" label="Mostly Public Components" description="Name of the Mostly Public extensions (leave a space between names) that you wish to control. This is the portion of the joomla URL after the '?option=' , for example: com_myblog"/>
+		<param name="com_substring1" type="text" size="75" default="" label="Private Tags" description="Enter the tags (url fragment) that you wish to use for disallowing public access for the Mostly Public components above . For example: article&amp;id=1&amp;Itemid=53 or blogger=Roger . You can use multiple tags - leave a space between tags"/>		
+		<param type="spacer" />
+		<param type="spacer" default="MOSTLY PRIVATE COMPONENTS:" />		
+		<param name="com_name2" type="text" size="75" default="" label="Mostly Private Components" description="Names of the Mostly Private extensions (leave a space between names) that you wish to control. This is the portion of the joomla URL after the '?option=' , for example: com_myblog"/>
+		<param name="com_substring2" type="text" size="75" default="" label="Public Tags" description="Enter the tags (url fragment) that you wish to use for allowing public access to the Mostly Private components above. For example: article&amp;id=1&amp;Itemid=53 or blogger=Roger . You can use multiple tags - leave a space between tags"/>		
+		<param type="spacer" />	
+		<param type="spacer" default="ADDITIONAL OPTIONS:"  />
+		<param name="com_message" type="text" size="75" default="" label="Display message" description="This message is displayed when the user must login to access the component."/>	
+		<param name="com_redirect_url" type="text" size="75" default="" label="Redirect URL" description="This is the page where users are redirected to login. Leave this blank for the default Joomla login page. If you are not using the default Joomla login page, then you can enter in the full path of the login page you are using."/>	
+		<param name="com_debug" type="radio" default="0" label="Turn on debugging mode" description="Normally leave this off.">
+		<option value="0">Off</option>
+		<option value="1">On</option>
+		</param>
+	</params>
+</install>

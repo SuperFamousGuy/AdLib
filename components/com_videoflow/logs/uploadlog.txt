@@ -1,0 +1,19 @@
+===================================================
+Queue Upload: File details: 
+Array
+(
+    [name] => Will Ferrells Old Milwaukee Super Bowl Spot.flv
+    [tmp_name] => /home/updatec6/public_html/ad-lib2/components/com_videoflow/tmp/WillFerrellsOldMilwaukeeSuperBowlSpot.flv
+    [size] => 5116908
+    [user] => admin
+)
+
+Event Summary: 
+Array
+(
+    [success] => No
+    [error] => Unknown error
+    [user] => admin
+    [date] => 2012-02-08 20:42:39
+)
+ 

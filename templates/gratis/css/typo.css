@@ -1,0 +1,229 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimpleGrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla LLC. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla LLC                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+img.border {
+	padding:5px;
+	margin:2px 3px 0 0;
+}
+
+.message, .tips, .error {
+	padding:5px 5px 5px 0px !Important;
+	text-indent:25px;
+}
+
+.highlight {
+	padding:0 5px;
+}
+
+pre, code{
+	font: 103% monospace;
+	padding:10px;
+	white-space:normal !Important;
+}
+
+
+div.blockquote {
+	width:auto !Important;
+	padding:5px 0px 5px 0px !Important;
+}
+
+div.blockquote blockquote {
+	padding:15px 40px 5px 40px !Important;
+}
+
+.dropcap {
+	float:left;
+	padding:4px 8px 0 0;
+	display:block;
+	font-family:Georgia, Times, serif;
+	font-size:50px;
+	line-height:40px;
+}
+
+p.down, p.clip, p.pin, p.sticky {
+	padding:20px 20px 10px 50px;
+	margin:10px 0;
+}
+
+.blocknumber {
+	padding:5px 15px 10px 15px;
+}
+
+.bignumber {
+	float:left;
+	margin:0 15px 0 5px;
+	padding:5px 5px 5px 6px;
+	display:block;
+	font-weight:bold;
+	background-position:left top;
+	font-family:Arial, sans-serif;
+	font-size:23px;
+	line-height:normal;
+}
+
+ul.video li, li.video, li.video:hover, ul.check li, li.check, li.check:hover, ul.star li, li.star, li.star:hover {
+	padding-bottom:5px;
+	padding-left:25px;
+	list-style-image:none;
+	list-style-type:none;
+}
+
+/* TYPO style
+--------------------- */
+img.border {
+	border:1px solid #e7e7e7;
+	background:#F6F6F6;
+}
+
+.special {
+	background:#FFC;
+	border:1px solid #9E9F63;
+}
+
+.error {
+	color:#C00;
+	background:url(../images/typ/error.gif) no-repeat center left;
+}
+
+.message {
+	color:#069;
+	background:url(../images/typ/info.gif) no-repeat center left;
+}
+
+.tips {
+	color:#FF5A00;
+	background:url(../images/typ/tips.gif) no-repeat center left;
+}
+
+.highlight {
+	border-bottom:1px dashed #888;
+	background:#FEFAE1;
+}
+
+div.blockquote {
+	border:1px solid #e7e7e7;
+	background:#F6F6F6 url(../images/typ/qlg.gif) no-repeat 0px 2px !Important;
+}
+
+div.blockquote blockquote {
+	background:url(../images/typ/qrg.gif) no-repeat right bottom;
+}
+
+.dropcap {
+	color:#e7e7e7;
+	font-family:Georgia, Times, serif;
+}
+
+p.sticky, p.pin, p.clip, p.down, pre, .code{
+	border-right:1px solid #e7e7e7;
+	border-top:1px solid #e7e7e7;
+	border-left:5px solid #e7e7e7;
+	border-bottom:1px solid #e7e7e7;
+	background:#F6F6F6 url(../images/typ/sticky.gif) no-repeat left center;
+}
+
+ pre, .code {
+	background:#F6F6F6;
+}
+
+p.pin {
+	background:#F6F6F6 url(../images/typ/pin.gif) no-repeat left center;
+}
+
+p.clip {
+	background:#F6F6F6 url(../images/typ/clip.gif) no-repeat left center;
+}
+
+p.down {
+	background:#F6F6F6 url(../images/typ/down.gif) no-repeat left center;
+}
+
+.bignumber {
+	color:#e7e7e7;
+	background-position:left top;
+}
+
+body ul.star li, body li.star {
+	background:url(../images/typ/star.gif) no-repeat 0 1px;
+}
+
+body ul.video li, body li.video {
+	background: url(../images/typ/video.gif) no-repeat 0px 0px;
+}
+
+.clrm {
+	width:100%;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+p.nonscript {
+	background:#FFFFCC;
+	font-size:15px;
+	color:#121212;
+	font-weight:bold;
+	padding:20px 0;
+	position:absolute;
+	top:0;
+	margin:0 0 50px 0;
+	width:100%;
+}
+
+
+/* PPC added TYPO style
+--------------------- */
+
+.ppicon_advanced {background: url(../images/typo/advanced.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_alert {background: url(../images/typo/alert.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_archive {background: url(../images/typo/archive.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_baggreen {background: url(../images/typo/bag_green.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_bagwhite {background: url(../images/typo/bag_white.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_cancel {background: url(../images/typo/cancel.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_chat {background: url(../images/typo/chat.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_check {background: url(../images/typo/check.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_computer {background: url(../images/typo/computer.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_credit {background: url(../images/typo/credit_cards.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_help {background: url(../images/typo/help.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_hot {background: url(../images/typo/hot.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_info {background: url(../images/typo/info.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_offer {background: url(../images/typo/offer.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_offer5 {background: url(../images/typo/offer_5.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_offer10 {background: url(../images/typo/offer_10.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_offer20 {background: url(../images/typo/offer_20.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_offer50 {background: url(../images/typo/offer_50.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_padlock {background: url(../images/typo/padlock.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_podcast {background: url(../images/typo/podcast.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_question {background: url(../images/typo/question.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_send {background: url(../images/typo/send.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_smiley {background: url(../images/typo/smiley.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+.ppicon_star {background: url(../images/typo/star.png) no-repeat left center;padding: 15px 20px 20px 50px;display: block;}
+
+/*Boxes*/
+.ppbox_red {border: 2px solid #000;border-left: 12px solid #863c1c;padding: 10px;margin: 10px 0 20px}
+.ppbox_black {border: 2px solid #000;border-left: 12px solid #000000;padding: 10px;margin: 10px 0 20px}
+.ppbox_blue {border: 2px solid #000;border-left: 12px solid #25383c;padding: 10px;margin: 10px 0 20px}
+.ppbox_brown {border: 2px solid #000;border-left: 12px solid #B05A3A;padding: 10px;margin: 10px 0 20px}
+.ppbox_green {border: 2px solid #000;border-left: 12px solid #1b2701;padding: 10px;margin: 10px 0 20px}
+.ppbox_yellow {border: 2px solid #000;border-left: 12px solid #F2F096;padding: 10px;margin: 10px 0 20px}
+.ppbox_purple {border: 2px solid #000;border-left: 12px solid #7F176B;padding: 10px;margin: 10px 0 20px}
+
+/*DropCap */
+.ppcap_dropcap{font-size:80px;display:block;float:left;padding:24px 16px 16px 0;margin:0;}
+
+/*Lists */
+ul.pp_black li{list-style:none;padding-left:23px;background:url(../images/typo/black.png) no-repeat scroll 4px 7px transparent;}
+ul.pp_arrow li{list-style:none;;padding-left:23px;background:url(../images/typo/arrowbullet.png) no-repeat scroll 1px 2px transparent;}
+ul.pp_round li{list-style:none;padding-left:23px;background:url(../images/typo/roundbullet.png) no-repeat scroll 1px 3px transparent;}
+ul.pp_star li{list-style:none;padding-left:23px;background:url(../images/typo/starbullet.png) no-repeat scroll 1px 2px transparent;}
+ul.pp_leaf li{list-style:none;padding-left:23px;background:url(../images/typo/leaf.png) no-repeat scroll 1px 4px transparent;}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>YJ Pop Login</name>
+	<author>Youjoomla</author>
+	<creationDate>5-21-09</creationDate>
+	<copyright>Youjoomla LLC.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>youjoomla@gmail.com</authorEmail>
+	<authorUrl>www.youjoomla.com</authorUrl>
+	<version>1.5.0</version>
+	<description>DESCLOGINFORM</description>
+			<languages>
+		<language tag="en-GB">en-GB.mod_yj_pop_login.ini</language>
+	</languages>
+	<files>
+		<filename module="mod_yj_pop_login">mod_yj_pop_login.php</filename>
+		 <filename>index.html</filename>
+		  <filename>stylesheet.css</filename>
+           <filename>helper.php</filename>
+		   <filename>tmpl/index.html</filename>
+           <filename>tmpl/default.php</filename>
+           <filename>src/index.html</filename>
+		   <filename>src/yj_login_pop.js</filename>
+	</files>
+	<params>
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="0">Never</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="pretext" type="textarea" cols="50" rows="7" 
+		
+		default="Welcome,&lt;a href=&quot;javascript:;&quot; onclick=&quot;this.blur();showThem('reg_pop');return false;&quot;>Guest &lt;/a&gt;
+&lt;p&gt;&lt;/p&gt; &lt;span&gt; Please login or register&lt;/span&gt; " 
+		
+		
+		label="Pre-text" description="PARAMPRETEXT" />
+		
+		
+		
+		
+		
+		<param name="posttext" type="textarea" cols="50" rows="7" label="Post-text" description="PARAMPOSTTEXT" />
+		<param name="login" type="menuitem" default="" disable="separator" label="Login Redirection URL" description="PARAMLOGINREDIRECTURL" />
+		<param name="logout" type="menuitem" default="" disable="separator" label="Logout Redirection URL" description="PARAMLOGOUTREDIRECTURL" />
+		<param name="greeting" type="radio" default="1" label="Greeting" description="Show/Hide the simple greeting text">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="name" type="list" default="0" label="Name/Username">
+			<option value="0">Username</option>
+			<option value="1">Name</option>
+		</param>
+		<param name="usesecure" type="radio" default="0" label="Encrypt Login Form" description="Submit encrypted login data (requires SSL)">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</install>

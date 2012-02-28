@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<layout title="JW_TAGGEDPICS_VIEW_TITLE_DEFAULT">
+		<message><![CDATA[JW_TAGGEDPICS_VIEW_DESC_DEFAULT]]></message>
+	</layout>
+	<state>
+		<name><![CDATA[JW_TAGGEDPICS_VIEW_TITLE]]></name>
+		<description><![CDATA[JW_TAGGEDPICS_VIEW_DESC]]></description>
+		<params>
+			<param name="thumbs_lines" type="text" default="3"
+				label="PARAMS_THUMBS_LINES_LABEL" description="PARAMS_THUMBS_LINES_DESC"
+				size="2">
+			</param>
+			<param name="thumbs_columns" type="text" default="3"
+				label="PARAMS_THUMBS_COLS_LABEL" description="PARAMS_THUMBS_COLS_DESC"
+				size="2">
+			</param>
+			<param name="thumbs_wrapper_height_mod" type="text" default="90"
+				label="PARAMS_THUMBS_WRAPPER_HEIGHT_MOD_LABEL" description="PARAMS_THUMBS_WRAPPER_HEIGHT_MOD_DESC"
+				size="3">
+			</param>
+			<param name="thumbs_wrapper_width_mod" type="text" default="14"
+				label="PARAMS_THUMBS_WRAPPER_WIDTH_MOD_LABEL" description="PARAMS_THUMBS_WRAPPER_WIDTH_MOD_DESC"
+				size="3">
+			</param>
+			<param name="thumbs_title_max_length" type="text" default="45"
+				label="PARAMS_THUMBS_TITLE_MAX_LENGTH_LABEL" description="PARAMS_THUMBS_TITLE_MAX_LENGTH_DESC"
+				size="3">
+			</param>
+			<param name="show_thumb_info" type="radio" default="1"
+				label="PARAMS_SHOW_THUMB_INFO_LABEL" description="PARAMS_SHOW_THUMB_INFO_DESC">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="show_pic_thumb_title" type="radio" default="1"
+				label="PARAMS_SHOW_PIC_THUMB_TITLE_LABEL" description="PARAMS_SHOW_PIC_THUMB_TITLE_DESC">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="show_credits" type="radio" default="1"
+				label="PARAMS_SHOW_CREDITS_LABEL" description="PARAMS_SHOW_CREDITS_DESC">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="menu_item_type" type="hidden" default="jw_taggedpics">
+			</param>
+		</params>
+		<url>
+			<param name="id" type="text" default=""
+				label="PARAMS_TAGGEDPICS_VIEW_ID_LABEL" description="PARAMS_TAGGEDPICS_VIEW_ID_DESC">
+			</param>
+		</url>
+	</state>
+</metadata>

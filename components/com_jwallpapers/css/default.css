@@ -1,0 +1,488 @@
+/**
+ * JWallpapers - A lightweight yet powerful image gallery component with community building capabilities
+ * 
+ * @version 2.0.1 $Id: default.css 299 2010-04-23 12:20:38Z amazeika $
+ * @package JWallpapers
+ * @copyright Copyright (C) 2009 Arunas Mazeika, http://www.wextend.com. All rights reserved
+ * @author Arunas Mazeika
+ * @license GNU General Public License v2+ (GNU GPL v2+). See license.php
+ * 
+ */
+#picture_container,#picture_right_content,#thumbs_right_section,#thumbs_left_section,#frontend_tagging_section,#pic_tags_section
+	{
+	float: left;
+	border: none !important;
+}
+
+/* Some templates fix the height of the contentheading class
+   causing the title of pictures to look bad on the main 
+   picture view. Setting it to auto will force the browser
+   to calculate the necessary height instead
+   */
+#picture_info .contentheading {
+	height: auto !important;
+}
+
+input#captcha_string,input#keystring {
+	width: 100px;
+}
+
+.jw_order_by_links,.jw_nav_pages_links {
+	margin-top: 10px;
+}
+
+.jw_credits {
+	margin-top: 30px;
+}
+
+.jw_message_big_margins {
+	margin: 100px;
+}
+
+.jw_order_by_links,.jw_nav_pages_links,.jw_nav_pages_count,.resizes,.jw_message_big_margins h2,.jw_credits
+	{
+	text-align: center !important;
+}
+
+.submit_picture_link {
+	float: right;
+	border: none !important;
+	padding-left: 20px;
+	font-size: 12px;
+	background: url('../images/default/icons/up.png') top left no-repeat;
+}
+
+a.tag_editors_pick,a.untag_editors_pick,a.go_back,div.editors_pick {
+	display: block;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+	font-weight: bold !important;
+}
+
+a.go_back {
+	background: url('../images/default/icons/go_back.png') top left
+		no-repeat;
+}
+
+a.editors_pick {
+	background: #fff url('../images/default/icons/editors_pick.png') right
+		bottom no-repeat;
+}
+
+a.untag_editors_pick {
+	background: transparent
+		url('../images/default/icons/editors_pick_untag.png') left top
+		no-repeat;
+}
+
+a.tag_editors_pick,div.editors_pick {
+	background: transparent url('../images/default/icons/editors_pick.png')
+		left top no-repeat;
+}
+
+#thumbs_right_section {
+	/* Adding a the following padding causes this block to go down
+	when calculating each container width with a 100% base */
+	/* padding-left: 10px; */
+	margin-top: 12px;
+}
+
+.clear_both {
+	clear: both;
+}
+
+.clear_left {
+	clear: left;
+}
+
+#picture_right_content {
+	border: none !important;
+}
+
+.picture_right_content_elements {
+	padding-left: 20px;
+	/* Had to use an additional div since actually the width of an element
+						equals = width + margin + PADDING. Adding padding to the parent made it
+						widder, so it was being pushed to the next line !!! */
+}
+
+#picture_info {
+	margin-bottom: 25px;
+}
+
+#picture_info h2 {
+	margin: 0px !important;
+}
+
+.thumbnails li {
+	background: none !important;
+}
+
+.pic_description {
+	border-top: 3px solid #333;
+	border-bottom: 3px solid #333;
+}
+
+.big_thumb a img,.thumbnails img {
+	display: block;
+	margin: 0 auto 5px auto;
+	border: 1px solid #ccc;
+	border-bottom-color: #eee;
+	border-left-color: #ddd;
+	border-top-color: #bbb;
+}
+
+.thumbnails a.album {
+	background: #fff url('../images/default/icons/album.png') left bottom
+		no-repeat;
+}
+
+div.big_thumb {
+	margin: 0 0 10px 0;
+	text-align: center;
+	background-color: #fff;
+	line-height: 1em;
+}
+
+div.big_thumb a,ul.thumbnails a {
+	display: block;
+	margin: 0 !important;
+	padding: 4px 4px 11px 4px !important;
+	border: 1px solid #ccc;
+	border-top-color: #eee;
+	border-right-color: #ddd;
+	border-bottom-color: #bbb;
+	background-color: #fff;
+	text-align: center;
+}
+
+#picture_container {
+	/* min-width: 414px; Depreciated, this is now done dinamically */
+	
+}
+
+ul.thumbnails div {
+	text-align: center;
+	/* width: 158px; Depreciated this is now added dynamically */
+	padding: 0;
+	margin: 0 auto 0 auto;
+}
+
+div.big_thumb a:hover,ul.thumbnails a:hover {
+	border-color: #ccc;
+	background-color: #eee;
+	text-decoration: none;
+}
+
+div.resizes,div.navigation {
+	margin: 0px 0 10px 0;
+	padding: 0;
+	text-align: center;
+	line-height: 1em;
+}
+
+div.nav_left,div.nav_right {
+	width: 15px;
+	margin: 0;
+	padding: 0;
+}
+
+div.nav_left {
+	float: left;
+}
+
+div.nav_right {
+	float: right;
+}
+
+.nav_right a {
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: url('../images/default/carbon/next.gif') no-repeat;
+}
+
+.nav_left a {
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: url('../images/default/carbon/prev.gif') no-repeat;
+}
+
+a.fullsize {
+	display: block;
+	width: 17px;
+	height: 15px;
+	background-color: transparent !important;
+	background-image: url('../images/default/carbon/popup.gif') !important;
+	margin: 0 auto 0 auto !important;
+}
+
+a.fullsize:hover {
+	background-color: transparent !important;
+	background-image: url('../images/default/carbon/popup.gif') !important;
+	background-position: -17px 0 !important;
+}
+
+a.nav_limit_left,a.nav_limit_left:hover {
+	background-color: transparent !important;
+	background-image: url('../images/default/carbon/prev.gif') !important;
+}
+
+a.nav_limit_right,a.nav_limit_right:hover {
+	background-color: transparent !important;
+	background-image: url('../images/default/carbon/next.gif') !important;
+}
+
+a.not_nav_limit_left:hover {
+	background-color: transparent !important;
+	background-image: url('../images/default/carbon/prev.gif') !important;
+	background-position: -15px 0 !important;
+}
+
+a.not_nav_limit_right:hover {
+	background-color: transparent !important;
+	background-image: url('../images/default/carbon/next.gif') !important;
+	background-position: -15px 0 !important;
+}
+
+p.picture_position_text {
+	padding-top: 2px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.download_options_fieldset {
+	border-style: none;
+}
+
+.download_options_select {
+	font-size: 0.9em;
+	background-color: #eee;
+	color: #000;
+	border: 1px solid #284279;
+	margin-left: 10px;
+}
+
+.download_options_button {
+	font-size: 0.9em;
+	background-color: transparent;
+	/* color: #102132; */
+	color: #8A7777;
+	margin-left: 12px;
+	margin-top: 3px;
+	margin-bottom: 2px;
+}
+
+ul.thumbnails { /* IE seems to align ul items to the right */
+	margin: 0 auto 0 auto !important;
+	padding: 0 !important;
+	/* background-color: #fff; For transparency */
+	line-height: 1em;
+	list-style: none !important;
+	/* This forces the browser to dynamically calculate the height of the element.
+	   Floating elements inside avoid the height calculation of this element.
+	   Because of this, we need to force the height calculation by using this hack. */
+	overflow: auto;
+}
+
+ul.thumbnails li {
+	float: left;
+	/* min-width: 160px; Depreciated this is now done dynamically */
+	/* This one needs to be defined to avoid next line floating problems with IE */
+	/* height: 200px; Depreciated this is now done dynamically */
+	/* This one is a IE6 fix, otherwise the height property is not respected */
+	overflow: hidden;
+	padding: 0 !important;
+	margin: 10px 0px !important;
+	/* Added in order to safely allow calculating the width by dividing 100% by the number of columns */
+	border: none !important;
+}
+
+ul.thumbnails li div p {
+	text-align: center;
+	padding-top: 5px;
+}
+
+/* Submit Form */
+#pictureForm table {
+	margin: 10px 0 5px 20px;
+}
+
+#pictureForm td {
+	padding: 5px;
+}
+
+#pictureForm #button {
+	margin-right: 0;
+}
+
+td.form_note { /* width: 50px; */
+	
+}
+
+span.form_note {
+	margin-left: 10px;
+	font-size: 0.9em;
+}
+
+/* System messages overides */
+#system-message li {
+	background-image: none !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+#system-message dd ul {
+	margin-bottom: 10px !important;
+	list-style: none !important;
+	padding: 10px !important;
+	margin: 0px !important;
+	padding-left: 40px !important;
+	text-indent: 0px !important;
+}
+
+/* System Standard Messages */
+#system-message dd.message ul {
+	color: #0055BB !important;
+	background: #C3D2E5
+		url('../../../templates/system/images/notice-info.png') 4px center
+		no-repeat !important;
+	border-top: 3px solid #84A7DB !important;
+	border-bottom: 3px solid #84A7DB !important;
+}
+
+/* System Error Messages */
+#system-message dd.error ul {
+	color: #c00 !important;
+	background: #E6C0C0
+		url('../../../templates/system/images/notice-alert.png') 4px center
+		no-repeat !important;
+	border-top: 3px solid #DE7A7B !important;
+	border-bottom: 3px solid #DE7A7B !important;
+}
+
+/* System Notice Messages */
+#system-message dd.notice ul {
+	color: #c00 !important;
+	background: #EFE7B8
+		url('../../../templates/system/images/notice-note.png') 4px center
+		no-repeat !important;
+	border-top: 3px solid #F0DC7E !important;
+	border-bottom: 3px solid #F0DC7E !important;
+}
+
+/* System messages overides */ /* VirtueMart plugin specifics */
+div.vm_product_link {
+	text-align: center !important;
+	margin-top: 15px;
+}
+
+a.vm_product_link {
+	font-weight: bold !important;
+	padding-left: 20px;
+	background: transparent url('../images/default/icons/cart.png') left
+		center no-repeat;
+}
+
+/* VirtueMart plugin specifics */ /* Frontend Tagging */
+.tag_cloud {
+	padding: 10px;
+}
+
+#frontend_tagging_section,#pic_tags_section {
+	margin-bottom: 15px;
+}
+
+#frontend_tagging_section {
+	width: 40%;
+}
+
+#pic_tags_section {
+	width: 60%;
+}
+
+#pic_tags_section h4 {
+	text-align: center !important;
+}
+
+#frontend_captcha {
+	margin-top: 20px;
+}
+
+#ajax_tag_search_result {
+	margin-top: 8px;
+}
+
+#tag_pic_status {
+	margin-top: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	color: green;
+}
+
+.ajax_search_note {
+	font-size: 10px;
+}
+
+/* Frontend Tagging */ /* Tag cloud */
+.jw_tag_cloud {
+	text-align: justify !important;
+}
+
+.jw_tag_cloud a {
+	text-decoration: none !important;
+	padding: 0px 3px;
+}
+
+.jw_tag_cloud a.size0 {
+	color: #AAA;
+	font-size: 110%;
+	line-height: 1.5em;
+}
+
+.jw_tag_cloud a.size1 {
+	color: #777;
+	font-size: 120%;
+	line-height: 1.4em;
+}
+
+.jw_tag_cloud a.size2 {
+	color: #666;
+	font-size: 130%;
+	line-height: 1.3em;
+}
+
+.jw_tag_cloud a.size3 {
+	color: #444;
+	font-size: 140%;
+	line-height: 1.2em;
+}
+
+.jw_tag_cloud a.size4 {
+	color: #333;
+	font-size: 150%;
+	line-height: 1.1em;
+}
+
+.jw_tag_cloud a.size5 {
+	color: #111;
+	font-size: 150%;
+	line-height: 1em;
+}
+
+.jw_tag_cloud a.link:hover {
+	color: white;
+	background-color: #575757;
+}
+
+/* Tag cloud */
+#jw_cat_desc {
+	margin: 15px;
+	text-align: justify !important;
+}
+
+.jw_cb_field {
+	display: block;
+}

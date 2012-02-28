@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params group="Hidden">
+		<param name="image_library" type="hidden" default="GD"></param>
+	</params>
+	<params group="GENERAL_SETTINGS">
+		<param name="maxCatDepth" type="text" default="25"
+			label="PARAMS_MAX_CATEGORY_DEPTH_LABEL" description="PARAMS_MAX_CATEGORY_DEPTH_DESC"
+			size="3">
+		</param>
+		<param name="security_key" type="text"
+			default="IMPORTANT: Change this value to a phrase of your choice"
+			label="PARAMS_SECURITY_KEY_LABEL" description="PARAMS_SECURITY_KEY_DESC"
+			size="32">
+		</param>
+		<param name="show_backend_category_filter" type="radio" default="1"
+			label="PARAMS_SHOW_BACKEND_CATEGORY_FILTER_LABEL" description="PARAMS_SHOW_BACKEND_CATEGORY_FILTER_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_frontend_captcha" type="radio" default="1"
+			label="PARAMS_FRONTEND_CAPTCHA_LABEL" description="PARAMS_FRONTEND_CAPTCHA_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes (for everybody)</option>
+			<option value="2">For guests only</option>
+		</param>
+		<param name="image_quality" type="text" default="80"
+			label="PARAMS_IMAGE_QUALITY_LABEL" description="PARAMS_IMAGE_QUALITY_DESC">
+		</param>
+	</params>
+	<params group="DISPLAY_SETTINGS">
+		<param name="display_mode" type="radio" default="0"
+			label="PARAMS_DISPLAY_MODE_LABEL" description="PARAMS_DISPLAY_MODE_DESC">
+			<option value="0">Classic</option>
+			<option value="1">JWallpapers</option>
+		</param>
+		<param name="search_cat_thumb" type="radio" default="1"
+			label="PARAMS_SEARCH_CAT_THUMB_LABEL" description="PARAMS_SEARCH_CAT_THUMB_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+	<params group="VOTES_SETTINGS">
+		<param name="votes" type="radio" default="1" label="PARAMS_VOTES_LABEL"
+			description="PARAMS_VOTES_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+	<params group="DOWNLOADS_SETTINGS">
+		<param name="disable_downloads" type="radio" default="0"
+			label="PARAMS_DISABLE_DOWNLOADS_LABEL" description="PARAMS_DISABLE_DOWNLOADS_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+	<params group="WATERMARKS_SETTINGS">
+		<param name="watermark_thumbs" type="radio" default="1"
+			label="PARAMS_WATERMARK_THUMBS_LABEL" description="PARAMS_WATERMARK_THUMBS_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="watermark_downloads" type="radio" default="0"
+			label="PARAMS_WATERMARK_DOWNLOADS_LABEL" description="PARAMS_WATERMARK_DOWNLOADS_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="watermark_image_path" type="text" default=""
+			label="PARAMS_WATERMARK_IMAGE_PATH_LABEL" description="PARAMS_WATERMARK_IMAGE_PATH_DESC">
+		</param>
+		<param name="watermark_size_ratio" type="text" default="15"
+			label="PARAMS_WATERMARK_SIZE_RATIO_LABEL" description="PARAMS_WATERMARK_SIZE_RATIO_DESC">
+		</param>
+		<param name="watermark_position" type="radio" default="4"
+			label="PARAMS_WATERMARK_POSITION_LABEL" description="PARAMS_WATERMARK_POSITION_DESC">
+			<option value="0">Top-left</option>
+			<option value="1">Top-right</option>
+			<option value="2">Center</option>
+			<option value="3">Bottom-left</option>
+			<option value="4">Bottom-right</option>
+		</param>
+		<param name="watermark_margin" type="text" default="10"
+			label="PARAMS_WATERMARK_MARGIN_LABEL" description="PARAMS_WATERMARK_MARGIN_DESC">
+		</param>
+	</params>
+	<params group="LIGHTBOX_SETTINGS">
+		<param name="lightbox" type="radio" default="1"
+			label="PARAMS_LIGHTBOX_LABEL" description="PARAMS_LIGHTBOX_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="slideshow_period" type="text" default="10" size="3"
+			label="PARAMS_SLIDESHOW_PERIOD_LABEL" description="PARAMS_SLIDESHOW_PERIOD_DESC"></param>
+	</params>
+	<params group="LAYOUT_SETTINGS">
+		<param name="thumbs_area_width" type="text" default="70"
+			label="PARAMS_THUMBS_AREA_WIDTH_LABEL" description="PARAMS_THUMBS_AREA_WIDTH_DESC"
+			size="2">
+		</param>
+		<param name="picture_area_width" type="text" default="70"
+			label="PARAMS_PIC_AREA_WIDTH_LABEL" description="PARAMS_PIC_AREA_WIDTH_DESC"
+			size="2">
+		</param>
+		<param name="thumbs_lines" type="text" default="3"
+			label="PARAMS_THUMBS_LINES_LABEL" description="PARAMS_THUMBS_LINES_DESC"
+			size="2">
+		</param>
+		<param name="thumbs_columns" type="text" default="3"
+			label="PARAMS_THUMBS_COLS_LABEL" description="PARAMS_THUMBS_COLS_DESC"
+			size="2">
+		</param>
+		<param name="thumbs_wrapper_height_mod" type="text" default="90"
+			label="PARAMS_THUMBS_WRAPPER_HEIGHT_MOD_LABEL" description="PARAMS_THUMBS_WRAPPER_HEIGHT_MOD_DESC"
+			size="3">
+		</param>
+		<param name="thumbs_wrapper_width_mod" type="text" default="14"
+			label="PARAMS_THUMBS_WRAPPER_WIDTH_MOD_LABEL" description="PARAMS_THUMBS_WRAPPER_WIDTH_MOD_DESC"
+			size="3">
+		</param>
+		<param name="thumbs_title_max_length" type="text" default="45"
+			label="PARAMS_THUMBS_TITLE_MAX_LENGTH_LABEL" description="PARAMS_THUMBS_TITLE_MAX_LENGTH_DESC"
+			size="3">
+		</param>
+		<param name="show_thumb_info" type="radio" default="1"
+			label="PARAMS_SHOW_THUMB_INFO_LABEL" description="PARAMS_SHOW_THUMB_INFO_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_pic_thumb_title" type="radio" default="1"
+			label="PARAMS_SHOW_PIC_THUMB_TITLE_LABEL" description="PARAMS_SHOW_PIC_THUMB_TITLE_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_cat_thumb_title" type="radio" default="1"
+			label="PARAMS_SHOW_CAT_THUMB_TITLE_LABEL" description="PARAMS_SHOW_CAT_THUMB_TITLE_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_category_desc" type="radio" default="1"
+			label="PARAMS_SHOW_CATEGORY_DESC_LABEL" description="PARAMS_SHOW_CATEGORY_DESC_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_category_list" type="radio" default="1"
+			label="PARAMS_SHOW_CATEGORY_LIST_LABEL" description="PARAMS_SHOW_CATEGORY_LIST_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_credits" type="radio" default="1"
+			label="PARAMS_SHOW_CREDITS_LABEL" description="PARAMS_SHOW_CREDITS_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_order_thumbs_by_bar" type="radio" default="1"
+			label="PARAMS_SHOW_ORDER_THUMBS_BY_BAR_LABEL" description="PARAMS_SHOW_ORDER_THUMBS_BY_BAR_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="default_order_thumbs_by" type="list" default="id"
+			label="PARAMS_DEFAULT_ORDER_THUMBS_BY_LABEL" description="PARAMS_DEFAULT_ORDER_THUMBS_BY_DESC">
+			<option value="id">ID</option>
+			<option value="date_asc">Date (ASC)</option>
+			<option value="date_desc">Date (DESC)</option>
+			<option value="rating_desc">Rating (DESC)</option>
+			<option value="hits_desc">Visits (DESC)</option>
+			<option value="title">Title</option>
+		</param>
+	</params>
+	<params group="SEF_SETTINGS_URL">
+		<param name="sef_picture" type="text" default="picture"
+			label="PARAMS_SEF_PIC_LABEL" description="PARAMS_SEF_PIC_DESC" size="32">
+		</param>
+		<param name="sef_category" type="text" default="album"
+			label="PARAMS_SEF_CAT_LABEL" description="PARAMS_SEF_CAT_DESC" size="32">
+		</param>
+		<param name="sef_special" type="text" default="special"
+			label="PARAMS_SEF_SPECIAL_LABEL" description="PARAMS_SEF_SPECIAL_DESC"
+			size="32">
+		</param>
+		<param name="sef_submit" type="text" default="submit:picture"
+			label="PARAMS_SEF_SUBMIT_LABEL" description="PARAMS_SEF_SUBMIT_DESC"
+			size="32">
+		</param>
+	</params>
+	<params group="SEF_SETTINGS_META_TAGS">
+		<param name="sef_pic_inherit_keywords" type="radio" default="0"
+			label="PARAMS_SEF_PIC_INHERIT_KEYWORDS_LABEL" description="PARAMS_SEF_PIC_INHERIT_KEYWORDS_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+			<option value="2">If not set</option>
+		</param>
+	</params>
+	<params group="THIRD_PARTY_SETTINGS_CB">
+		<param name="cb_integration" type="radio" default="0"
+			label="PARAMS_CB_INTEGRATION_LABEL" description="PARAMS_CB_INTEGRATION_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="cb_item_id" type="text" default=""
+			label="PARAMS_CB_ITEMID_LABEL" description="PARAMS_CB_ITEMID_DESC"
+			size="3">
+		</param>
+		<param name="cb_field1" type="text" default=""
+			label="PARAMS_CB_FIELD_LABEL" description="PARAMS_CB_FIELD_DESC"
+			size="20">
+		</param>
+		<param name="cb_field2" type="text" default=""
+			label="PARAMS_CB_FIELD_LABEL" description="PARAMS_CB_FIELD_DESC"
+			size="20">
+		</param>
+	</params>
+	<params group="THIRD_PARTY_SETTINGS_COMMENT_SYSTEM">
+		<param name="comments" type="radio" default="0"
+			label="PARAMS_COMMENT_SYSTEM_LABEL" description="PARAMS_COMMENT_SYSTEM_DESC">
+			<option value="0">No</option>
+			<option value="1">JComments</option>
+			<option value="2">JomComment</option>
+		</param>
+	</params>
+	<params group="UPLOAD_SETTINGS">
+		<param name="enable_uploads" type="radio" default="1"
+			label="PARAMS_ENABLE_UPLOADS_LABEL" description="PARAMS_ENABLE_UPLOADS_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="upload_boxes" type="text" default="1"
+			label="PARAMS_UPLOAD_BOXES_LABEL" description="PARAMS_UPLOAD_BOXES_DESC"
+			size="5">
+		</param>
+		<param name="generate_thumbs_upload" type="radio" default="1"
+			label="PARAMS_GENERATE_THUMBS_UPLOAD_LABEL" description="PARAMS_GENERATE_THUMBS_UPLOAD_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="max_upload_size" type="text" default="2048"
+			label="PARAMS_MAX_UPLOAD_SIZE_LABEL" description="PARAMS_MAX_UPLOAD_SIZE_DESC"
+			size="5">
+		</param>
+		<param name="max_upload_resolution" type="text" default="2"
+			label="PARAMS_MAX_UPLOAD_RESOLUTION_LABEL" description="PARAMS_MAX_UPLOAD_RESOLUTION_DESC"
+			size="5">
+		</param>
+		<param name="moderate" type="radio" default="1"
+			label="PARAMS_MODERATE_LABEL" description="PARAMS_MODERATE_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="moderate_cats" type="radio" default="1"
+			label="PARAMS_MODERATE_CATS_LABEL" description="PARAMS_MODERATE_CATS_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="selective_resolution" type="radio" default="0"
+			label="PARAMS_SELECTIVE_RES_LABEL" description="PARAMS_SELECTIVE_RES_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="frontend_category_proposal" type="radio" default="0"
+			label="PARAMS_FRONTEND_CATEGORY_PROPOSAL_LABEL" description="PARAMS_FRONTEND_CATEGORY_PROPOSAL_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+	<params group="MESSAGING_SETTINGS">
+		<param name="msg_method" type="radio" default="1"
+			label="PARAMS_MESSAGING_METHOD_LABEL" description="PARAMS_MESSAGING_METHOD_DESC">
+			<option value="0">None</option>
+			<option value="1">Private Message</option>
+			<option value="2">E-mail</option>
+			<option value="3">Both</option>
+		</param>
+		<param name="msg_from" type="text" size="3" default="62"
+			label="PARAMS_MSG_FROM_LABEL" description="PARAMS_MSG_FROM_DESC">
+		</param>
+		<param name="msg_to" type="text" size="3" default="62"
+			label="PARAMS_MSG_TO_LABEL" description="PARAMS_MSG_TO_DESC">
+		</param>
+	</params>
+	<params group="THUMBNAILS_SETTINGS">
+		<param name="thumbs_resize_method" type="list" default="crop"
+			label="PARAMS_THUMBS_RESIZE_METHOD_LABEL" description="PARAMS_THUMBS_RESIZE_METHOD_DESC">
+			<option value="aspect">Maintain Aspect</option>
+			<option value="noaspect">Disregard Aspect</option>
+			<option value="crop">Crop Image</option>
+		</param>
+		<param name="small_thumbs_width" type="text" size="3" default="146"
+			label="PARAMS_SMALL_THUMBS_WIDTH_LABEL" description="PARAMS_SMALL_THUMBS_WIDTH_DESC">
+		</param>
+		<param name="small_thumbs_height" type="text" size="3" default="109"
+			label="PARAMS_SMALL_THUMBS_HEIGHT_LABEL" description="PARAMS_SMALL_THUMBS_HEIGHT_DESC">
+		</param>
+		<param name="big_thumbs_width" type="text" size="3" default="402"
+			label="PARAMS_BIG_THUMBS_WIDTH_LABEL" description="PARAMS_BIG_THUMBS_WIDTH_DESC">
+		</param>
+		<param name="big_thumbs_height" type="text" size="3" default="0"
+			label="PARAMS_BIG_THUMBS_HEIGHT_LABEL" description="PARAMS_BIG_THUMBS_HEIGHT_DESC">
+		</param>
+		<param name="light_thumbs_width" type="text" size="4" default="640"
+			label="PARAMS_LIGHT_THUMBS_WIDTH_LABEL" description="PARAMS_LIGHT_THUMBS_WIDTH_DESC">
+		</param>
+		<param name="light_thumbs_height" type="text" size="4" default="480"
+			label="PARAMS_LIGHT_THUMBS_HEIGHT_LABEL" description="PARAMS_LIGHT_THUMBS_HEIGHT_DESC">
+		</param>
+	</params>
+	<params group="RESIZES_SETTINGS">
+		<param name="resizes_extrapolate" type="radio" default="0"
+			label="PARAMS_EXTRAPOLATE_LABEL" description="PARAMS_EXTRAPOLATE_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+	<params group="TAGS">
+		<param type="text" name="ajax_tag_search_min_chars" default="3"
+			label="PARAMS_AJAX_TAG_SEARCH_MIN_CHARS_LABEL" description="PARAMS_AJAX_TAG_SEARCH_MIN_CHARS_DESC">
+		</param>
+		<param type="text" name="ajax_tag_search_min_time" default="3"
+			label="PARAMS_AJAX_TAG_SEARCH_MIN_TIME_LABEL" description="PARAMS_AJAX_TAG_SEARCH_MIN_TIME_DESC">
+		</param>
+		<param type="text" name="ajax_tag_search_max_results" default="32"
+			label="PARAMS_AJAX_TAG_SEARCH_MAX_RESULTS_LABEL" description="PARAMS_AJAX_TAG_SEARCH_MAX_RESULTS_DESC">
+		</param>
+		<param type="radio" name="frontend_tagging" default="1"
+			label="PARAMS_FRONTEND_TAGGING_LABEL" description="PARAMS_FRONTEND_TAGGING_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="moderate_frontend_tagging" default="1"
+			label="PARAMS_MODERATE_FRONTEND_TAGGING_LABEL" description="PARAMS_MODERATE_FRONTEND_TAGGING_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="frontend_tag_proposal" default="0"
+			label="PARAMS_FRONTEND_TAG_PROPOSAL_LABEL" description="PARAMS_FRONTEND_TAG_PROPOSAL_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="frontend_show_pic_tags" default="1"
+			label="PARAMS_FRONTEND_SHOW_PIC_TAGS_LABEL" description="PARAMS_FRONTEND_SHOW_PIC_TAGS_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+	</params>
+	<params group="ACCESS_CONTROL">
+		<param type="radio" name="acl_show_restricted_picture" default="1"
+			label="PARAMS_ACL_SHOW_RESTRICTED_PICTURE_LABEL" description="PARAMS_ACL_SHOW_RESTRICTED_PICTURE_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="acl_show_restricted_category" default="1"
+			label="PARAMS_ACL_SHOW_RESTRICTED_CATEGORY_LABEL" description="PARAMS_ACL_SHOW_RESTRICTED_CATEGORY_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+	</params>
+</config>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+        <name>List Module for VideoFlow</name> 
+        <author>Kirungi Fred Fideri</author> 
+        <creationDate>June 2010</creationDate> 
+        <copyright>All rights reserved by Kirungi Fred Fideri/Fidsoft 2010.</copyright> 
+        <license>GPL 2.0</license> 
+        <authorEmail>fideri@fidsoft.com</authorEmail> 
+        <authorUrl>http://www.fidsoft.com</authorUrl> 
+        <version>1.1.1</version> 
+        <description>List Module for VideoFlow - Displays categories, latest, popular, featured, highest rated or random VideoFlow media. It can be published on your Joomla site or Facebook application. </description>
+ 
+        <files>
+                <filename module="mod_listmodule_for_videoflow">mod_listmodule_for_videoflow.php</filename>
+                <filename>index.html</filename>
+                <filename>helper.php</filename>
+                <filename>tmpl/default.php</filename>
+                <filename>tmpl/index.html</filename>
+                <filename>language/index.html</filename>                
+        </files>
+ 
+    	 <languages folder="language">
+		            <language tag="en-GB">en-GB.mod_listmodule_for_videoflow.ini</language>
+		            <language tag="sv-SE">sv-SE.mod_listmodule_for_videoflow.ini</language>
+	     </languages>
+ 
+ 	<params>
+    <param type="spacer" default="General Settings" />
+    <param name="modloc" type="list" default="joomla" label="Module location" description="Select where you are publishing the module">
+			<option value="joomla">Joomla</option>
+      <option value="facebook">Facebook</option>
+ 		</param>	
+    <param name="listtype" type="list" default="latest" label="Select list type" description="">
+			<option value="categories">Categories</option>
+      <option value="latest">Latest</option>
+      <option value="popular">Popular</option>
+      <option value="weeklyview">Popular This Week</option>
+			<option value="featured">Featured</option>
+			<option value="hirated">Highest Rated</option>
+			<option value="random">Random</option>
+		</param>	
+    <param name="daycount" type="text" default="7" label="Popular this week period" description="Number of days to consider when computing 'Popular this Week'." />								
+		<param name="cats" type="text" default="" label="Categories" description="Media categories to show, separated by comma, eg: '1,7,5'. Leave blank for all categories." />
+		<param name="vfcolumns" type="text" default="1" label="Column count" description="Number of columns. For perfect look, media count must be multiple of column count. Eg, for 4 columns, set media count at 4, 8, 12, etc." />		
+    <param name="listlimit" type="text" default="5" label="Media file count" description="Number of media files to list." />
+    <param name="seemore" type="radio" default="1" label="Show 'See More' link" description="Display 'See More' link at end of list?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="stexta" type="list" default="right" label="'See More' text alignment." description="">
+		  <option value="center">Center</option>
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+		</param>	
+    <param type="spacer" default="Internal Label Settings" />
+		<param name="autotitle" type="radio" default="1" label="Use internal module label." description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ltexta" type="list" default="center" label="Label text alignment." description="">
+			<option value="center">Center</option>
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+		</param>
+    <param name="ltextc" type="text" default="" label="Label text colour" description="Leave blank for default colour."/>
+		<param name="ltexts" type="text" default="120%" label="Label text size" description="Enter percentage value."/>
+    <param name="lbgroundc" type="text" default="" label="Label background colour" description="Leave blank for transparent"/>
+		<param name="lborders" type="text" default="" label="Label border size" description="Enter '0' or leave blank for no border."/>
+    <param name="lborderc" type="text" default="" label="Label border colour" description="Leave blank for default colour."/>
+    				
+    <param type="spacer" default="Media Title Settings" /> 		
+    <param name="titlepos" type="list" default="bottom" label="Title position" description="Title display options.">
+			<option value="notitle">No title</option>
+			<option value="top">Top</option>
+			<option value="bottom">Bottom</option>
+		</param>	
+    <param name="titlelength" type="text" default="12" label="Title length" description="Media title length." />  
+   	<param name="texts" type="text" default="" label="Title text size" description="Enter percentage value. Leave blank for default size."/>	
+	  
+    <param type="spacer" default="Thumbnail Settings" /> 		
+    <param name="thumbwidth" type="text" default="120" label="Thumbnail width" description="Width in pixels." />
+		<param name="thumbheight" type="text" default="90" label="Thumbnail height" description="Height in pixels." />		
+	  <param name="jeffects" type="text" default="" label="URL to Javascript effects file" description="Leave blank for no javascript effects." />		
+  	<param name="jeffectsclass" type="text" default="" label="Javascript effects class" description="Leave blank for no javascript effects." />		
+    <param name="iborders" type="text" default="" label="Thumbnail border size" description="Enter '0' for no border."/>		
+		<param name="iborderc" type="text" default="" label="Thumbnail border colour" description="Leave blank for default colour."/>		
+
+    <param type="spacer" default="Lightbox Settings" />
+    <param name="lightboxsys" type="list" default="multibox" label="Lightbox system" description="">
+			<option value="multibox">MultiBox</option>
+      <option value="joomla">Joomla</option>
+      <option value="none">None</option>
+    </param>
+    <param name="lightboxmode" type="list" default="0" label="Lightbox mode" description="In Dual mode, thumbnail links open in lightbox and text links open normally. In Full mode, all media links open in lightbox.">	
+      <option value="0">Dual</option>
+      <option value="1">Full</option>
+    </param>
+    <param name="lboxh" type="text" default="60" label="Lightbox height offset" description="Adjusts size of lightbox popup window." />	
+    <param name="lboxw" type="text" default="8" label="Lightbox width offset" description="Ajusts width of lightbox popup window." />	  
+   	<param type="spacer" default="Module Style Settings" />
+	  <param name="bgroundc" type="text" default="" label="Module background colour" description="Leave blank for transparent."/>
+		<param name="borders" type="text" default="" label="Module border size" description="Enter '0' for no border."/>
+		<param name="borderc" type="text" default="" label="Module border colour" description="Leave blank for default colour."/>		
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+</install>

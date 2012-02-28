@@ -1,0 +1,55 @@
+<?php
+/**
+* @version 3.0
+* @package Raf Cloud
+* @copyright Copyright (C) 2007 Skorp. All rights reserved.
+* @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+* Raf Cloud is free software. This version may have been modified pursuant
+* to the GNU General Public License, and as distributed it includes or
+* is derivative of works licensed under the GNU General Public License or
+* other free or open source software licenses.
+* @Author: Rafal Blachowski (Skorp) <http://joomla.royy.net>
+*/
+
+defined( '_JEXEC' ) or die( 'Restricted access' );
+$descr = "Zoom Media Gallery Plugin v 3.0";//short information about plugin
+
+$database = &JFactory::getDBO(); 
+
+
+if (($runMe)&&(($loadWord)||($loadKey)))
+{
+	//files
+	$database->setQuery("SELECT imgname,imgdescr,imgkeywords FROM #__zoomfiles WHERE published=1");
+	if ($cur = $database->query()) 
+	{
+		while ($row = mysql_fetch_object( $cur )) 
+		{
+			if ($loadWord)
+			{
+				$stag.= " ".$row->imgname;
+				$stag.= " ".$row->imgdescr;
+			}
+			if ($loadKey) $metaKey.= ",".$row->imgkeywords;
+			if ($this->cacheTag($stag,$metaKey)) 			{$stag=null; $metaKey=null;}
+			
+		}
+	}
+
+	//galleries
+	$database->setQuery("SELECT catname,catdescr,catkeywords FROM #__zoom WHERE published=1");
+	if ($cur = $database->query()) 
+	{
+		while ($row = mysql_fetch_object( $cur )) 
+		{
+			if ($loadWord)
+			{
+				$stag.= " ".$row->catname;
+				$stag.= " ".$row->catdescr;
+			}
+			if ($loadKey) $metaKey.= ",".$row->catkeywords;
+			if ($this->cacheTag($stag,$metaKey)) 			{$stag=null; $metaKey=null;}
+		}
+	}	
+}
+?>

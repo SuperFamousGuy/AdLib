@@ -1,0 +1,711 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Gratis Template From Pixel Point Creative               ||
+|| # Copyright (C) 2011  Pixel Point Creative LLC. All Rights Reserved. ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # for more visit http://www.pixelpointcreative.com/terms.html        ||
+|| # websites - http://www.pixelpointcreative.com                       ||
+|| #################################################################### ||
+\*======================================================================*/
+
+
+/*BODY ID'S USED FOR CSS FONT STYLES AND BASE SITE BODY STYLING */
+body#stylef1, body#stylef2, body#stylef3, body#stylef4, body#stylef5, body#stylef6, body#stylef7, body#stylef8, body#stylef9, body#stylef10, body#stylef11, body#stylef12, body#stylef13, body#stylef14, body#stylef15, body#stylef16 {
+	background:#999;
+	color:#555;
+padding-top:20px;
+}
+
+div.title h1, div.title h2, h1.pagetitle, .componentheading, #user21 h4 {
+    font-size: 220%;
+}
+#holder, #holder2, #holder3 {
+background:#fff;
+border-radius: 15px;
+box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-moz-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-webkit-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+behavior: url(../../templates/gratis/src/PIE.htc);
+margin-bottom:25px;
+
+}
+/* ADDITIONAL  FOR ADVERT INTRO */
+h1.hadv{
+	text-shadow:1px 1px #fff;
+	color:#3d3d3d;
+	font-size:200%;
+}
+p.padv{
+	text-shadow:1px 1px #eee;
+	color:#121212;
+}
+/* BOTTOM PART OF THE SITE LAYOUT. BASE WRAP */
+#centerbottom {
+	background:none;
+}
+/*GRIDS STYLING CAN BE USED TO STYLE EACH style1 DIFFERENTLY */
+
+
+#header {
+overflow:visible;
+background:#292929;
+border:1px solid #fff;
+padding:20px 5px;
+margin-bottom:25px;
+border-radius: 15px;
+-moz-box-shadow: 0 4px 11px #333; /* Firefox */
+-webkit-box-shadow: 0 4px 11px #333;/* Safari, Chrome */
+box-shadow: 0 4px 11px #333; /* CSS3*/
+behavior: url(../../templates/gratis/src/PIE.htc);
+}
+
+#logo {
+	background:url(../images/style1/logo.png) no-repeat 0px 0px;
+}
+
+#yjsgheadergrid {
+	color:#efefef;
+}
+
+#yjsg2 {
+	background:#fff;
+border-radius: 15px;
+box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-moz-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-webkit-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+behavior: url(../../templates/gratis/src/PIE.htc);
+margin-bottom:15px;
+
+}
+
+#yjsg3 {
+	background:#fff;
+border-radius: 15px;
+box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-moz-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-webkit-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+behavior: url(../../templates/gratis/src/PIE.htc);
+margin-bottom:15px;
+
+}
+
+#yjsg4 {
+	background:#fff;
+border-radius: 15px;
+box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-moz-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-webkit-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+behavior: url(../../templates/gratis/src/PIE.htc);
+margin-bottom:15px;
+
+}
+
+#yjsg5 {
+margin-bottom:15px;
+
+}
+
+#pathway {
+	background:#292929;
+color:#fff;
+border-radius: 15px;
+box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-moz-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-webkit-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+behavior: url(../../templates/gratis/src/PIE.htc);
+margin-bottom:15px;
+
+}
+#pathway .yjsg_breadcrumbs a.pathway{
+	background: url(../images/arrow.png) no-repeat right center;
+}
+#yjsg6 {
+	background:#fff;
+border-radius: 15px;
+box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-moz-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-webkit-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+behavior: url(../../templates/gratis/src/PIE.htc);
+margin-bottom:15px;
+
+}
+
+#yjsg7 {
+	background:#fff;
+border-radius: 15px;
+box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-moz-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-webkit-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+behavior: url(../../templates/gratis/src/PIE.htc);
+margin-bottom:15px;
+
+}
+
+#footer {
+border:1px solid #fff;
+margin-bottom:15px;
+border-radius: 15px;
+-moz-box-shadow: 0 4px 11px #333; /* Firefox */
+-webkit-box-shadow: 0 4px 11px #333;/* Safari, Chrome */
+box-shadow: 0 4px 11px #333; /* CSS3*/
+behavior: url(../../templates/gratis/src/PIE.htc);
+color:#fff;
+}
+
+#joomlacredit {
+	background:#1F1F1F;
+	color:#474646;
+}
+
+/*TEMPLATE CSS 
+--------------------- */
+/* SITE LINKS */
+a:link, a:visited{
+	text-decoration: none;
+	color:#333;
+}
+/* SITE HOVERS */
+a:focus, a:hover {
+	color:#525252;
+	text-decoration: none;
+}
+/*DIFFERENT STYLE FOR  LINKS ON DARK BG
+--------------------- */
+#footmod .yjplain a, #footmod .yjplain a:visited, #cp a, #cp a:visited, #joomlacredit a, #joomlacredit a:visited, #pathway a, #pathway a:visited, #yjsg1 a, #yjsg1 a:visited, #yjsg7 a, #yjsg7 a:visited, #yjsgheadergrid a,#yjsgheadergrid a:visited{
+	color:#727272;
+}
+#footmod .yjplain a:hover, #footmod .yjplain a:focus, #cp a:focus, #cp a:hover, #joomlacredit a:focus, #joomlacredit a:hover, #pathway a:focus, #pathway a:hover, #yjsg1 a:focus, #yjsg1 a:hover, #yjsg7 a:focus, #yjsg7 a:hover, #yjsgheadergrid a:focus,#yjsgheadergrid a:hover {
+	color:#525252;
+}
+/* SITE HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+	color:#333;
+}
+
+.small, .createdate, .modifydate, .createby {
+	text-transform: uppercase;
+	color:#999;
+	font-size:10px;
+}
+/* SITE TITLE, NEWS ITEM TITLE, MORE ARTICLES */
+.pagetitle, div.title h1, div.title h2, .yjsg-morearticles h3 {
+	color:#222222;
+	border-bottom:1px dashed #222222;
+}
+
+.yjsg-morearticles h3 {
+	border:none;
+}
+/* NEWS ITEM TITLE WITH LINK*/
+div.title h1 a:link, div.title h1 a:visited, div.title h2 a:link, div.title h2 a:visited {
+	color:#222222;
+}
+
+div.title h1 a:hover, div.title h1 a:focus, div.title h2 a:hover, div.title h2 a:focus {
+	color:#727272;
+}
+
+/* FORM ELEMENTS */
+/* ARTICLE TABLE OF CONTENTS */
+fieldset, .toclink {
+	border:1px solid #c8c8c8;
+}
+/* FIELDSET IN MODULES */
+.yjsquare_in fieldset, .yjround_in fieldset {
+	border:none;
+}
+/* INPUTBOXES */
+.inputbox, #userreminder .required {
+	background: #FFFFFF;
+	border: 1px solid #c8c8c8;
+}
+
+.inputbox:hover, .inputbox:focus, #userreminder .required:hover, #userreminder .required:focus {
+	background: #F7F7F7;
+	border: 1px solid #525252;
+}
+
+/*BUTTONS
+--------------------- */
+.button {
+	color:#fff;
+}
+
+
+
+a.button:link, a.button:visited, a.button:focus {
+	color:#fff;
+	padding:3px;
+}
+
+.back_button a:hover, .back_button a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+.button, .validate, a.pagenav, .pagenav_prev a, .pagenav_next a, .pagenavbar a, .back_button a {
+
+color:#fff;
+border-radius: 5px;
+padding:4px 10px 4px 10px;
+border:1px solid #fff;
+-moz-box-shadow: 0 2px 4px #333; /* Firefox */
+-webkit-box-shadow: 0 2px 4px #333;/* Safari, Chrome */
+box-shadow: 0 2px 4px #333; /* CSS3*/
+behavior: url(../../templates/gratis/src/PIE.htc);
+}
+
+a.readon:link, a.readon:visited {
+	
+color:#fff;
+	border-radius: 7px;
+margin-left:2px;
+padding:4px 10px 4px 10px;
+border:1px solid #fff;
+-moz-box-shadow: 0 2px 4px #333; /* Firefox */
+-webkit-box-shadow: 0 2px 4px #333;/* Safari, Chrome */
+box-shadow: 0 2px 4px #333; /* CSS3*/
+behavior: url(../../templates/gratis/src/PIE.htc);
+}
+
+/* ADDITIONAL SPAN READON CLASS FOR ROUND CORNERS */
+.readon span {
+	background:none;
+}
+
+a.readon:hover, .pagenavbar a:hover {
+	color:#ccc;
+}
+
+/* THIS TEMPLATE IS EQUIPED WITH  ROUND AND SQUARE CORNERS
+TO SEE ROUND CORNERS SIMPLY CHANGE THE MODULE style1 STYLE IN TEMPLATE MANAGER
+UNDER ACCORDION ADVANCED OPTIONS. SEE ALSO rounded.css FILE".
+
+/* ROUND MODULES STYLING
+--------------------- */
+/* ROUND IMAGE. YOU CAN CHANGE TO YOUR OWN. 1 IMAGE TECHNIQUE USED */
+.yjround .content, .yjround .t, .yjround .b, .yjround .b div {
+	background:url(../images/style1/rounded.png);
+	
+}
+
+.yjround h4 {
+	color:#222222;
+	border-bottom:1px dashed #222222;
+}
+/* TITLE SPANS FOR SECOND PART OF THE TITLE COLOR */
+.yjround h4 span {
+	color:#222222;
+}
+/* SPECIFIC TEXT AND TITLE COLOR FOR GRIDS WITH DARK BACGROUND*/
+#yjsg1 .yjround .content, #yjsgheadergrid .yjround .content, #yjsg7 .yjround .content {
+	color:#222222;
+}
+.yjround_in {
+}
+
+/*SQUARE MODULES STYLE
+--------------------- */
+#user1 .yjsquare h4 {
+	color:#222222;
+	padding:5px;
+	font-size:225%;
+	
+}
+
+.yjsquare h4 {
+color:#fff;
+border-radius: 10px;
+padding:11px 0px 11px 11px;
+border:1px solid #fff;
+-moz-box-shadow: 0 3px 6px #333; /* Firefox */
+-webkit-box-shadow: 0 3px 6px #333;/* Safari, Chrome */
+box-shadow: 0 3px 6px #333; /* CSS3*/
+behavior: url(../../templates/gratis/src/PIE.htc);	
+}
+/* SPAN COLOR SHOWS FIRST */
+.yjsquare h4 span {
+	color:#fff;
+}
+.yjsquare {}
+.yjsquare_in {}
+/* ADDITIONAL MODULE STYLES */
+/* _yj1 */
+.yjsquare_yj1 h4 {}
+.yjsquare_yj1 h4 span {}
+.yjsquare_yj1 {}
+.yjsquare_yj1 .yjsquare_in {}
+/* _yj2 */
+.yjsquare_yj2 h4 {}
+.yjsquare_yj2 h4 span {}
+.yjsquare_yj2 {}
+.yjsquare_yj2 .yjsquare_in {}
+/*  SPECIFIC TEXT AND TITLE COLOR FOR GRIDS WITH DARK BACGROUND */
+#yjsg1 .yjsquare h4, #yjsg7 .yjsquare h4, #yjsgheadergrid .yjsquare h4 {
+	color:#ccc;
+	border-bottom:1px dashed #ccc;
+}
+/* TITLE SPANS FOR SECOND PART OF THE TITLE COLOR*/
+#yjsg1 .yjsquare h4 span, #yjsg7 .yjsquare h4 span, #yjsgheadergrid .yjsquare h4 span {
+	color:#ccc;
+}
+
+/*SEARCH INPUTBOX STYLING. CURRENTLY USING DEFAULT INPUT STYLE
+--------------------- */
+.search {}
+.search .inputbox {}
+/*LOGIN MODULE INPUTBOX CURRENTLY USING DEFAULT INPUT STYLE
+--------------------- */
+#modlgn_passwd, #modlgn_username {}
+#modlgn_passwd {}
+#modlgn_username {}
+#mod_login_remember {
+	border: none;
+	padding: 0!important;
+}
+
+/*TOP MENU STYLE FOR SPLIT MENU, CSS DROPDOWN AND SMOOTH DROPDOWN
+--------------------- */
+.horiznav {
+	background: none;
+
+}
+/* MENU OVERRIDES */
+.YJSG_listContainer{
+	background:none;
+}
+/* NORMAL SUBTITLE */
+.horiznav ul li a span.yjm_desc {
+	color:#8b8b8b;
+}
+/*ACTIVE AND HOVER SUBTITLE*/
+.horiznav ul li.active a span.yjm_desc, 
+.horiznav ul li a:hover span.yjm_desc, 
+.horiznav ul li.sfHover a span.yjm_desc {
+	color:#4F4F4F;
+	text-shadow:1px 1px #efefef;
+}
+/* NORMAL TOP LINKS */
+.horiznav ul li {
+	background: none;
+}
+.horiznav ul li a {
+	color: #fff;
+	background: none;
+}
+.horiznav ul li li a {
+	color: #fff;
+	background: none;
+}
+.horiznav ul li li li a {
+	color: blue;
+	background: none;
+}
+
+
+
+/* CUFON FIX */
+.horiznav ul li a .cufon,.horiznav ul li a:visited .cufon {
+	color: #fff;
+	margin: 6px 0px 6px 0px;
+	text-transform: none;
+
+	}
+	
+.horiznav ul li a .yjm_desc .cufon{
+margin-top:-3px;
+}
+.horiznav ul li a span.yjm_desc .cufon{
+font-size: 14px;
+}
+
+ul.subul_main span.yjm_title, ul.subul_main span.yjm_has_desc yjm_title, span.separator {
+     font-size: 20px;
+}
+.horiznav ul li a {
+    display: block;
+  font-size: 195%;
+    text-transform: none;
+}
+
+
+/* NORMAL TOP LINKS WITH CHILD ELEMENT */
+.horiznav ul li.haschild {
+	background: none;
+}
+/* TOP LINKS HOVER */
+.horiznav ul li:hover, .horiznav ul li.sfHover{
+	background: none;
+
+}
+.horiznav ul li a:hover, .horiznav ul li:hover a, .horiznav ul li.sfHover a,
+ .horiznav ul li.sfHoverHas a {
+	color: #ccc;
+	background: none;
+	
+	}
+/* TOP LINKS HOVER WITH CHILD ELEMENT */
+.horiznav ul li.haschild:hover{
+	background: none;
+}
+.horiznav ul li.haschild a:hover{
+	color: #ccc;
+	background:none;
+}
+/* ACTIVE TOP LINKS  */
+.horiznav li#current,.horiznav li.active{
+	background: none;
+}
+.horiznav li#current a , .horiznav li.active a,.horiznav li.active a:visited,.horiznav li.active.sfHover a:visited,
+.horiznav li.active.sfHoverHas a:visited{
+	color: #ccc;
+	background: none;
+}
+/* ACTIVE TOP LINKS WITH CHILD ELEMENT */
+.horiznav li#current.haschild, .horiznav li.haschild,.horiznav ul li.haschild.active,
+.horiznav ul li.sfHoverHas{
+	background: none;
+}
+
+/* ACTIVE TOP LINKS HOVER */
+.horiznav li#current:hover, .horiznav li#current.sfHover,
+.horiznav li.active:hover, .horiznav li.active.sfHover {
+	background: none;
+}
+.horiznav li#current a:hover,.horiznav li#current.sfHover a:hover,
+.horiznav li.active a:hover{
+	color: #f5f5f5;
+	background: none;
+}
+/* ACTIVE TOP LINKS HOVER WITH CHILD ELEMENT */
+.horiznav li#current.haschild:hover,.horiznav li#current.haschild.sfHoverHas,.horiznav li#current.active.sfHover{
+	background: none;
+}
+/* MAIN SUB UL AND MODULE BG */
+ul.subul_main.group_holder,
+.subul_main li.has_modpoz div.yj_menu_module_holder,
+.subul_main li.has_module div.yj_menu_module_holder,
+.subul_main li.haschild div.yj_menu_module_holder,
+.horiznav ul ul.subul_main.dropline{
+	background: none;
+
+}
+/* end dropline extra */
+.horiznav  ul ul.subul_main.dropline ul a,
+.horiznav  ul ul.subul_main.dropline ul a:hover,
+ul.subul_main.dropline div.yj_menu_module_holder{
+	border-bottom: 1px solid #c7c5c5!important;
+}
+/*--- end dropline extra ---*/
+
+/* MAIN SUB ITEM*/
+.top_menu ul.subul_main li a{
+	background: url(../images/style1/topmenu/menuback.png);
+	border-bottom: 1px solid #555;
+	color: #333;
+}
+.top_menu ul.subul_main li a:visited{
+	color: #222;
+	background: url(../images/style1/topmenu/menuback.png);
+	text-transform: none;
+}
+/*MAIN SUB ITEM HOVER*/
+.top_menu ul.subul_main li a:hover {
+	background: url(../images/style1/topmenu/menuback2.png);
+	color: #111;
+}
+.top_menu ul.subul_main li,
+.top_menu ul.subul_main li.active,
+.top_menu ul.subul_main li.active:visited,
+.top_menu ul.subul_main li.active:hover,
+.top_menu ul.subul_main li:hover,
+.top_menu ul.subul_main li:visited,
+.top_menu ul.subul_main li#current,
+.top_menu ul.subul_main li#current:hover{
+	border:none;
+	background: #f8f8f8;
+}
+/*MAIN SUB ACTIVE UL A ITEMS*/
+.top_menu li#current ul.subul_main li a,
+.top_menu li.active ul.subul_main li a{
+	background: url(../images/style1/topmenu/menuback.png);
+	color: #333;
+}
+/*MAIN SUB ACTIVE UL ITEMS A HOVER*/
+.top_menu li#current ul.subul_main li a:hover,
+.top_menu li.active ul.subul_main li a:hover,
+.top_menu li#current.sfHover ul.subul_main li a:hover,
+.top_menu li.active.sfHover ul.subul_main li a:hover {
+	background: url(../images/style1/topmenu/menuback.png);
+	color: #111;
+}
+/*MAIN SUB UL ACTIVE LI A ITEM*/
+.top_menu ul.subul_main li#current a{
+	background: #f1f1f1;
+	color: #111;
+}
+/*MAIN SUB UL ACTIVE LI A ITEM HOVER*/
+.top_menu ul.subul_main li#current a:hover,
+.top_menu ul.subul_main li#current.sfHover{
+	background:#ccc;
+	color: #121212;
+}
+
+/*SUB LEVEL PARENT ITEM ARROWS*/
+ul.subul_main li.haschild span.child a,
+ul.subul_main ul.subul_main li.haschild span.child a,
+ul.subul_main ul.subul_main ul.subul_main li.haschild span.child a,
+ul.subul_main ul.subul_main ul.subul_main ul.subul_main li.haschild span.child a{
+	background:url(../images/style1/topmenu/menuback.png)!important;
+	
+}
+ul.subul_main li.haschild span.child a:hover,
+ul.subul_main ul.subul_main li.haschild span.child a:hover,
+ul.subul_main ul.subul_main ul.subul_main li.haschild span.child a:hover,
+ul.subul_main ul.subul_main ul.subul_main ul.subul_main li.haschild span.child a:hover{
+	background: url(../images/style1/topmenu/menuback.png);
+}
+/* IE6 SPECIFIC */
+.horiznav li li.sfHover ul,
+.horiznav li li.sfHoverHas ul,
+.top_menu ul.subul_main.isie{
+background:#292929;
+}
+
+/********************** CORNERS FOR MENU UL'S ***************************/
+/*TOP LEFT*/
+.horiznav li.tl, .horiznav li.tl:hover{
+	background:transparent url(../images/style1/topmenu/corners/tl.png)!important;
+}
+/* TOP RIGHT*/
+.horiznav li.tr, .horiznav li.tr:hover {
+	background:transparent url(../images/style1/topmenu/corners/tr.png) no-repeat right top!important;
+}
+/* BOTTOM RIGHT*/
+.horiznav li.br, .horiznav li.br:hover{
+	background:transparent url(../images/style1/topmenu/corners/br.png) no-repeat right bottom!important;
+}
+/* BOTTOM LEFT*/
+.horiznav li.bl, .horiznav li.bl:hover {
+	background:transparent url(../images/style1/topmenu/corners/bl.png) no-repeat left bottom!important;
+}
+/* RIGHT MIDDLE */
+.horiznav li.right, .horiznav li.right:hover {
+	background:transparent url(../images/style1/topmenu/corners/right.png) no-repeat right bottom!important;
+}
+/********************** YJSG MEGA MENU STYLE ***************************/
+/* Group holder title*/
+.top_menu .horiznav .group_holder li.haschild a,
+.top_menu .horiznav .group_holder li.haschild .group_holder li.haschild a{
+	color: #888;
+	border:none;
+	background:none;
+}
+.top_menu .horiznav .group_holder li.haschild a:hover,
+.top_menu .horiznav .group_holder li.haschild .group_holder li.haschild a:hover{
+	color: #121212;
+	background:none;
+}
+/* Group holder items title*/
+.top_menu .horiznav .group_holder li.haschild li a,
+.top_menu .horiznav .group_holder li.haschild .group_holder li.haschild li a{
+	color: #dedddd;
+	border-bottom: 1px solid #c7c5c5;
+	background:#333;
+}
+.top_menu .horiznav .group_holder li.haschild li a:hover,
+.top_menu .horiznav .group_holder li.haschild .group_holder li.haschild li a:hover{
+	color: #d5d5d5;
+	background:#121212;
+	
+}
+span.separator{
+	background:#333;
+	border-bottom: 1px solid #c7c5c5;
+	color: #dedddd;
+}
+/*Menu module links*/
+div.yj_menu_module_holder .yjsquare_in a:link,
+div.yj_menu_module_holder .yjsquare_in a:visited{
+	color:#121212!important;
+}
+
+div.yj_menu_module_holder .yjsquare_in a:focus,
+div.yj_menu_module_holder .yjsquare_in a:hover{
+	color:#525252!important;
+}
+/*SIDE MENU MODULE
+--------------------- */
+/* MENU NORMAL LINKS COLOR */
+#mainlevel li a, .menu li a, a.mainlevel {
+	background: url(../images/style1/mainlevel.gif) no-repeat left top;/* LINKS BG IMAGE */
+	color:#727272;
+}
+/* HOVER AND ACTIVE LINKS BG IMAGE */
+#mainlevel li a:hover, #mainlevel a#active_menu:link, #mainlevel a#active_menu:visited, a.mainlevel:hover, a.mainlevel#active_menu, #mainlevel li a:hover, #mainlevel a#active_menu:link, #mainlevel a#active_menu:visited, .menu li a:hover, .menu li.active a {
+	background: url(../images/style1/mainlevel.gif) no-repeat left bottom;
+}
+ /* SUB LEVELS LI IMAGE */
+a.sublevel {
+	background: url(../images/style1/bodyli.gif) no-repeat 5px 9px;
+}
+
+a.sublevel:hover {
+	text-decoration:underline;
+}
+/*HOVER AND ACTIVE LINK COLOR */
+#footmod a.mainlevel:hover, #footmod a.mainlevel:active, #footmod a.mainlevel:focus, #mainlevel li a:hover, #mainlevel a#active_menu:link, #mainlevel a#active_menu:visited, a.mainlevel#active_menu, a.sublevel, a.sublevel:hover, a.sublevel:active, a.sublevel:focus, #active_menu, a.mainlevel:hover, a.mainlevel:active, a.mainlevel:focus, ul li a:hover, li.active a, li.parent a {
+	color:#525252;
+}
+/* MENU LI A AND MENU SUB LEVELS LINK COLOR */
+li.active ul li a, a.sublevel#active_menu {
+	color:#525252; 
+}
+  /* MENU LI A HOVER AND ACTIVE LINK COLOR AND BG */
+li.active ul li a:hover, li.active ul li.active a {
+	color:#525252;
+	background: url(../images/style1/mainlevel.gif) no-repeat left top;
+}
+/* SITES LI IMAGE */
+ul li {
+	background: url(../images/style1/bodyli.gif) no-repeat 0px 5px;
+}
+
+/*USER PAGES STYLE */
+#userlogin, #userlogout, #userregister, #userreminder {
+	background:#e7e7e7;
+}
+/* IMAGE CAPTIONS */
+p.img_caption {
+	background:#efefef;
+	border:1px solid #ccc;
+	text-shadow:1px 1px #fff;
+	text-transform:uppercase;
+	color:#5F5F5F;
+}
+
+span.yjm_has_all span.yjm_title {
+   text-transform:none;
+}
+
+.horiznav ul ul.subul_main ul a, .horiznav ul ul.subul_main ul a:hover {
+      text-transform: none;
+}
+.slideshow ul{margin:0;padding:0;}
+
+#user11 .yjsquare_in,
+#user12 .yjsquare_in,
+#user13 .yjsquare_in,
+#user14 .yjsquare_in,
+#user15 .yjsquare_in{
+	margin:-5px 15px 15px 15px;
+border-radius: 0px 0px 15px 15px;
+box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-moz-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+-webkit-box-shadow:2px 2px 8px #333 inset,-2px -2px 4px #333 inset;
+behavior: url(../../templates/gratis/src/PIE.htc);
+background:#fff;
+}
+#yjsg1, #yjsg2, #yjsg3, #yjsg4, #yjsg5, #yjsg6, #yjsg7, #yjsgbodytop, #yjsgbodybottom {padding:5px 0px;}
+div.yjsg-pagination {margin-bottom:15px;}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<install type="plugin" group="content" version="1.5">
+         <name>Content - Iframe Plugin</name>
+         <author>Nguyen Hoang Viet</author>
+         <creationDate>March 13rd, 2010</creationDate>
+         <copyright>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
+         <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+         <authorEmail>email2@luyenkim.net</authorEmail>
+         <authorUrl>www.luyenkim.net</authorUrl>
+         <version>1.5</version>
+	<description><![CDATA[
+	 mosIframe for Joomla! 1.5. Using: {iframe}your link{/iframe}, or {iframe width="500" hight="400" ...}your link{/iframe}<br />Other parameters: http://www.w3schools.com/TAGS/tag_iframe.asp
+	 ]]>
+	</description>
+	<files>
+          <filename plugin="plg_iframe">plg_iframe.php</filename>
+	</files>
+         <params>
+	 <param name="enabled" type="radio" default="1" label="Enable Plugin" description="Enable pr Disable Plugin">
+		<option value="0">No</option>
+		<option value="1">Yes</option>
+	 </param>
+        <param name="src" type="text" default="http://www.luyenkim.net" label="URL To Show" description="Type in the full URL like http://www.abc.com. Or relative url help/help.html" />
+        <param name="src_inurl" type="radio" default="0" label="Enable URL" description="Pass parameters to the iframe URL by adding parameters to the main site URL. src=your_link.">
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+        </param>
+         <param name="width" type="text" default="100%" label="Frame Width" description="Type in the width of your frame in pixels or %." />
+         <param name="height" type="text" default="400" label="Frame Height" description="Type in the height of your frame in pixels." />
+         <param name="marginwidth" type="text" default="0" label="Margin Width" description="Type in the margin width of your frame in pixels." />
+         <param name="marginheight" type="text" default="0" label="Margin Height" description="Type in the margin height of your frame in pixels." />
+	<param name="frameborder" type="radio" default="0" label="Frameborder" description="Specifies whether or not to display a frame border.">
+	<option value="0">No</option>
+	<option value="1">Yes</option>
+	</param>
+	<param name="scrolling" type="radio" default="auto" label="Scroll bar" description="Define scroll bars.">
+	<option value="no">No</option>
+	<option value="yes">Yes</option>
+	<option value="auto">Auto</option>
+	</param>
+        <param name="align" type="list" default="bottom" label="Align" description="Specifies how to align the iframe according to the surrounding text">
+	<option value="left">Left</option>
+	<option value="right">Right</option>
+	<option value="top">Top</option>
+	<option value="middle">Middle</option>
+	<option value="bottom">Bottom</option>
+	</param>
+ 	<param name="@spacer" type="spacer" default="=== Search Engine Option ===" label="Extra Info" description="" />
+        <param name="name" type="text" default="plg_iframe" label="Name" description="Specifies a unique name of the iframe (to use in scripts)." />
+        <param name="noframes" type="textarea" rows="5" cols="30" default="No Frames" label="No Frames" description="Extra information - Helpful for Google. " />
+	</params>	
+</install>

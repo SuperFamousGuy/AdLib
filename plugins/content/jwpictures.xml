@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>JWallpapers Content Pictures Plugin</name>
+	<creationDate>April 2010</creationDate>
+	<author>Arunas Mazeika</author>
+	<copyright>Copyright (C) 2009 Arunas Mazeika - All rights
+		reserved</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>jwallpapers@wextend.com
+	</authorEmail>
+	<authorUrl>www.wextend.com</authorUrl>
+	<version>1.3</version>
+	<description>A plugin for displaying JWallpapers pictures in articles</description>
+	<files>
+		<filename plugin="jwpictures">jwpictures.php
+		</filename>
+		<folder>jwpictures</folder>
+	</files>
+	<params>
+		<param name="show_thumb_info" type="radio" default="0"
+			label="Show the thumb info ?"
+			description="If set to Yes, the picture info (visits and ratings) will be shown regardless of the global JWallpapers settings">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_thumb_title" type="radio" default="1"
+			label="Show the thumb title ?"
+			description="If set to Yes, the thumb title will be shown regardless of the global JWallpapers settings">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="target_new_window" type="radio" default="0"
+			label="Show picture details in a new window ?"
+			description="If set to Yes, the detailed picture view will be shown in a new window when a thumbnail is clicked. Otherwise the view will be shown in the same window">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+	<params group="advanced">
+		<param name="thumbs_width" type="text" default=""
+			label="Thumb width (px)"
+			description="Use this field to override the size of the thumbs. The given width will be used instead of the real thumb size defined in the main component settings" />
+		<param name="thumbs_height" type="text" default=""
+			label="Thumb height (px)"
+			description="Use this field to override the size of the thumbs. The given height will be used instead of the real thumb size defined in the main component settings" />
+		<param name="thumbs_wrapper_height_mod" type="text" default="90"
+			label="Thumb wrapper height modifier (px)"
+			description="Use this field to modify/optimize the height of the element that contains (wraps) the thumb. The approximate height (some additional pixels are added for borders) of the element equals the sum of the thumb height plus this value. This field adds the necessary extra space around the picture in order to show the thumb info, title and template effects. The obtained results while changing this value will depend on the CSS styles of both JWallpapers and your template. Insufficient or exaggerated space may result on broken (bad looking) thumbs" />
+		<param name="thumbs_wrapper_width_mod" type="text" default="14"
+			label="Thumb wrapper width modifier (px)"
+			description="Use this field to modify/optimize the width of the element that contains (wraps) the thumb. The approximate width (some additional pixels are added for borders) of the element equals the sum of the thumb width plus this value. This field adds the necessary extra space around the picture in order to show the thumb info, title and template effects. The obtained results while changing this value will depend on the CSS styles of both JWallpapers and your template. Insufficient or exaggerated space may result on broken (bad looking) thumbs" />
+	</params>
+</install>

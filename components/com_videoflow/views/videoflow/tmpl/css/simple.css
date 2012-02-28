@@ -1,0 +1,333 @@
+/* CSS Document */
+
+/* Videoflow main container*/
+
+  #vfwrapper {
+    padding: 2px 4px;
+    position: relative;
+    float:left;
+    margin-right: auto;
+    margin-left:auto;
+    width:99%;
+    min-width: 480px;
+    border: none;
+  }
+
+  #vfwrapper a:link, a:visited, a:active {text-decoration: none !important;}
+  #vfwrapper a:hover, a:focus {text-decoration: underline; }
+  
+ .vfsimpleplay{
+ overflow: hidden;
+ border:none;
+ padding:5px;
+ margin: 0px auto;
+ }
+  
+/* Videoflow navigation bar */
+  #vfnavig {
+    width: 98%;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+    height: 24px;
+    padding: 0px 4px; 
+    text-align: center !important;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    overflow:visible;
+    border-color: #E9E9E9;
+  }  
+  
+/* Round corner style - Doesn't work in IE */
+  .vfround, .vftextbox {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    border:1px solid #E9E9E9;
+  }
+  
+/* Menu items style */
+  
+  .vfmenu {
+ /* min-width: 12%;*/
+  padding: 2px 4px;
+  overflow: hidden;
+  float:left;
+  height: 20px;
+  text-align: center !important;
+  }
+    
+  table.vfmedinfo{
+   margin:auto;
+   text-align:left; 
+  }
+  
+  table.vfmedinfo td {
+   padding: 2px 10px; 
+  }
+  
+  .vfmenu_selected {
+ /* min-width: 12%;*/
+ padding: 2px 4px;
+  overflow: hidden !important;
+  float:left;
+  border: none;
+  height: 20px;
+  margin:auto;
+  background-color: #EDEDED;
+  text-align: center !important;
+  }
+  
+  .vfsmenu_selected a {
+  font-weight:bold !important;
+  }  
+
+  
+  #vfmediatitle {
+  padding: 6px;
+  font-size: 150%;
+  margin-bottom: 10px;
+  }
+  
+  .vf_fbtheme{
+  background-color: #F2F2F2;
+  border-color: #E9E9E9;
+  border-style: solid;
+  border-width: 1px 0px;
+  }
+  
+  .vftextbox{
+  margin: 10px 0px;
+  padding: 8px;
+  font-size: 12px;
+  }
+  
+  .vfaligntop{
+  vertical-align:top;
+  }
+  
+/*Container box for each list item*/
+
+  .vfbox {
+      position:relative;
+      width:100%;
+      height: 100%;
+      text-align:left;
+      padding-top:5px;
+  }
+  
+  .vftitle{
+      font-family:arial;
+      font-size:14px;
+  }
+  
+  .vfinfolist{
+  font-family:arial;
+  font-size:11px;
+  }
+  
+  #vfsearch_msg {
+    margin: 5px 0px;
+  }
+  
+  .vf_hsolid_line {
+  width:98%;
+  margin-right:auto;
+  margin-left:auto;
+  border-bottom:1.5px solid #CCCCCC;
+  height: 2px;
+  } 
+  
+  .vf_vdotted_line {
+  height:115px;
+  border-right:1.5px dotted #CCCCCC;
+  margin: 0px 2px;
+  } 
+  
+  .vf_bgactive{background-color:#EDEDED;}
+
+
+/* Styles for each item in container box */
+
+	.vflist1 { position:absolute; top:0px; left:0px; }
+	.vflist2 { position:absolute; top:7px; left:7px; overflow: hidden; height:73px; padding-top: 0px; }
+	.vflist3 { position:relative; text-align:left; width:100%; font-size:11px; line-height:15px; }
+	/*.vflist4 { position:relative; text-align:left; width:260; font-size:11px; line-height:15px;  }*/
+	.vflist5 { font-size:10px; font-weight:bold; }
+	.vflist6 { font-size:11px; font-family:arial; }
+	.vflist7 { padding-top:4px; padding-bottom:1px; }
+	.vflist8 { position:relative; width:100%; margin-left: auto; margin-right:auto; height:20px; margin-top:8px; }
+	.vflist10 { padding-left:7px; padding-top:2px; }
+		
+	.vf_lightbox{
+  background-color: #000000;
+  color:#FFFFFF;
+  padding: 0px;
+  margin:0px;
+  }
+	
+	/* VideoFlow Modules */
+	
+	.mod_vflow {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; 
+  border:1px solid #CCCCCC;
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center; 
+  width:100%; 
+  }
+    
+  #mod_vflow2 {
+  max-width: 300px;
+  margin-left:2px;
+  }
+  	
+  #vffooter{
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center; 
+  width:100%; 
+  }
+  
+  #vffooter li {
+  display:inline;
+  padding: 2px 4px;
+  }
+  
+  #vfsearch{
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center;
+  width:80%;
+  padding: 20px 0px; 
+  }
+  
+  
+  /*Styles specific to the default player template - default_play.php*/
+  
+    #vf_infoblock{
+    min-width: 200px;
+    max-width: 400px;
+    padding: 0px 4px 4px 4px;
+    }
+  
+    
+    
+    .vf_sidelist  {
+    background-color: #F2F2F2;
+    border: 1px solid;
+    border-color: #E9E9E9;
+    padding: 2px 4px; 
+    overflow:hidden;
+    font-family:arial;
+    font-size:12px;
+    margin: auto;
+    }
+    
+    
+    .vf_sidethumb {
+    border: 1px solid; 
+    border-color: #CCCCCC;
+    width: 80px;
+    height: 58px;
+    }
+    
+    .vf_img {
+    border: 4px solid; 
+    border-color: #E6E6E6 !important;
+    }
+    
+    .vf_img a {color:#E6E6E6 !important; text-decoration: none !important;}
+
+    
+    .vf_sidetitle {
+    overflow:hidden;
+    }
+    
+    .vf_seemore {
+    padding: 2px 10px;
+    font-size: 10px;
+    text-align: right;
+    background-color: #F9F9F9;
+    border: 0px;
+    }
+    
+    .vf_rating {
+    float:right;
+    overflow:hidden;
+    font-size: 12px;
+    margin: 8px 0px 0px 4px;
+    max-height:40px;
+    }
+    
+    .mod_vfshare {
+    float: left;
+    margin: 8px 4px 2px 0px;
+    max-height:36px;
+    }
+    
+    .vf_infostats{width:100%; padding: 2px 0px;} .vf_cstats1{float:left;} .vf_cstats2{float:right}
+    .vf_tools_icons {vertical-align:bottom;} 
+    .vf_tools{float:left; margin:0px 5px 0px 2px; white-space:nowrap;}
+    #vf_vidinfo{max-height:200px; overflow:hidden; margin:0px; padding: 0px;font-size:11px;}
+
+    
+    dl.tabs {
+    float: left;
+    margin: 10px 0 -1px 0;
+    z-index: 50;
+    }
+
+    dl.tabs dt {
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    float: left;
+    padding: 4px 10px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-left: 3px;
+    background: #EDEDED;
+    color: #666;
+    }
+
+    dl.tabs dt.open {
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    background: #F9F9F9;
+    border-bottom: 1px solid #F9F9F9;
+    z-index: 100;
+    color: #000;
+    }
+
+    div.current { 
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    clear: both; 
+    border: 1px solid #ccc; 
+    padding: 10px 10px;
+    }
+
+    div.current dd { 
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 0; 
+    margin: 0;
+    }
+    
+    .vf_fbcomments{
+    margin-bottom: 0px;
+    }
+    
+    .vf_rlabel{
+    background-color: #F6F6F6;
+    border: 1px solid #EDEDED;  
+    padding: 4px;
+    text-align: center !important;
+    font-size: 14px;
+    }
+    
+    .vf_smessage{
+      margin: 2px 10px 0px;
+    }
+  

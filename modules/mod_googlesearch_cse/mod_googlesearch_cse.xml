@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+  <name>googleSearch (CSE)</name>
+  <author>kksou</author>
+  <creationDate>Jan 2009</creationDate>
+  <copyright>(C) kksou.com. All Rights Reserved.</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <authorEmail>support@kksou.com</authorEmail>
+  <authorUrl>www.kksou.com/php-gtk2/</authorUrl>
+  <version>1.5</version>
+  <description>This module complements the googleSearch_cse component. It allows you to add Google's new Custom Search Engine (CSE) to your Joomla site with the search results displayed right inside your Joomla page!</description>
+  <files>
+    <filename module="mod_googlesearch_cse">mod_googlesearch_cse.php</filename>
+	<filename>helper.php</filename>
+	<filename>index.html</filename>
+	<filename>tmpl/default.php</filename>
+	<filename>tmpl/index.html</filename>
+  </files>
+  <params>
+	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+  </params>
+</install>

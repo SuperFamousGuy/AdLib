@@ -1,0 +1,166 @@
+Custom Properties 1.9 for Joomla 1.5
+
+Legend:
+
+* -> Security Fix
+# -> Bug Fix
+$ -> Language fix or change
++ -> Addition
+^ -> Change
+- -> Removed
+! -> Note
+
+
+-------------------- 1.98.3.6 2011-10-15 ------------------
+$ major translations effort;currently available for backend: English, Italian; available for frontend: Arabic, German, English, Spanish, Persian (Farsi), French, Hebrew, Croatian, Italian, Macedonian, Dutch, Portuguese, Brazilian Portuguese, Russian, Serbian, Swedish. 
++ Persian language frontend + backend + cpsearch (Thanks to Novin Shahroudi)
++ added Listbingo content element connector
++ added Contact content element connector
++ added Contact Enhanced content element connector
+^ modified utilities view to make localization possible
+# thumbnail no longer heve "stripes" when source img is smaller than destination thumbnail
+# re-fixed (first fix didn't work) bug to allow tagging of only a single 3rd party content item connector   
+
+-------------------- 1.98.3.5 2011-09-07 ------------------
+# assigning tags doesn't work when a single content element connector for 3rd party component is installed 
+
+-------------------- 1.98.3.4 2011-09-02 ------------------
+Component
+# fixed bug with page title 
+# fixed some notices and replaced deprecated functions
+
+-------------------- 1.98.3.3            ------------------
+Component 1.98.3.3
+# definitely fixed a bug that prevented new articles to be retrieved when timezone of Joomla and timezone of DB server were different.
++ added support for Joomla search plugin
++ added weblinks content element connector
++ added Phoca Gallery Category  content element
+
+mod_cpcloud 1.98.3.3
+# fixed the timezones bug (see above)
+
+search/cptags  1.98.3.3
++ first release of the search CP tags plugin
+
+-------------------- 1.98.3.2            ------------------
+
+mod_cpcloud 1.98.3
+# fixed a bug the caused a wrong number of tags to be returned
+
+Component 1.98.3
+# fixed bug that prevented recently created article from being retrieved by search engine
++ added Serbian, Macedonian and Croatian Language (thanks to Nikola Nikolov)
++ added PhocaGallery content element
++ added weblinks content element
+# fixed several 'Notice' and 'Warning' error messages caused by uninizialized variables and deprecated 'pass by reference' function calls.
+# fixed a bug that caused incorrect results to be returned when 2 text fields were present at the same time
+
+-------------------- 1.98.2              ------------------
+
+Component 1.98.2
+# fixed problem with thumbnail creation with linked images and mixed case filenames.
++ added parameter 'use itemid'
+# cptags div is no longer enclosed when there's no tag to display
+
+mod_cpsearch 1.98.2
++ addedd support for 'use itemid' parameter
+
+mod_cpcloud 1.98.2
++ addedd support for 'use itemid' parameter
+
+-------------------- 1.98.1              ------------------
+Component 1.98.1
+# fixed "Notice" errors
+# fixed a bug with thumbnail creation on WAMP servers
+
+-------------------- 1.98                ------------------
+This version brings new features to CP: extend usage to  other contentelements, improved search engine friendliness, much improved frontend tagging, preview images insearch results. It also fixes several bugs/limitations.
+
+Component 1.98
+^ changed DB structure for _custom_properties and custom_properties_fields tables
++ search results now honor the “publish from” and “publish up to”
+# fixed search page title
++ image preview in search results
++ selectable elements in search preface (matching records, sorting options, ...)
++ show full introtext in HTML format
++ don't search unauthorized articles
++ search article title with text search
+^ backend: more clear info of which articles have tags assigned
++ backend: filter article by name
++ backend: changed layout for cp fields in Assign page
+^ backend: reorganized config page
+# fixed bug with category/section names not being translated in search results
++ tag name as page title when searching by tag
+^ greatly improved frontend tagging with javascript overlay window
++ new field type : text
++ configurable result page Itemid
+# fixed “tag in meta” feature
++ search static articles
++ search archived articles
++ added utilities menu
++ added third party content elements support
++ added core SEF compatibility
++ added sh404SEF support
+- removed “sort by rating” feature
++ added new languages
++ added “priority” to field values
++ added custom stylesheet  
+
+mod_cpsearch 1.98
+# fixed SEF compatibility
++ selectable layout type (table div)
+^ almost completely rewritten CSS styling - each field has its own class
+- removed frontend tagging from module
+
+mod_cpcloud 1.98
+# fixed core SEF compatibility
++ sh404 compatibility
++ force Itemid of tags
++ selectable tag order (random, alpha, none)
++ tags threshold
+
+bot_cptags 1.98
++ added frontend tagging
+# fixed minor formatting issues
+
+cptags editor button  1.98
++ adds a button under the editor to edit cp tagswhile in article editing
+
+
+-------------------- 1.90.3              ------------------
+component
+
+# fixed short PHP tags problem
+# inizialized some internal variables
+# fixed bug : module selection not working in field management
+
+plugin cptags 1.90.3
+# fixed a bug that disabled other plugins
+
+-------------------- 1.90.2              ------------------
+component:
+
+# fixed bug 11670 : Checkbox fields show only the last value when assigning properties
+# fixed bug 11668 : Can't save config file
+$ corrected some text messages and italian translations
+# fixed a bug that effects users with older PHP version: unable do add / remove values in field management. Added a parameter to enable the workaround.
+# fixed a bug : with JoomFish , alpha and category sorting does not work
+# fixed a bug : search error when switching language
+
+plugin cptags 1.90.2
+^ tags can be displayed automatically on content items without {cpsearch}
+
+
+-------------------- 1.90.1              ------------------
+component :
+# Fixed a bug: unable do show / edit configuration
+
+module  cp_search 1.90.1
++ added parameter moduleclass_sfx
+# fixed short PHP tags problem
+
+plugin cptags 1.90.1
+# fixed compatibility problem with PHP4
+
+-------------------- 1.90.0              ------------------
+Initial release

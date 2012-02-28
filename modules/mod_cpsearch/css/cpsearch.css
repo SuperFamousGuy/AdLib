@@ -1,0 +1,70 @@
+/**
+* Custom Properties for Joomla! 1.5.x
+* @package Custom Properties
+* @subpackage Mod cp_search
+* version 1.98.3.4
+* @revision $Revision: 1.1.2.3 $
+* @author Andrea Forghieri
+* @copyright (C) 2007-2011 Andrea Forghieri, Solidsystem - http://www.solidsystem.it
+* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2
+*/
+
+div.cpsearch{}
+/* comment next declaration to keep all elements on one row 
+div.cp_submit, div.cp_field, fieldset.cp_field  {
+	clear : both;
+}
+*/
+div.cpsearch div.cp_field{
+	padding-bottom : 8px;
+	border : 0;
+}
+div.cpsearch fieldset{
+	border: 0;
+	padding  :4px;
+	display: block; float: left;
+}
+div.cpsearch fieldset legend{
+	clear:both;
+	/* put here the style for the checkbox field name */
+}
+div.cpsearch div.cp_cb{
+	display: inline;
+}
+div.cpsearch div.cp_cb_label{
+	display: inline;
+}
+/* uncomment if you want checkboxes to be displayed one beside the other */
+div.cpsearch  fieldset div.cp_field{
+	display : inline; 
+}
+
+div.cp_text_search{
+	clear:both;
+}
+/* each cp field can have his own style
+div.cpsearch div.cp_field_10{
+	display : block;
+	width : 90%;
+	border : 2px solid green;
+	background : #dbef00;
+}
+*/
+/*
+tr.cp_field select.inputbox{
+	color : #888;
+}
+tr.cp_field_label{
+	background-color: #F90;
+}
+tr.cp_field_label td{
+	padding : 4px;
+	font-weight: bold;
+}
+tr.cp_cb_value td input{
+	float:right;
+}
+tr.cp_cb_value div.cp_cb_label{
+	color : #888;
+}
+*/

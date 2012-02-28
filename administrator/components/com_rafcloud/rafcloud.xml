@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+	<name>Rafcloud</name>
+	<author>Rafal Blachowski (Skorp)</author>
+	<creationDate>August 2009</creationDate>
+	<copyright>Copyright (C) 2009 Rafal Blachowski (Skorp)</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>skorp@royy.net</authorEmail>
+	<authorUrl>http://www.joomla.royy.net</authorUrl>
+	<version>3.0 beta_9</version>
+	<description>Raf Cloud Component v 3.0</description>
+
+    <installfile>install.rafcloud.php</installfile>
+    
+    <install>
+      <queries>
+        <query>CREATE TABLE IF NOT EXISTS `#__rafcloud_stat` (
+	`id` int(11) NOT NULL auto_increment PRIMARY KEY,
+          `word` varchar(200) NOT NULL default '',
+          `published` tinyint(1) NOT NULL default '1',
+          `counter` int(11) NOT NULL default '0',
+	  `wordLenght` int(11) NOT NULL default '0',
+          `fontSize` int(11) NOT NULL default '0',
+	  `dateAdd` datetime NOT NULL default '0000-00-00 00:00:00',
+	  `new` int(11) NOT NULL DEFAULT '1',
+	  `type` int(11) NOT NULL DEFAULT '0'
+        ) TYPE=MyISAM COMMENT='Used to store Raf Cloud stats.';
+        </query>
+	<query>
+	CREATE TABLE IF NOT EXISTS `#__rafcloud_plugins` (
+	`plugin` VARCHAR( 200 ) NOT NULL PRIMARY KEY ,
+	`published` tinyint(1) NOT NULL default '0',
+	`descr` VARCHAR( 200 ) NOT NULL
+	) TYPE = MYISAM COMMENT='Raf Cloud plugins' ;
+	</query>
+	<query>	
+	CREATE TABLE IF NOT EXISTS `#__rafcloud_config` (
+	`RC_key` varchar(50) NOT NULL,
+	`RC_value` text NOT NULL,
+	`RC_section` varchar(50) NOT NULL,
+	PRIMARY KEY  (`RC_key`,`RC_section`)
+	) TYPE=MYISAM COMMENT='Raf Cloud Config';
+	</query>
+	
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_enabled', '1', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_published', '0', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_min_counter', '3', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_min_len', '3', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_max_len', '25', 'config');</query>
+
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_min_font', '100', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_max_font', '200', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_on_cache', '1', 'config');</query>
+	
+	
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_preg_replace', '', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_key_asword', '0', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_key_preg_replace', '', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_admin_email', '', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_sh404sef_prefix', '', 'config');</query>
+	
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_blacklist', '', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_whitelist', '', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_key_whitelist', '', 'config');</query>
+	
+	
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_run_period', '1', 'scheduler');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_run_period_unit', '2', 'scheduler');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_run_limit', '30', 'scheduler');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_run_hour', '23', 'scheduler');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_run_minute', '10', 'scheduler');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_run_day', '22', 'scheduler');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_run_month', '12', 'scheduler');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_run_year', '2099', 'scheduler');</query>
+	
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_str_lower', '2', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_key_enabled', '1', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_key_published', '0', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_key_min_counter', '1', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_key_min_len', '3', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_key_max_len', '100', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_key_str_lower', '2', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_sh404sef_link', '0', 'config');</query>
+	<query>INSERT IGNORE INTO `#__rafcloud_config` VALUES ('RC_version', '3.0_beta_9', 'version');</query>
+	
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr,published) VALUES ('rc_joomla_content_plugin.php','Joomla Content Plugin v 3.0',1);
+	</query>
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr) VALUES ('rc_joomla_docman_plugin.php','Joomla Docman Plugin v 3.0');
+	</query>
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr) VALUES ('rc_zoom_gallery_plugin.php','Zoom Media Gallery Plugin v 3.0');
+	</query>
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr) VALUES  ('rc_joomla_virtuemart_plugin.php','Joomla VirtueMart Plugin v 3.0');
+	</query>
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr) VALUES ('rc_joomla_smf_plugin.php','Joomla SMF Plugin v 3.0');
+	</query>
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr) VALUES ('rc_joomla_letterman_plugin.php','Joomla Letterman Plugin v 3.0');
+	</query>
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr) VALUES ('rc_joomla_sobi2_plugin.php','Joomla Sobi2 Plugin v 3.0');
+	</query>
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr) VALUES ('rc_joomla_fireboard_plugin.php','Joomla Fireboard Plugin v 3.0');
+	</query>
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr) VALUES ('rc_joomla_pony_plugin.php','Joomla Pony Gallery ML Plugin v 3.0');
+	</query>
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr,published) VALUES ('rc_joomla_keywords_plugin.php','Joomla Content Keywords Plugin v 3.0',1);
+	</query>
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr) VALUES ('rc_joomla_seyret_plugin.php','Joomla Seyret Plugin v 3.0');
+	</query>
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr) VALUES ('rc_joomla_mojoblog_plugin.php','Joomla MojoBlog Plugin v 3.0');
+	</query>
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr) VALUES ('rc_joomla_remository_plugin.php','Joomla Remository Plugin v 3.0');
+	</query>
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr) VALUES ('rc_joomla_bookmarks_plugin.php','Joomla Bookmark Plugin v 3.0');
+	</query>
+
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr) VALUES ('rc_joomla_misterestate_plugin.php','Joomla MisterEstate Plugin v 3.0');
+	</query>
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr) VALUES ('rc_joomla_mosetstree_plugin.php','Joomla Mosets Tree Plugin v 3.0');
+	</query>
+	<query>
+		INSERT IGNORE INTO `#__rafcloud_plugins` (plugin,descr) VALUES ('rc_joomla_joomgallery_plugin.php','Joomla Joomgallery Plugin v 3.0');
+	</query>
+      </queries>
+    </install>
+    <files>
+	    <filename>rafcloud.php</filename>
+	    <filename>rafcloud.html.php</filename>
+	    <filename>controller.php</filename>
+	    <filename>sef_ext/com_rafcloud.php</filename>
+	    <filename>router.php</filename>
+    </files>
+    
+    <administration>
+	    
+        <menu>Raf Cloud</menu>
+        <submenu>
+          <menu task="view">Manage tags</menu>
+	  <menu task="plugins">Manage plugins</menu>
+          <menu task="config">Configuration</menu>
+        </submenu>
+	
+        <files>
+		<filename>admin.rafcloud.php</filename>
+		<filename>admin.rafcloud.html.php</filename>
+		<filename>toolbar.rafcloud.php</filename>
+		<filename>toolbar.rafcloud.html.php</filename>
+		<filename>language/english.php</filename>
+		<filename>language/polish.utf-8.php</filename>
+		<filename>language/french.utf-8.php</filename>
+		<filename>language/turkish.utf-8.php</filename>
+		<filename>language/german.utf-8.php</filename>
+		<filename>language/russian.utf-8.php</filename>
+		<filename>includes/tag.creator.class.php</filename>
+		<filename>includes/config.class.php</filename>
+		<filename>plugins/rc_joomla_content_plugin.php</filename>
+		<filename>plugins/rc_joomla_keywords_plugin.php</filename>
+		<filename>plugins/rc_joomla_docman_plugin.php</filename>
+		<filename>plugins/rc_joomla_virtuemart_plugin.php</filename>
+		<filename>plugins/rc_joomla_smf_plugin.php</filename>
+		<filename>plugins/rc_joomla_letterman_plugin.php</filename>
+		<filename>plugins/rc_joomla_sobi2_plugin.php</filename>
+		<filename>plugins/rc_joomla_fireboard_plugin.php</filename>
+		<filename>plugins/rc_joomla_pony_plugin.php</filename>
+		<filename>plugins/rc_joomla_seyret_plugin.php</filename>
+		<filename>plugins/rc_joomla_mojoblog_plugin.php</filename>
+		<filename>plugins/rc_joomla_remository_plugin.php</filename>
+		<filename>plugins/rc_joomla_misterestate_plugin.php</filename>
+		<filename>plugins/rc_joomla_bookmarks_plugin.php</filename>
+		<filename>plugins/rc_joomla_mosetstree_plugin.php</filename>
+		<filename>plugins/rc_joomla_joomgallery_plugin.php</filename>
+		<filename>plugins/rc_zoom_gallery_plugin.php</filename>
+		<filename>help/rafcloud.help.english.html</filename>
+		<filename>help/rafcloud.help.polish.html</filename>
+	</files>
+	
+    </administration>
+</install>

@@ -1,0 +1,196 @@
+body {
+background:#F0F0F0;
+}
+
+/* Adjust colors for login and register buttons */
+
+#s5_md_register, #s5_md_login {
+margin:0px;
+margin-left:4px;
+margin-top:1px;
+padding:3px;
+display:block;
+color:#FFFFFF;
+border:solid 1px #000000;
+}
+
+/* The two bars that contain menu, login buttons and search, create a gradient that matches the theme */
+
+#s5_md_menu_login_wrap, #s5_md_search_wrap {
+background:#151515;
+padding-left:9px;
+padding-right:9px;
+padding-top:12px;
+border:1px solid #DFDFDF;
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+border-radius:8px;
+}
+
+#s5_md_search_wrap {
+padding-top:9px;
+}
+
+#s5_md_search_wrap label, #s5_md_search_wrap br {
+display:none;
+}
+
+/* Ensures that both bars are the same height */
+
+#s5_md_menu_login_wrap_inner, #s5_md_search_wrap_inner {
+height:40px;
+overflow:hidden;
+}
+
+
+/* Logo settings */
+
+#s5_logo {
+height:130px;
+width:100%;
+display:block;
+background-color:#1A1A1A;
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+border-radius:6px;
+margin-bottom:12px;
+}
+
+
+
+
+/* No need to edit below here */
+
+
+#s5_md_menu_login_wrap .inputbox, #s5_md_search_wrap .inputbox {
+background:#FFFFFF;
+border:none;
+}
+
+#s5_md_search_wrap .button {
+display:none;
+}
+
+#s5_md_search_wrap .inputbox {
+width:70%;
+}
+
+#s5_mobile_menu {
+width:140px;
+}
+
+#s5_md_main_content_wrap {
+padding-bottom:12px;
+}
+
+#s5_md_switch {
+background:url(../images/mobile/s5_md_pc_icon.png) no-repeat top left;
+height:18px;
+padding-left:34px;
+display:block;
+padding-top:6px;
+}
+
+#s5_md_breadcrumb_wrap img {
+display:none;
+}
+
+#s5_md_menu_login_wrap, #s5_md_search_wrap, #s5_md_mobile_top_1_wrap, #s5_md_mobile_top_2_wrap, #s5_md_mobile_bottom_1_wrap, #s5_md_mobile_bottom_2_wrap, #s5_md_main_content_wrap, #s5_md_breadcrumb_wrap {
+margin-bottom:12px;
+}
+
+#s5_md_padding_wrap {
+padding:8px;
+}
+
+#s5_md_footer_wrap {
+padding:12px;
+}
+
+#s5_md_register_wrap, #s5_md_login_wrap {
+float:right;
+}
+
+#s5_md_menu_wrap {
+float:left;
+}
+
+#s5_md_main_content_wrap .inputbox {
+width:90%;
+}
+
+#s5_md_mobile_top_1_wrap .moduletable, #s5_md_mobile_bottom_1_wrap .moduletable, #s5_md_main_content_wrap {
+background:#ffffff;
+padding:0px;
+padding:12px;
+border:1px solid #DFDFDF;
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+border-radius:8px;
+-webkit-box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15);
+box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15); 	
+}
+
+#s5_md_mobile_top_1_wrap .moduletable h3, #s5_md_mobile_bottom_1_wrap .moduletable h3 {
+border:1px solid #DFDFDF;
+background:#FAFAFA;
+background: -moz-linear-gradient(top, #FFFFFF 0%, #F9F9F9 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#F9F9F9)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #FFFFFF 0%,#F9F9F9 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #FFFFFF 0%,#F9F9F9 100%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, #FFFFFF 0%,#F9F9F9 100%); /* IE10+ */
+background: linear-gradient(top, #FFFFFF 0%,#F9F9F9 100%); /* W3C */
+-moz-border-radius:8px 8px 0px 0px;
+-webkit-border-radius:8px 8px 0px 0px;
+border-radius:8px 8px 0px 0px;
+margin-top:-13px;
+margin-left:-13px;
+margin-right:-13px;
+margin-bottom:12px;
+display:block;
+padding-bottom:8px;
+padding-top:9px;
+padding-left:12px;
+padding-right:12px;
+font-size:1.3em;
+}
+
+#s5_md_mobile_top_2_wrap .moduletable, #s5_md_mobile_bottom_2_wrap .moduletable {
+color:#FFFFFF;
+background:#1A1A1A;
+padding:0px;
+padding:12px;
+border:1px solid #1A1A1A;
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+border-radius:8px;
+-webkit-box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15);
+box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15); 	
+}
+
+#s5_md_mobile_top_2_wrap .moduletable h3, #s5_md_mobile_bottom_2_wrap .moduletable h3 {
+color:#FFFFFF;
+border:1px solid #0B0B0B;
+background:#141414;
+background: -moz-linear-gradient(top, #1A1A1A 0%, #121212 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1A1A1A), color-stop(100%,#121212)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #1A1A1A 0%,#121212 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #1A1A1A 0%,#121212 100%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, #1A1A1A 0%,#121212 100%); /* IE10+ */
+background: linear-gradient(top, #1A1A1A 0%,#121212 100%); /* W3C */
+-moz-border-radius:8px 8px 0px 0px;
+-webkit-border-radius:8px 8px 0px 0px;
+border-radius:8px 8px 0px 0px;
+margin-top:-13px;
+margin-left:-13px;
+margin-right:-13px;
+margin-bottom:12px;
+display:block;
+padding-bottom:8px;
+padding-top:9px;
+padding-left:12px;
+padding-right:12px;
+font-size:1.3em;
+}

@@ -1,0 +1,142 @@
+/**
+ * JWallpapers - A lightweight yet powerful image gallery component with community building capabilities
+ * @version 2.0.1 $Id: default.css 358 2010-06-02 09:38:51Z amazeika $
+ * @package JWallpapers
+ * @copyright Copyright (C) 2009 Arunas Mazeika, http://www.wextend.com. All rights reserved
+ * @author Arunas Mazeika
+ * @license GNU General Public License v2+ (GNU GPL v2+). See license.php
+ * 
+ */
+.resolutions_layout td,.resizes_layout td {
+	text-align: center;
+}
+
+.red_msg,.green_msg,.blue_msg {
+	font-weight: bold;
+}
+
+.green_msg {
+	color: green;
+}
+
+.red_msg {
+	color: red;
+}
+
+.blue_msg {
+	color: blue;
+}
+
+a.button_link {
+	padding: 1px 3px 1px 3px;
+	border: 1px solid;
+}
+
+a.button_link:hover {
+	text-decoration: none !important;
+	color: #0281CA !important;
+}
+
+.icon-48-jwallpapers_about {
+	background: url('../images/toolbar/about.png') no-repeat;
+}
+
+.icon-48-jwallpapers_resizes {
+	background: url('../images/toolbar/resizes.png') no-repeat;
+}
+
+.icon-48-jwallpapers_settings {
+	background: url('../images/toolbar/settings.png') no-repeat;
+}
+
+.icon-48-jwallpapers_pictures {
+	background: url('../images/toolbar/pictures.png') no-repeat;
+}
+
+.icon-48-jwallpapers_add_pictures {
+	background: url('../images/toolbar/add_pictures.png') no-repeat;
+}
+
+.icon-48-jwallpapers_edit_pictures {
+	background: url('../images/toolbar/edit_pictures.png') no-repeat;
+}
+
+.icon-48-jwallpapers_categories {
+	background: url('../images/toolbar/categories.png') no-repeat;
+}
+
+.icon-48-jwallpapers_tags {
+	background: url('../images/toolbar/tags.png') no-repeat;
+}
+
+.icon-48-jwallpapers_edit_tag {
+	background: url('../images/toolbar/edit_tag.png') no-repeat;
+}
+
+.icon-48-jwallpapers_add_tag {
+	background: url('../images/toolbar/add_tag.png') no-repeat;
+}
+
+.icon-48-jwallpapers_manage_tagged_pics {
+	background: url('../images/toolbar/manage_tagged_pics-48.png') no-repeat
+		;
+}
+
+.icon-32-jwallpapers_manage_tagged_pics {
+	background: url('../images/toolbar/manage_tagged_pics-32.png') no-repeat
+		;
+}
+
+.icon-32-jwallpapers_ratings_reset {
+	background: url('../images/toolbar/ratings_reset.png') no-repeat;
+}
+
+.icon-32-jwallpapers_enable_votes {
+	background: url('../images/toolbar/enable_votes.png') no-repeat;
+}
+
+.icon-32-jwallpapers_disable_votes {
+	background: url('../images/toolbar/disable_votes.png') no-repeat;
+}
+
+.icon-32-jwallpapers_enable_downloads {
+	background: url('../images/toolbar/enable_downloads.png') no-repeat;
+}
+
+.icon-32-jwallpapers_disable_downloads {
+	background: url('../images/toolbar/disable_downloads.png') no-repeat;
+}
+
+.icon-32-jwallpapers_enable_frontend_uploads {
+	background: url('../images/toolbar/enable_frontend_uploads.png')
+		no-repeat;
+}
+
+.icon-32-jwallpapers_disable_frontend_uploads {
+	background: url('../images/toolbar/disable_frontend_uploads.png')
+		no-repeat;
+}
+
+.icon-32-jwallpapers_all_ratings_reset {
+	background: url('../images/toolbar/all_ratings_reset.png') no-repeat;
+}
+
+#ajax_tag_search_result {
+	margin-top: 8px;
+}
+
+#tag_pic_status,#untag_pic_status,#regenerate_thumbs_status,#regenerate_resizes_status,#delete_water_orgs_status
+	{
+	margin-top: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	color: green;
+}
+
+.ajax_search_note {
+	font-size: 10px;
+}
+
+#ajax_remove_pic_tags a {
+	color: red;
+}

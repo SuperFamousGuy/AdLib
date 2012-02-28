@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install type="module" version="1.5">
+	<name>JWallpapers Best Rated module</name>
+	<author>Arunas Mazeika</author>
+	<creationDate>May 2010</creationDate>
+	<copyright>Copyright (C) 2009 Arunas Mazeika - All rights
+		reserved</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>jwallpapers@wextend.com
+	</authorEmail>
+	<authorUrl>www.wextend.com</authorUrl>
+	<version>1.4</version>
+	<description>A module to display the best rated JWallpapers pictures
+	</description>
+	<files>
+		<filename module="mod_jwbestrated">mod_jwbestrated.php
+		</filename>
+		<filename>mod_jwbestrated.xml
+		</filename>
+		<filename>license.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<params>
+		<param name="menu_id" type="text" default=""
+			label="JWallpapers menu item ID"
+			description="Provide the ID of a JWallpapers menu item, e.g create a JWallpapers best rated pictures special view menu item (in the Joomla Menu Item Manager) using the categories defined below and attach it to this module by introducing its ID on this field. This field is used to attach a JWallpapers menu item to this module and to provide the module with SEF links (without the words component and jwallpapers on it)" />
+		<param name="category_ids" type="text" default="0" label="Category IDs"
+			description="Provide a list of IDs (separated by commas) of the categories that you would like to include on this module. Use zero (0) to include all the categories" />
+		<param name="target_new_window" type="radio" default="0"
+			label="Show picture details in a new window ?"
+			description="If set to Yes, the detailed picture view will be shown in a new window when a thumbnail from the module is clicked. Otherwise the view will be shown in the same window. The same applies to the more pics link">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_thumb_info" type="radio" default="0"
+			label="Show the thumb info ?"
+			description="If set to Yes, the picture info (visits and ratings) will be shown regardless of the global JWallpapers settings">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_thumb_title" type="radio" default="1"
+			label="Show the thumb title ?"
+			description="If set to Yes, the thumb title will be shown regardless of the global JWallpapers settings">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="thumbs_columns" type="text" default="3"
+			label="Number of columns" description="Number of columns for thumbnails display" />
+		<param name="thumbs_lines" type="text" default="1" label="Number of lines"
+			description="Number of lines for thumbnails display" />
+		<param name="show_more_pics" type="radio" default="1"
+			label="Show more pics link ?" description="If set to yes, the more pics link will be shown">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="more_pics" type="text" default="More pics ..."
+			label="More pics text"
+			description="The text of the link. This link will take the visitor the Best Rated special view if the Category ID is set to zero (0). If the category ID is set, it will take the visitor to the corresponding category view" />
+	</params>
+	<params group="advanced">
+		<param name="thumbs_width" type="text" default=""
+			label="Thumb width (px)"
+			description="Use this field to override the size of the thumbs. The given width will be used instead of the real thumb size defined in the main component settings" />
+		<param name="thumbs_height" type="text" default=""
+			label="Thumb height (px)"
+			description="Use this field to override the size of the thumbs. The given height will be used instead of the real thumb size defined in the main component settings" />
+		<param name="thumbs_wrapper_height_mod" type="text" default="90"
+			label="Thumb wrapper height modifier (px)"
+			description="Use this field to modify/optimize the height of the element that contains (wraps) the thumb. The approximate height (some additional pixels are added for borders) of the element equals the sum of the thumb height plus this value. This field adds the necessary extra space around the picture in order to show the thumb info, title and template effects. The obtained results while changing this value will depend on the CSS styles of both JWallpapers and your template. Insufficient or exaggerated space may result on broken (bad looking) thumbs" />
+		<param name="thumbs_wrapper_width_mod" type="text" default="14"
+			label="Thumb wrapper width modifier (px)"
+			description="Use this field to modify/optimize the width of the element that contains (wraps) the thumb. The approximate width (some additional pixels are added for borders) of the element equals the sum of the thumb width plus this value. This field adds the necessary extra space around the picture in order to show the thumb info, title and template effects. The obtained results while changing this value will depend on the CSS styles of both JWallpapers and your template. Insufficient or exaggerated space may result on broken (bad looking) thumbs" />
+		<param name="moduleclass_sfx" type="text" default=""
+			label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+</install>

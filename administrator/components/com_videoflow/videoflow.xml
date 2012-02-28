@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: document.xml 2011-07-04 fideri $ -->
+<install type="component" version="1.5.0" method="upgrade">
+	<name>VideoFlow</name>
+	<author>Kirungi F. Fideri</author>
+	<creationDate>2008-12-01</creationDate>
+	<copyright>Copyright (C) 2008 - 2011 Kirungi F. Fideri. All Rights Reserved</copyright>
+	<authorEmail>fideri@fidsoft.com</authorEmail>
+	<authorUrl>www.fidsoft.com</authorUrl>
+	<license>GNU General Public License Version 2 or Later</license>
+	<version>1.1.4</version>
+	<description>VideoFlow is a multimedia system for Joomla! and Facebook that makes sharing multimedia content across the two platforms a breeze. Visit www.videoflow.tv for more information, support and demos.</description>
+
+	<installfile>install.videoflow.php</installfile>
+        <uninstallfile>uninstall.videoflow.php</uninstallfile>
+	<install>
+                <sql>
+                        <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+                        <file driver="mysql">sql/install.mysql.nonutf8.sql</file>
+                </sql>
+        </install>	
+
+	<files>
+                <filename>index.html</filename>
+                <filename>videoflow.php</filename>
+                <folder>controllers</folder>
+                <folder>extra</folder>
+                <folder>fbook</folder>
+                <folder>helpers</folder>
+                <folder>html</folder>
+                <folder>jscript</folder>
+		<folder>language_j16</folder>
+                <folder>logs</folder>
+                <folder>models</folder>
+                <folder>players</folder>
+                <folder>servers</folder>
+                <folder>tmp</folder>
+                <folder>utilities</folder>
+                <folder>views</folder>
+        </files>
+	
+	<languages>
+                <language tag="cs-Cz">language/cs-CZ.com_videoflow.ini</language>
+                <language tag="en-GB">language/en-GB.com_videoflow.ini</language>
+                <language tag="es-ES">language/es-ES.com_videoflow.ini</language>
+                <language tag="fr-FR">language/fr-FR.com_videoflow.ini</language>
+                <language tag="nl-NL">language/nl-NL.com_videoflow.ini</language>
+                <language tag="pl-PL">language/pl-PL.com_videoflow.ini</language>
+                <language tag="ru-RU">language/ru-RU.com_videoflow.ini</language>
+                <language tag="sv-SE">language/sv-SE.com_videoflow.ini</language>
+        </languages>
+
+	<administration>
+
+		<menu img="components/com_videoflow/images/videoflow_icon.png">COM_VIDEOFLOW</menu>
+                <submenu>
+                        <menu link="option=com_videoflow&amp;c=config">COM_VIDEOFLOW_CONFIGURE_MENU</menu>
+                        <menu link="option=com_videoflow">COM_VIDEOFLOW_MEDIA_MENU</menu>
+                        <menu link="option=com_videoflow&amp;c=upgrade">COM_VIDEOFLOW_UPGRADE_MENU</menu>                  
+                </submenu>
+
+		<files folder="admin">
+                        <filename>index.html</filename>
+                        <filename>admin.videoflow.php</filename>
+                        <folder>controllers</folder>
+                        <folder>css</folder>
+                        <folder>images</folder>
+                        <folder>sql</folder>
+                        <folder>tables</folder>
+                        <folder>utilities</folder>
+                        <folder>views</folder>
+                </files>
+		
+		<languages>
+                        <language tag="en-GB">language/admin/en-GB.com_videoflow.ini</language>
+			<language tag="en-GB">language/admin/en-GB.com_videoflow.sys.ini</language>
+			<language tag="en-GB">language/admin/en-GB.com_videoflow.menu.ini</language>
+                        <language tag="es-ES">language/admin/es-ES.com_videoflow.ini</language>
+                        <language tag="pl-PL">language/admin/pl-PL.com_videoflow.ini</language>
+                        <language tag="sv-SE">language/admin/sv-SE.com_videoflow.ini</language>
+                </languages>
+		
+	</administration>
+</install>

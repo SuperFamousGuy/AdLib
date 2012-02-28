@@ -1,0 +1,49 @@
+/* VideoFlow Lightbox Styles */
+
+body {
+margin:auto !important;
+padding:0px !important;
+text-align:center !important;
+min-width: 10px !important;
+min-height: 10px !important;
+}
+
+  table.vftable {
+    border:none;
+    width:100%;
+    border:none;
+  }
+  
+  table.vftable td {
+    border: none;
+    padding: 1px;
+  }
+  
+  table.vftable tr {
+    border: none;
+    padding: 0px;
+  }
+
+#mod_vflow5 {
+  max-height: 70px;
+  overflow:hidden;
+  margin: 2px auto 0px;
+  text-align:center;
+  }
+
+.mod_vfshare{
+  float: left;
+  margin: 8px 4px 2px 0px;
+  max-height:36px;
+  overflow: hidden;
+  }
+  
+  
+ .vf_rating {
+    float:right;
+    z-index: 3;
+    overflow:hidden;
+    font-size: 12px;
+    margin: 8px 4px 0px 4px;
+    max-height: 36px;
+  }

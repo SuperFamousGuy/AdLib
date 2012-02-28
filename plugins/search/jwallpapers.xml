@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="1.5" type="plugin" group="search">
+	<name>JWallpapers Search Plugin</name>
+	<creationDate>Mars 2010</creationDate>
+	<author>Arunas Mazeika</author>
+	<copyright>Copyright (C) 2009 Arunas Mazeika - All rights
+		reserved</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>jwallpapers@wextend.com
+	</authorEmail>
+	<authorUrl>www.wextend.com</authorUrl>
+	<version>1.1</version>
+	<description>A plugin for searching JWallpapers pictures</description>
+	<files>
+		<filename plugin="jwallpapers">jwallpapers.php
+		</filename>
+	</files>
+	<params>
+		<param name="search_limit" type="text" size="5" default="50"
+			label="Search Limit" description="Number of Search items to return" />
+	</params>
+</install>

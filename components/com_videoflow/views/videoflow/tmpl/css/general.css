@@ -1,0 +1,79 @@
+/* CSS Document */
+
+body {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#FFFFFF none repeat scroll 0 0;
+font-size:11px;
+margin:10px;
+padding:0 0 1px;
+}
+body, td, th {
+font-family:Arial,Helvetica,sans-serif;
+}
+html, body {
+height:95%;
+}
+
+.clr {
+clear:both;
+height:0;
+overflow:hidden;
+}
+a, img {
+margin:0;
+padding:0;
+}
+img {
+border:0 none;
+}
+form {
+margin:0;
+padding:0;
+}
+a:link {
+color:#0B55C4;
+text-decoration:none;
+}
+a:visited {
+color:#0B55C4;
+text-decoration:none;
+}
+a:hover {
+text-decoration:underline;
+}
+
+fieldset.vf_forms {
+border:1px solid #CCCCCC;
+margin:10px;
+padding:5px;
+text-align:left;
+background:none;
+}
+
+legend {
+color:#0B55C4;
+font-size:12px;
+font-weight:bold;
+}
+input, select {
+border:1px solid silver;
+font-size:10px;
+}
+textarea {
+border:1px solid silver;
+font-size:11px;
+}
+button {
+font-size:10px;
+}
+input.disabled {
+background-color:#F0F0F0;
+}
+input.button {
+cursor:pointer;
+}
+input:focus, select:focus, textarea:focus {
+background-color:#FFFFDD;
+}

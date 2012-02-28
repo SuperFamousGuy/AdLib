@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+<name>JWallpapers - Categories</name>
+<author>Arunas Mazeika</author>
+<version>1.0</version>
+<description>Definition for the JWallpapers component</description>
+<reference type="content">
+<table name="jwallpapers_categories">
+<field type="referenceid" name="id" translate="0">id</field>
+<field type="titletext" name="title" translate="1">title</field>
+<field type="textarea" name="keywords" translate="1">keywords</field>
+<field type="textarea" name="description" translate="1">description</field>
+</table>
+</reference>
+</joomfish>

@@ -1,0 +1,2 @@
+DROP PROCEDURE IF EXISTS getCatDownPath;
+DROP PROCEDURE IF EXISTS recursivesubtree;

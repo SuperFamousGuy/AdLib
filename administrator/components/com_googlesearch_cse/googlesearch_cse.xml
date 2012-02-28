@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+	<name>googleSearch_cse</name>
+	<author>kksou</author>
+	<creationDate>Jan 2009</creationDate>
+	<copyright>(C) kksou.com. All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>support@kksou.com</authorEmail>
+	<authorUrl>www.kksou.com/php-gtk2/</authorUrl>
+	<version>1.5</version>
+	<description>This component allows you to add Google's new Custom Search Engine (CSE) to your Joomla site with the search results displayed right inside your Joomla page!</description>
+	
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.mysql.sql</file>
+		</sql>
+	</install>
+	
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.mysql.sql</file>
+		</sql>
+	</uninstall>
+	
+	<files>
+		<filename>googlesearch_cse.php</filename>
+		<filename>googlesearch.lib.php</filename>
+	</files>
+	
+	<administration>
+		<menu>googleSearch (CSE)</menu>
+		
+		<files folder="admin">
+			<filename>install.mysql.sql</filename>
+			<filename>uninstall.mysql.sql</filename>
+			<filename>admin.googlesearch_cse.php</filename>
+			<filename>admin.googlesearch_cse.html.php</filename>
+			<filename>admin.googlesearch.lib.php</filename>
+			<filename>controller.php</filename>
+			<filename>README.txt</filename>
+			<filename>tables/googlesearch_cse.php</filename>
+			<filename>gif/google_cse0.gif</filename>
+			<filename>gif/google_cse1.gif</filename>
+			<filename>gif/google_cse2.gif</filename>
+			<filename>gif/google_cse0b.gif</filename>
+			<filename>gif/google_cse1b.gif</filename>
+			<filename>gif/google_cse2b.gif</filename>
+		</files>
+		
+	</administration>
+	
+</install>

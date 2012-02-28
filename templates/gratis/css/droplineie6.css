@@ -1,0 +1,149 @@
+/* FIRST DROP UL*/
+/*.top_menu{
+	height:64px;
+}*/
+.horiznav li ul.dropline{
+display:block!important;
+}
+.horiznav ul ul.subul_main  {
+	float:left!important;
+	margin:37px 0 0 0!important;
+	padding:0!important;
+	height:37px;
+}
+.horiznav li.sfHover ul,
+.horiznav li.sfHoverHas ul{
+	z-index:100;
+	left:0;
+	margin:37px 0 0 0!important;
+	height:37px;
+}
+.horiznav li.sfHover ul.group_holder,
+.horiznav li.sfHoverHas ul.group_holder{
+	height:auto;
+}
+.horiznav ul ul.subul_main li a,
+.horiznav ul ul.subul_main li a:hover{
+	height:37px;
+	padding-right:20px;
+	display:block;
+	font-weight:bold;
+	overflow:hidden;
+	background-image:none!important;
+	margin:0 0 -2px 0;
+	text-transform:capitalize;
+}
+/*FIRST SUB LEVEL PARENT ITEM ARROWS*/
+ul.subul_main li.haschild span.child a,
+ul.subul_main li.haschild span.child a:hover{
+	background-position:95% 12px!important;
+}
+.horiznav ul li ul li.tl,
+.horiznav ul li ul li.tr,
+.horiznav ul li ul li.bl,
+.horiznav ul li ul li.br,
+.horiznav ul li ul li.right{
+	display:none!important;
+}
+/* SECOND DROP UL*/
+.horiznav  ul ul.subul_main ul {
+	height:auto!important;
+	margin-top:10px;
+}
+.top_menu ul ul ul.subul_main{
+	padding:7px 0px!important;
+	display:block;
+	margin-top:10px;
+}
+.horiznav ul ul li,.horiznav ul ul li.sfHover,
+.horiznav ul ul li,.horiznav ul ul li.sfHoverHas{
+	float:left;
+	width:auto;
+}
+#horiznav ul ul.subul_main li li{
+	width:100%;
+	display:block;
+}
+#horiznav ul ul.subul_main li li a,
+#horiznav ul ul.subul_main li li a:hover{
+	width:100%!important;
+	margin-right:-3px!important;
+	padding:0!important;
+}
+.horiznav  ul ul.subul_main ul a,
+.horiznav  ul ul.subul_main ul a:hover{
+	font-weight:bold;
+	display:block;
+	text-transform:uppercase;
+	height:auto!important;
+	padding:0;
+	margin:0 0 0px 0!important;
+}
+/*SECOND SUB LEVEL PARENT ITEM ARROWS*/
+ul ul.subul_main ul li.haschild a.child, 
+ul ul.subul_main ul li.haschild a.child:hover {
+	background-position:95% 50%!important;
+}
+li.br,li.tr,
+li.br:hover,li.tr:hover{
+	width:100%!important;
+	position:absolute!important;
+}
+.horiznav ul li ul ul li,
+.horiznav ul li ul ul li.sfHover,
+.horiznav ul li ul ul li.sfHoverHas,
+.horiznav ul li ul ul a,
+.horiznav ul li ul ul a:hover{
+	display:block;
+}
+
+.horiznav li li li.sfHover ul,
+.horiznav li li li.sfHoverHas ul{
+	margin-left:0!important;
+	margin-top:0px!important;
+}
+.horiznav li li.sfHover ul,
+.horiznav li li.sfHoverHas ul{
+	position:absolute;
+	height:1%;
+	left:0;
+	padding:10px!important;
+	margin-top:35px!important;
+}
+#horiznav li.sfHover,
+#horiznav li.sfHoverHas{
+	position:static;
+}
+.horiznav li li,
+.horiznav li li.sfHover,
+.horiznav li li.sfHoverHas{
+	position:relative!important;
+	float:left;
+	display:block;
+}
+.horiznav li li.sfHover ul li.haschild,
+.horiznav li li.sfHoverHas ul li.haschild{
+	position:static;
+}
+.horiznav li li li.sfHover ul, 
+.horiznav li li li li.sfHover ul,
+.horiznav li li li li li.sfHover ul,
+.horiznav li li li li li li.sfHover ul,
+.horiznav li li li li li li li.sfHover ul,
+.horiznav li li li li li li li li.sfHover ul,
+.horiznav li li li.sfHoverHas ul, 
+.horiznav li li li li.sfHoverHas ul,
+.horiznav li li li li li.sfHoverHas ul,
+.horiznav li li li li li li.sfHoverHas ul,
+.horiznav li li li li li li li.sfHoverHas ul,
+.horiznav li li li li li li li li.sfHoverHas ul{
+	position:absolute;
+}
+
+li.tl,li.tr,li.bl,li.br,li.right{
+	display:none!important;
+}
+.horiznav li li.sfHover ul,
+.horiznav li li.sfHoverHas ul{
+	margin-left:0%!important;
+}

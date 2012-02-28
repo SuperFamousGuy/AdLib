@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>jQuery Notty plugin</title>
+        <meta name="description" content="The jQuery Notty is a jQuery plugin written by Marius Stanciu - Sergiu for Userdot, a plugin that enables your application to display unobtrusive, beautiful and elegant notifications." />
+        <meta name="keywords" content="jquery, notty, notification, zoom, enhance, userdot" />
+        <link rel="stylesheet" media="screen" href="css/documentation.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.notty.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/jquery.notty.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <div class="container_6 clearfix">
+                    <h1 class="grid_6"><a href="">jQuery Notty plugin</a> <span class="supersmall">by <a href="http://www.userdot.net">UserDot</a></span></h1>
+                </div>
+            </header>
+            <section>
+                <div class="container_6 clearfix">
+                    <section class="main-section grid_6">
+                        <div class="main-content">
+                            <header>
+                                <h2>Documentation</h2>
+                            </header>
+                            <section class="clearfix">
+                                <div>
+                                    <img class="fr" alt="Logo" src="images/logo.png" />
+                                    <h3>Overview</h3>
+                                    <hr />
+                                    <p>The jQuery Notty is a <a href="http://www.jquery.com">jQuery</a> plugin written by Marius Stanciu - Sergiu for <a href="http://www.userdot.net">Userdot</a>, a plugin that enables your application to display unobtrusive, beautiful and elegant notifications. <a id="sample7" href="#">Click me!</a></p>
+                                    <h3>Download</h3>
+                                    <hr />
+                                    <p>You can download the <a href="http://www.userdot.net/files/jquery/jquery.notty-1.0.0.zip">last version of the plugin</a>, or <a href="http://www.userdot.net/files/jquery/">browse the archive</a> for older versions.</p>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                <div class="container_6 clearfix">
+                    <section class="main-section grid_6">
+                        <div class="main-content">
+                            <header>
+                                <h2>Usage</h2>
+                            </header>
+                            <section class="clearfix">
+                                <div>
+                                    <p>First you need to include the jQuery library, since Notty is a plugin. You can download it from the <a href="http://www.jquery.com">jQuery website</a> or link it directly from the Google CDN.</p>
+                                    <code>
+                                        &lt;script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"&gt;&lt;/script&gt;
+                                    </code>
+                                    <p>Secondly, you need to include the jQuery Notty javascript and the css file into your page. You can do it by adding the code below to your page.</p>
+                                    <code>
+                                        &lt;script type="text/javascript" src="js/jquery.notty.js"&gt;&lt;/script&gt;<br />
+                                        &lt;link rel="stylesheet" type="text/css" href="css/jquery.notty.css" /&gt;
+                                    </code>
+                                    <p>Next, you implement the link/element that will trigger the notification. In a real application, you will trigger it by form submit, or ajax calls, etc. This is just an example.</p>
+                                    <code>
+                                        &lt;a id="sample1" href="#"&gt;Click here to notty up!&lt;/a&gt;
+                                    </code>
+                                    <p>As the last step, you trigger the Notty function on the element you just created. In this case, we trigger the function on the link with the id <em>sample1</em>.</p>
+                                    <code>
+                                        &lt;script type="text/javascript"&gt;<br />
+                                        $(document).ready(function(){<br />
+                                        &nbsp;&nbsp;&nbsp;$('#sample1').click({<br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$.notty({<br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title : 'Title',<br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content : 'This is a notification'<br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});<br />
+                                        &nbsp;&nbsp;&nbsp;});<br />
+                                        });<br />
+                                        &lt;/script&gt;
+                                    </code>
+                                    <h3>Options</h3>
+                                    <hr />
+                                    <p><mark>title</mark> - the title of the notification. Can be omitted.</p>
+                                    <p><mark>content</mark> - the content of the notification</p>
+                                    <p><mark>img</mark> - if the notification will display an image, it's the image location</p>
+                                    <p><mark>showTime</mark> - will. Options: true/false</p>
+                                    <p><mark>timeout</mark> - the timeout after which the notification will fade</p>
+                                    <p><mark>click</mark> - the callback function</p>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                <div class="container_6 clearfix">
+                    <section class="main-section grid_6">
+                        <div class="main-content">
+                            <header>
+                                <h2>Demo</h2>
+                            </header>
+                            <section class="clearfix">
+                                <div>
+                                    <p><a id="sample1" href="#">Just a simple text notification.</a></p>
+                                    <p><a id="sample2" href="#">Title + big chunk of text notification.</a></p>
+                                    <p><a id="sample3" href="#">Title + big chunk of text + image notification and disabled time.</a></p>
+                                    <p><a id="sample4" href="#">This notification has 5 seconds timeout.</a></p>
+                                    <p><a id="sample5" href="#">A notification with a callback.</a></p>
+                                    <p><a id="sample6" href="#">Custom notification for your heart's desire.</a></p>
+                                    <script type="text/javascript">
+                                        $(document).ready(function()
+                                        {
+                                            $('#sample1').click(function() {
+                                                $.notty({
+                                                    content: "This is a <strong>text notification</strong>."
+                                                });
+                                                return false;
+                                            });
+                                            $('#sample2').click(function() {
+                                                $.notty({
+                                                    title: "2011 England riots",
+                                                    content: "Widespread public disturbances, including looting, arson attacks, burglary, robbery and some rioting, are ongoing in some cities and towns in England."
+                                                });
+                                                return false;
+                                            });
+                                            $('#sample3').click(function() {
+                                                $.notty({
+                                                    title: "Juno (spacecraft)",
+                                                    content: "Juno is a NASA New Frontiers mission to the planet Jupiter. It was originally proposed at a cost of approximately US$700 million (FY03) for a June 2009 launch.",
+                                                    img: "images/demo/thumb.jpg",
+                                                    showTime: false
+                                                });
+                                                return false;
+                                            });
+                                            $('#sample4').click(function() {
+                                                $.notty({
+                                                    content: 'This notification will disappear in <strong>five seconds</strong>.',
+                                                    timeout: 5000,
+                                                    showTime: false
+                                                });
+                                                return false;
+                                            });
+                                            $('#sample5').click(function() {
+                                                $.notty({
+                                                    content: "Click on me to try the <strong>callback</strong> function",
+                                                    click: 
+                                                        function() {
+                                                        $.notty({
+                                                            content: 'This notification was just created.',
+                                                            title: 'Callback!'
+                                                        });
+                                                    }
+                                                });
+                                                return false;
+                                            });
+                                            $('#sample6').click(function() {	
+                                                var title = prompt("Please enter the title of the notification","Just another title");
+                                                var text = prompt("Please enter the the text of the notification","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur enim massa, euismod id sollicitudin vitae, iaculis quis erat. Duis et ligula sapien, sed varius lectus. Sed quis urna orci.");
+                                                var img = prompt("Please specify an image src","");
+                                                if(img != '') {
+                                                    $.notty({
+                                                        content: text,
+                                                        title: title,
+                                                        img: img
+                                                    });
+                                                } else {
+                                                    $.notty({
+                                                        content: text,
+                                                        title: title
+                                                    });
+                                                }
+                                                return false;
+                                            });
+                                            $('#sample7').click(function() {
+                                                $.notty({
+                                                    content: 'I have been clicked, so my work here is complete. Elvi ... wait ... <strong>Superman</strong> has left the building.',
+                                                    img: "images/demo/thumb2.jpg",
+                                                    timeout: 5000,
+                                                    showTime: false
+                                                });
+                                                return false;
+                                            });
+                                        });
+                                    </script>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </div>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-17350501-3']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </body>
+</html>

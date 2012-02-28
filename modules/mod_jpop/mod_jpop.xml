@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.6.0" client="site" method="upgrade">
+  <name>jPop</name>
+  <author>Joohopia.com</author>
+  <version>1.0.0</version>
+  <date>September 2011</date>
+  <license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+  <description>A simple pop-up module. This is the free  version of the jPop pop-up module.</description>
+  <files>
+    <filename>mod_jpop.xml</filename>
+	 <filename>GPL_license.txt</filename>
+    <filename module="mod_jpop">mod_jpop.php</filename>
+    <filename>index.html</filename>
+    <folder>css</folder>
+	<folder>images</folder>
+	<folder>js</folder>
+  </files>
+  <params>
+    <param name="@spacer" type="spacer" default="jPop Options" label="" description="" />
+      <param name="jpoppos" type="list" default="2" label="jPop position" description="">
+      <option value="1">top-left</option>
+	        <option value="2">top-right</option>
+      <option value="3">bottom-left</option>
+	        <option value="4">bottom-right</option>
+    </param>
+	<param name="jpoptext" type="textarea" rows="7" cols="20" default="" label="Text for the heading" description="" />
+	<param name="jpophead" type="textarea" rows="7" cols="20" default="" label="Text to appear in infobox" description="" />
+	<param name="jpoptimer" type="text" size="20" default="1500" label="Time until popup(milliseconds)" description="1 sec == 1000ms" />
+	<param name="jpopurl" type="text" size="20" default="" label="Link of popup(when pressed)" description="'http://www.company.com' or leave blank for no link" />
+  </params>
+<config><fields name="params"><fieldset name="basic">
+    <field name="@spacer" type="spacer" default="jPop" label="" description="" />
+    <field name="jpoppos" type="list" default="2" label="jPop position" description="">
+      <option value="1">top-left</option>
+	        <option value="2">top-right</option>
+      <option value="3">bottom-left</option>
+	        <option value="4">bottom-right</option>
+    </field>
+	<field name="jpoptext" type="textarea" rows="7" cols="20" default="" label="Text for the heading" description="" />
+	<field name="jpophead" type="textarea" rows="7" cols="20" default="" label="Text to appear in infobox" description="" />
+	<field name="jpoptimer" type="text" size="20" default="500" label="Time until popup(milliseconds)" description="1 sec == 1000ms" />
+	<field name="jpopurl" type="text" size="20" default="" label="Link of popup(when pressed)" description="'http://www.company.com' or leave blank for no link" />
+</fieldset></fields></config>
+</install>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<layout title="JW_MAIN_GALLERY_VIEW_TITLE_DEFAULT">
+		<message><![CDATA[JW_MAIN_GALLERY_VIEW_DESC_DEFAULT]]></message>
+	</layout>
+	<state>
+		<name><![CDATA[JW_MAIN_GALLERY_VIEW_TITLE]]></name>
+		<description><![CDATA[JW_MAIN_GALLERY_VIEW_DESC]]></description>
+		<params>
+			<param name="menu_item_type" type="hidden" default="jw_main_gallery">
+			</param>
+		</params>
+	</state>
+</metadata>

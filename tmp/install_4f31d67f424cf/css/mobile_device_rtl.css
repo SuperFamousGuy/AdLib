@@ -1,0 +1,26 @@
+#s5_md_outer_wrap {
+direction:rtl;
+}
+
+#s5_md_logo_wrap {
+direction:ltr;
+}
+
+#s5_md_register_wrap, #s5_md_login_wrap {
+float:left;
+}
+
+#s5_md_menu_wrap {
+float:right;
+}
+
+#s5_md_register, #s5_md_login {
+margin-right:4px;
+margin-left:0px;
+}
+
+#s5_md_switch {
+background:url(../images/mobile/s5_md_pc_icon.png) no-repeat top right;
+padding-left:0px;
+padding-right:34px;
+}

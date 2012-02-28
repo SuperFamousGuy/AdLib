@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="XML List Layout">
+		<message>
+			<![CDATA[Displays an xml sitemap.]]>
+		</message>
+	</layout>
+	<state>
+		<name>XML List Layout</name>
+		<description><![CDATA[Displays an xml sitemap for search engine indexing.]]> </description>
+	<params>
+    <param name="listorder" type="list" default="latest" label="List Order" description="Order in which to list media items">
+				<option value="latest">Latest</option>
+				<option value="alphabetic">Alphabetic</option>
+		</param>
+    <param name="enableembed" type="radio" default="1" label="Google Embedding" description="Whether videos can be played back on Google sites">
+	 			<option value="0">No</option>
+	 			<option value="1">Yes</option>
+	 	</param>
+  </params>
+	</state>
+</metadata>

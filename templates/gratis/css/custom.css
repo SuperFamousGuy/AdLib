@@ -1,0 +1,47 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimpleGrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla LLC. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla LLC                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+/* 
+ADD ALL YOUR CUSTOM CSS OVERRIDES TO THIS FILE. THIS WAY IF YOU MAKE
+A MISTAKE YOU CAN ALWAYS REVERT BACK TO ORIGINAL TEMPLATE CSS
+THIS FILE WILL LOAD VERY LAST AFTER ALL TEMPLATE CSS FILES. IT LOADS EVEN AFTER TEMPLATE_RTL.CSS 
+SO YOU CAN ADJUST ANY CSS PART OF THE TEMPLATE YOU NEED.*/
+/*CUSTOM ITEM CLASS EXAMPLE*/
+/*.horiznav a.newclass{
+	background-image:url(../images/system/pdf_button.png)!important;
+	background-repeat:no-repeat!important;
+	background-position:95% center!important;
+	
+}*/
+/*CUSTOM FIRST DROP NO TOP ROUNDED CORNERS EXAMPLE*/
+
+/*.horiznav ul.level1 li.tl,.horiznav ul.level1 li.tl:hover{
+	background:transparent url(../images/metal/topmenu/square/tl.png)!important;
+}
+.horiznav ul.level1 li.tr,.horiznav ul.level1 li.tr:hover{
+	background:transparent url(../images/metal/topmenu/square/tr.png) no-repeat right top!important;
+}
+.horiznav ul.level2 li.tl,.horiznav ul.level2 li.tl:hover{
+	background:transparent url(../images/metal/topmenu/corners/tl.png)!important;
+}
+.horiznav ul.level2 li.tr,.horiznav ul.level2 li.tr:hover{
+	background:transparent url(../images/metal/topmenu/corners/tr.png) no-repeat right top!important;
+}
+.top_menu ul.subul_main.level1{
+	margin-top:3px;
+}
+.YJSG_listContainer ul.subul_main.level1{
+	margin-top:-3px!important;
+}*/
+
+

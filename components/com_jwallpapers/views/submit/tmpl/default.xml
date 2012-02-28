@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<layout title="JW_SUBMIT_VIEW_TITLE_DEFAULT">
+		<message><![CDATA[JW_SUBMIT_VIEW_DESC_DEFAULT]]></message>
+	</layout>
+	<state>
+		<name><![CDATA[JW_SUBMIT_VIEW_TITLE]]></name>
+		<description><![CDATA[JW_SUBMIT_VIEW_DESC]]></description>
+		<params>
+			<param name="show_credits" type="radio" default="1"
+				label="PARAMS_SHOW_CREDITS_LABEL" description="PARAMS_SHOW_CREDITS_DESC">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="target_menu_item_id" type="text" default="1" label="PARAMS_JW_SPECIAL_TARGET_MENU_ITEM_ID_LABEL" description="PARAMS_JW_SPECIAL_TARGET_MENU_ITEM_ID_DESC" />
+			<param name="menu_item_type" type="hidden" default="jw_submit">
+			</param>
+		</params>
+		<url>
+			<param name="def_cat" type="text" default="0"
+				label="PARAMS_JW_SUBMIT_DEF_CAT_LABEL" description="PARAMS_JW_SUBMIT_DEF_CAT_DESC" />
+		</url>
+	</state>
+</metadata>

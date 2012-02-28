@@ -1,0 +1,84 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimpleGrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla LLC. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla LLC                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+.horiznav li ul.dropline{
+display:block!important;
+}
+
+.horiznav ul ul.subul_main  {
+	float:right!important;
+	margin:37px 0 0 0!important;
+	padding:0!important;
+	height:37px;
+}
+.horiznav li:hover ul{
+	z-index:100;
+	right:0;
+	left:auto;
+	margin:37px 0 0 0!important;
+	height:37px;
+}
+.horiznav ul ul.subul_main.dropline li{
+	float:right;
+}
+.horiznav ul ul.subul_main li a,
+.horiznav ul ul.subul_main li a:hover{
+	padding-left:20px;
+	padding-right:0;
+	display:block;
+
+}
+.horiznav ul ul li,.horiznav ul ul li:hover{
+	float:right;
+	width:auto;
+}
+#horiznav ul ul.subul_main li li{
+	width:100%;
+	display:block;
+}
+.horiznav ul li ul ul li,
+.horiznav ul li ul ul li:hover,
+.horiznav ul li ul ul a,
+.horiznav ul li ul ul a:hover{
+	display:block;
+}
+
+.horiznav li li li:hover ul{
+	margin-left:0!important;
+	margin-top:0px!important;
+}
+.horiznav li li:hover ul{
+	position:absolute;
+	height:1%;
+	left:0;
+	margin-top:47px!important;
+}
+#horiznav li:hover{
+	position:static;
+}
+.horiznav li li,
+.horiznav li li:hover{
+	float:right;
+}
+.horiznav li li:hover ul{
+	margin-right:0%!important;
+}
+.horiznav li li li:hover ul.dropline {
+	margin-top:0px!important;
+}
+.horiz_rtl li ul.subul_main.level1{
+display:none!important;
+}
+.horiznav li:hover ul.subul_main.level1{
+display:block!important;
+}

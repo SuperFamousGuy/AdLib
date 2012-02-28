@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="List View Layout">
+		<message>
+			<![CDATA[Displays a flat list of media items.]]>
+		</message>
+	</layout>
+	<state>
+		<name>List View Layout</name>
+		<description>Displays a paginated flat list of media items.</description>
+	<params>
+		<param name="tmplname" type="hidden" default="listview" />
+		<param name="limit" type="text" size="3" default="5" label="Number of Media Items" description="Number of media items" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="showuser" type="radio" default="1" label="Show User" description="Show/hide the media owner">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</param>
+	 	<param name="showcat" type="radio" default="1" label="Show Category" description="Show/hide the category">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+ 		</param>
+ 		<param name="showviews" type="radio" default="1" label="Show Views" description="Show/hide the number of media views">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</param>
+	 	<param name="showdownloads" type="radio" default="1" label="Show Downloads" description="Show/hide the number of media downloads">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</param>
+	 	<param name="showvotes" type="radio" default="1" label="Show Votes" description="Show/hide the number of votes">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</param>
+	 	<param name="showrating" type="radio" default="1" label="Show Rating" description="Show/hide the media rating">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</param>
+	 	<param name="showdate" type="radio" default="1" label="Show Date" description="Show/hide the media date">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</param>
+	 	<param name="showadd" type="radio" default="1" label="Show Add to My List" description="Show/hide add to my list button">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</param>
+	 	<param name="showplaylistcount" type="radio" default="1" label="Show Playlist Adds" description="Show/hide the number of playlist adds">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</param>
+	 	<param name="showcommentcount" type="radio" default="1" label="Show Number of Comments" description="Show/hide the number of comments">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</param>
+	 	<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="likebutton" type="radio" default="1" label="Show Like Button" description="Show/hide the Facebook like button">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="likefaces" type="radio" default="true" label="Show Profile Photos" description="Show/hide profile photos below like button">
+			<option value="false">Hide</option>
+			<option value="true">Show</option>
+		</param>
+		<param name="likecolour" type="list" default="light" label="Like Button Colour" description="Like button colour scheme">
+			<option value="light">Light</option>
+			<option value="dark">Dark</option>
+		</param>
+		<param name="likelayout" type="list" default="standard" label="Like Button Layout" description="Layout and style of Facebook like button">
+			<option value="standard">Standard</option>
+			<option value="button_count">Button Count</option>
+			<option value="box_count">Box Count</option>
+		</param>
+		<param name="listlikebutton" type="radio" default="0" label="Like Button on Media List" description="Not recommended. May slow your site down">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+	 	<param name="@spacer" type="spacer" default="" label="" description="" />
+	 	<param name="borders" type="text" size="3" default="1" label="Border Size" description="Enter 0 for no borders" />
+		<param name="iborders" type="text" size="3" default="4" label="Thumbnail Border Size" description="Enter 0 for no border" />
+		<param name="iborderc" type="text" size="15" default="#EDEDED" label="Border Colour" description="Define border colour" />
+		<param name="bgactive" type="text" size="15" default="#F6F6F6" label="Active Bg Colour" description="Define primary background colour" />
+		<param name="bginactive" type="text" size="15" default="#EDEDED" label="Inactive Bg Colour" description="Define secondary background colour" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="tabthumbwidth" type="text" size="3" default="90" label="Tab Thumbnail Width" description="" />
+		<param name="tabthumbheight" type="text" size="3" default="60" label="Tab Thumbnail Height" description="" />
+	</params>
+	
+	<fields name="params">
+		<fieldset name="basic">
+		<field name="tmplname" type="hidden" default="listview" />
+		<field name="limit" type="text" size="3" default="5" label="Number of Media Items" description="Number of media items" />
+		<field name="@spacer" type="spacer" default="" label="" description="" />
+		<field name="showuser" type="radio" default="1" label="Show User" description="Show/hide the media owner">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</field>
+	 	<field name="showcat" type="radio" default="1" label="Show Category" description="Show/hide the category">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+ 		</field>
+ 		<field name="showviews" type="radio" default="1" label="Show Views" description="Show/hide the number of media views">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</field>
+	 	<field name="showdownloads" type="radio" default="1" label="Show Downloads" description="Show/hide the number of media downloads">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</field>
+	 	<field name="showvotes" type="radio" default="1" label="Show Votes" description="Show/hide the number of votes">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</field>
+	 	<field name="showrating" type="radio" default="1" label="Show Rating" description="Show/hide the media rating">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</field>
+	 	<field name="showdate" type="radio" default="1" label="Show Date" description="Show/hide the media date">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</field>
+	 	<field name="showadd" type="radio" default="1" label="Show Add to My List" description="Show/hide add to my list button">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</field>
+	 	<field name="showplaylistcount" type="radio" default="1" label="Show Playlist Adds" description="Show/hide the number of playlist adds">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</field>
+	 	<field name="showcommentcount" type="radio" default="1" label="Show Number of Comments" description="Show/hide the number of comments">
+	 		<option value="0">Hide</option>
+	 		<option value="1">Show</option>
+	 	</field>
+	 	<field name="@spacer" type="spacer" default="" label="" description="" />
+		<field name="likebutton" type="radio" default="1" label="Show Like Button" description="Show/hide the Facebook like button">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</field>
+		<field name="likefaces" type="radio" default="true" label="Show Profile Photos" description="Show/hide profile photos below like button">
+			<option value="false">Hide</option>
+			<option value="true">Show</option>
+		</field>
+		<field name="likecolour" type="list" default="light" label="Like Button Colour" description="Like button colour scheme">
+			<option value="light">Light</option>
+			<option value="dark">Dark</option>
+		</field>
+		<field name="likelayout" type="list" default="standard" label="Like Button Layout" description="Layout and style of Facebook like button">
+			<option value="standard">Standard</option>
+			<option value="button_count">Button Count</option>
+			<option value="box_count">Box Count</option>
+		</field>
+		<field name="listlikebutton" type="radio" default="0" label="Like Button on Media List" description="Not recommended. May slow your site down">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</field>
+	 	<field name="@spacer" type="spacer" default="" label="" description="" />
+	 	<field name="borders" type="text" size="3" default="1" label="Border Size" description="Enter 0 for no borders" />
+		<field name="iborders" type="text" size="3" default="4" label="Thumbnail Border Size" description="Enter 0 for no border" />
+		<field name="iborderc" type="text" size="15" default="#EDEDED" label="Border Colour" description="Define border colour" />
+		<field name="bgactive" type="text" size="15" default="#F6F6F6" label="Active Bg Colour" description="Define primary background colour" />
+		<field name="bginactive" type="text" size="15" default="#EDEDED" label="Inactive Bg Colour" description="Define secondary background colour" />
+		<field name="@spacer" type="spacer" default="" label="" description="" />
+		<field name="tabthumbwidth" type="text" size="3" default="90" label="Tab Thumbnail Width" description="" />
+		<field name="tabthumbheight" type="text" size="3" default="60" label="Tab Thumbnail Height" description="" />
+		</fieldset>
+	</fields>	
+	</state>
+</metadata>

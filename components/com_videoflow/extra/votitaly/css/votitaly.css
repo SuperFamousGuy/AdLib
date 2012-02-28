@@ -1,0 +1,26 @@
+/*
+# "VOTItaly" Plugin for Joomla! 1.5.x - Version 1.2
+# License: http://www.gnu.org/copyleft/gpl.html
+# Authors: Luca Scarpa & Silvio Zennaro
+# Copyright (c) 2006 - 2009 Siloos snc - http://www.siloos.it
+# Project page at http://www.joomitaly.com - Demos at http://demo.joomitaly.com
+# ***Last update: Aug 27th, 2009***
+*/
+.vf_votitaly-star-rating,
+.vf_votitaly-star-rating a:hover,
+.vf_votitaly-star-rating .vf_current-rating {background:url(../images/stars.png) left -1000px repeat-x;margin:0!important;padding:0!important;}
+.vf_votitaly-star-rating  {position:relative;width:80px;height:16px;overflow:hidden;list-style:none;margin:0;padding:0;background-position:left top;}
+.vf_votitaly-star-rating li {display:inline;background-image:none;padding:0!important;margin:0!important;}
+.vf_votitaly-star-rating a, 
+.vf_votitaly-star-rating .vf_current-rating {position:absolute;top:0;left:0;text-indent:-1000em;height:16px;line-height:16px;outline:none;overflow:hidden;border:none;cursor:pointer;}
+.vf_votitaly-star-rating a:hover {background-position:left bottom;}
+.vf_votitaly-star-rating a.one-star {width:20%;z-index:6;}
+.vf_votitaly-star-rating a.two-stars {width:40%;z-index:5;}
+.vf_votitaly-star-rating a.three-stars {width:60%;z-index:4;}
+.vf_votitaly-star-rating a.four-stars {width:80%;z-index:3;}
+.vf_votitaly-star-rating a.five-stars {width:100%;z-index:2;}
+.vf_votitaly-star-rating .vf_current-rating {z-index:1;background-position:left center;}	
+.vf_votitaly-inline-rating {display:-moz-inline-box;display:-moz-inline-box;display:inline-block;vertical-align:middle;line-height:16px;}
+.vf_votitaly-inline-rating-stars {display:-moz-inline-box;display:-moz-inline-box;display:inline-block;vertical-align:middle;line-height:16px;float:left;width:80px;}
+.vf_votitaly-box {margin-left:5px;vertical-align:middle;display:inline}
+.vf_votitaly-box img.loading{vertical-align:middle}

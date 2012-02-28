@@ -1,0 +1,86 @@
+[07-Feb-2012 19:49:36] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/updatec6/public_html/ad-lib2/libraries/joomla/installer/adapters/xmap_ext.php' (include_path='.:/usr/local/php52/pear') in /home/updatec6/public_html/ad-lib2/libraries/joomla/installer/installer.php on line 216
+[08-Feb-2012 01:44:11] PHP Fatal error:  Call to a member function getError() on a non-object in /home/updatec6/public_html/ad-lib2/administrator/components/com_seyret/admin.seyret.php on line 1100
+[13-Feb-2012 21:03:17] Got no response code when fetching http://mastershan/
+[13-Feb-2012 21:03:17] CURL error (6): Couldn't resolve host 'mastershan'
+[14-Feb-2012 21:31:34] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/updatec6/public_html/ad-lib/administrator/components/com_jfusion/models/model.factory.php' (include_path='.:/usr/local/php52/pear') in /home/updatec6/public_html/ad-lib/administrator/components/com_jfusionconnect/uninstall.jfusionconnect.php on line 30
+[14-Feb-2012 21:31:52] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/updatec6/public_html/ad-lib/administrator/components/com_jfusion/models/model.factory.php' (include_path='.:/usr/local/php52/pear') in /home/updatec6/public_html/ad-lib/administrator/components/com_jfusionconnect/uninstall.jfusionconnect.php on line 30
+[16-Feb-2012 00:38:18] Got no response code when fetching http://karl/
+[16-Feb-2012 00:38:18] CURL error (6): Couldn't resolve host 'karl'
+[16-Feb-2012 00:38:25] Got no response code when fetching http://karl/
+[16-Feb-2012 00:38:25] CURL error (6): Couldn't resolve host 'karl'
+[16-Feb-2012 16:19:00] Got no response code when fetching http://debate/
+[16-Feb-2012 16:19:00] CURL error (6): Couldn't resolve host 'debate'
+[16-Feb-2012 16:19:08] Got no response code when fetching http://debate789/
+[16-Feb-2012 16:19:08] CURL error (6): Couldn't resolve host 'debate789'
+[21-Feb-2012 17:03:58] Successfully fetched 'http://www.yahoo.com/': GET response code 200
+[21-Feb-2012 17:04:01] Successfully fetched 'http://open.login.yahooapis.com/openid20/www.yahoo.com/xrds': GET response code 200
+[21-Feb-2012 17:04:03] Successfully fetched 'https://open.login.yahooapis.com/openid/op/auth': POST response code 200
+[21-Feb-2012 17:04:06] Successfully fetched 'https://me.yahoo.com/a/qja.JigroPegGeekh_H6wkbY3ykZTVvkTY7z': GET response code 200
+[21-Feb-2012 17:04:06] Successfully fetched 'https://open.login.yahooapis.com/openid20/user_profile/xrds': GET response code 200
+[21-Feb-2012 22:54:08] Got no response code when fetching http://admin/
+[21-Feb-2012 22:54:08] CURL error (6): Couldn't resolve host 'admin'
+[21-Feb-2012 22:54:21] Got no response code when fetching http://admin/
+[21-Feb-2012 22:54:21] CURL error (6): Couldn't resolve host 'admin'
+[21-Feb-2012 23:07:10] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/updatec6/public_html/ad-lib/administrator/components/com_jfusion/models/model.factory.php' (include_path='.:/usr/local/php52/pear') in /home/updatec6/public_html/ad-lib/administrator/components/com_jfusionconnect/uninstall.jfusionconnect.php on line 30
+[21-Feb-2012 23:08:40] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/updatec6/public_html/ad-lib/administrator/components/com_jfusion/models/model.factory.php' (include_path='.:/usr/local/php52/pear') in /home/updatec6/public_html/ad-lib/administrator/components/com_jfusionconnect/uninstall.jfusionconnect.php on line 30
+[21-Feb-2012 23:16:22] URL fetching not allowed for ''
+[26-Feb-2012 16:33:36] Got no response code when fetching http://admin/
+[26-Feb-2012 16:33:36] CURL error (6): Couldn't resolve host 'admin'
+[26-Feb-2012 16:33:38] Got no response code when fetching http://admin/
+[26-Feb-2012 16:33:38] CURL error (6): Couldn't resolve host 'admin'
+[26-Feb-2012 16:33:38] Got no response code when fetching http://admin/
+[26-Feb-2012 16:33:38] CURL error (6): Couldn't resolve host 'admin'
+[26-Feb-2012 16:33:39] Got no response code when fetching http://admin/
+[26-Feb-2012 16:33:39] CURL error (6): Couldn't resolve host 'admin'
+[26-Feb-2012 16:33:40] Got no response code when fetching http://admin/
+[26-Feb-2012 16:33:40] CURL error (6): Couldn't resolve host 'admin'
+[26-Feb-2012 16:33:41] Got no response code when fetching http://admin/
+[26-Feb-2012 16:33:41] CURL error (6): Couldn't resolve host 'admin'
+[26-Feb-2012 16:33:42] Got no response code when fetching http://admin/
+[26-Feb-2012 16:33:42] CURL error (6): Couldn't resolve host 'admin'
+[26-Feb-2012 16:33:43] Got no response code when fetching http://admin/
+[26-Feb-2012 16:33:43] CURL error (6): Couldn't resolve host 'admin'
+[26-Feb-2012 16:33:44] Got no response code when fetching http://admin/
+[26-Feb-2012 16:33:44] CURL error (6): Couldn't resolve host 'admin'
+[26-Feb-2012 16:33:44] Got no response code when fetching http://admin/
+[26-Feb-2012 16:33:44] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 10:08:26] Got no response code when fetching http://admin/
+[27-Feb-2012 10:08:26] Got no response code when fetching http://admin/
+[27-Feb-2012 10:08:26] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 10:08:26] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 10:08:28] Got no response code when fetching http://admin/
+[27-Feb-2012 10:08:28] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 10:08:28] Got no response code when fetching http://admin/
+[27-Feb-2012 10:08:28] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 10:08:30] Got no response code when fetching http://admin/
+[27-Feb-2012 10:08:30] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 10:08:30] Got no response code when fetching http://admin/
+[27-Feb-2012 10:08:30] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 10:08:32] Got no response code when fetching http://admin/
+[27-Feb-2012 10:08:32] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 10:08:32] Got no response code when fetching http://admin/
+[27-Feb-2012 10:08:32] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 10:08:34] Got no response code when fetching http://admin/
+[27-Feb-2012 10:08:35] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 10:08:35] Got no response code when fetching http://admin/
+[27-Feb-2012 10:08:35] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 11:02:45] Got no response code when fetching http://admin/
+[27-Feb-2012 11:02:45] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 11:02:46] Got no response code when fetching http://admin/
+[27-Feb-2012 11:02:46] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 11:02:47] Got no response code when fetching http://admin/
+[27-Feb-2012 11:02:47] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 11:02:47] Got no response code when fetching http://admin/
+[27-Feb-2012 11:02:47] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 11:02:48] Got no response code when fetching http://admin/
+[27-Feb-2012 11:02:48] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 11:02:49] Got no response code when fetching http://admin/
+[27-Feb-2012 11:02:49] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 11:02:50] Got no response code when fetching http://admin/
+[27-Feb-2012 11:02:50] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 11:02:51] Got no response code when fetching http://admin/
+[27-Feb-2012 11:02:51] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 11:02:52] Got no response code when fetching http://admin/
+[27-Feb-2012 11:02:52] CURL error (6): Couldn't resolve host 'admin'
+[27-Feb-2012 11:02:53] Got no response code when fetching http://admin/
+[27-Feb-2012 11:02:53] CURL error (6): Couldn't resolve host 'admin'

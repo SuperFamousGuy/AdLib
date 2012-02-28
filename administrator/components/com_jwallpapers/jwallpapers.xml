@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5">
+	<name>JWallpapers</name>
+	<author>Arunas Mazeika</author>
+	<creationDate>May 2010</creationDate>
+	<copyright>Copyright (C) 2009 Arunas Mazeika - All rights reserved</copyright>
+	<license>This component is released under the GNU/GPL version 2+ license</license>
+	<authorEmail>jwallpapers@wextend.com</authorEmail>
+	<authorUrl>www.wextend.com</authorUrl>
+	<version>2.0</version>
+	<description>A lightweight yet powerful image gallery component with community building capabilities</description>
+	<installfile>install.jwallpapers.php</installfile>
+	<uninstallfile>uninstall.jwallpapers.php</uninstallfile>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.mysql.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.mysql.sql</file>
+		</sql>
+	</uninstall>
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>controller.php</filename>
+		<filename>router.php</filename>
+		<filename>jwallpapers.php</filename>
+		<folder>css</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+		<folder>images</folder>
+	</files>
+	<languages folder="site">
+		<language tag="en-GB">en-GB.com_jwallpapers.ini</language>
+	</languages>
+	<administration>
+		<languages folder="admin">
+			<language tag="en-GB">en-GB.com_jwallpapers.ini</language>
+		</languages>
+		<menu img="components/com_jwallpapers/images/menu/jw_about.png">JWallpapers</menu>
+		<submenu>
+			<menu img="components/com_jwallpapers/images/menu/jw_pictures.png"
+				controller="pictures">Manage Pictures</menu>
+			<menu img="components/com_jwallpapers/images/menu/jw_categories.png"
+				controller="categories">Manage Categories</menu>
+			<menu img="components/com_jwallpapers/images/menu/jw_settings.png"
+				controller="settings">Settings</menu>
+			<menu img="components/com_jwallpapers/images/menu/jw_tags.png"
+				controller="tags">Manage Tags</menu>
+			<menu img="components/com_jwallpapers/images/menu/jw_about.png"
+				controller="about">About JWallpapers</menu>
+		</submenu>
+		<files folder="admin">
+			<filename>license.php</filename>
+			<filename>index.html</filename>
+			<filename>config.xml</filename>
+			<filename>jwallpapers.php</filename>
+			<filename>files_htaccess.txt</filename>
+			<filename>install.mysql.sql</filename>
+			<filename>uninstall.mysql.sql</filename>
+			<filename>install.jwallpapers.php</filename>
+			<filename>uninstall.jwallpapers.php</filename>
+			<folder>js</folder>
+			<folder>extras</folder>
+			<folder>elements</folder>
+			<folder>images</folder>
+			<folder>kcaptcha</folder>
+			<folder>helpers</folder>
+			<folder>css</folder>
+			<folder>models</folder>
+			<folder>controllers</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+		</files>
+	</administration>
+	<params>
+		<param name="image_library" default="GD"></param>
+		<param name="safe_exec_mode" default="1"></param>
+		<param name="maxCatDepth" default="25"></param>
+		<param name="max_upload_size" default="2048"></param>
+		<param name="security_key"
+			default="IMPORTANT: Change this value to a phrase of your choice"></param>
+		<param name="thumbs_area_width" default="70"></param>
+		<param name="picture_area_width" default="70"></param>
+		<param name="thumbs_lines" default="3"></param>
+		<param name="thumbs_columns" default="3"></param>
+		<param name="sef_picture" default="picture"></param>
+		<param name="sef_category" default="album"></param>
+		<param name="sef_special" default="special"></param>
+		<param name="sef_submit" default="submit:picture"></param>
+		<param name="enable_uploads" default="1"></param>
+		<param name="moderate" default="1"></param>
+		<param name="thumbs_resize_method" default="crop"></param>
+		<param name="small_thumbs_width" default="146"></param>
+		<param name="small_thumbs_height" default="109"></param>
+		<param name="big_thumbs_width" default="402"></param>
+		<param name="big_thumbs_height" default="0"></param>
+		<param name="light_thumbs_width" default="640"></param>
+		<param name="light_thumbs_height" default="480"></param>
+		<param name="moderate_cats" default="1"></param>
+		<param name="display_mode" default="0"></param>
+		<param name="search_cat_thumb" default="1"></param>
+		<param name="votes" default="1"></param>
+		<param name="lightbox" default="1"></param>
+		<param name="slideshow_period" default="10"></param>
+		<param name="show_thumb_info" default="1"></param>
+		<param name="show_category_list" default="1"></param>
+		<param name="cb_integration" default="0"></param>
+		<param name="comments" default="0"></param>
+		<param name="selective_resolution" default="0"></param>
+		<param name="frontend_category_proposal" default="0"></param>
+		<param name="resizes_generate" default="0"></param>
+		<param name="resizes_extrapolate" default="0"></param>
+		<param name="show_backend_category_filter" default="1"></param>
+		<param name="disable_downloads" default="0"></param>
+		<param name="sef_pic_inherit_keywords" default="0"></param>
+		<param name="show_frontend_captcha" default="1"></param>
+		<param name="show_credits" default="1"></param>
+		<param name="thumbs_wrapper_height" default="90"></param>
+		<param name="thumbs_wrapper_width" default="14"></param>
+		<param name="thumbs_title_max_length" default="45"></param>
+		<param name="show_pic_thumb_title" default="1"></param>
+		<param name="show_cat_thumb_title" default="1"></param>
+		<param name="upload_boxes" default="1"></param>
+		<param name="upload_boxes" default="1"></param>
+		<param name="generate_thumbs_upload" default="1"></param>
+		<param name="msg_method" default="1"></param>
+		<param name="msg_from" default="62"></param>
+		<param name="msg_to" default="62"></param>
+		<param name="max_upload_resolution" default="2"></param>
+		<param name="show_navigation_special_view" default="0"></param>
+		<param name="ajax_tag_search_min_chars" default="3"></param>
+		<param name="ajax_tag_search_min_time" default="3"></param>
+		<param name="ajax_tag_search_max_results" default="32"></param>
+		<param name="frontend_tagging" default="1"></param>
+		<param name="guests_frontend_tagging" default="0"></param>
+		<param name="moderate_frontend_tagging" default="1"></param>
+		<param name="frontend_tag_proposal" default="0"></param>
+		<param name="frontend_show_pic_tags" default="1"></param>
+		<param name="show_category_desc" default="1"></param>
+		<param name="watermark_thumbs" default="1"></param>
+		<param name="watermark_downloads" default="0"></param>
+		<param name="watermark_image_path" default=""></param>
+		<param name="watermark_size_ratio" default="15"></param>
+		<param name="watermark_position" default="4"></param>
+		<param name="watermark_margin" default="10"></param>
+		<param name="image_quality" default="80"></param>
+		<param name="acl_show_restricted_picture" default="1"></param>
+		<param name="acl_show_restricted_category" default="1"></param>
+	</params>
+</install>
+
+

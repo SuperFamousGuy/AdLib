@@ -1,0 +1,84 @@
+/**
+ * JWallpapers next and previous module - A module to display the next and previous pictures based on the position and the category of the picture being displayed 
+ * 
+ * @version 1.0 $Id: mod_jwnxtandprev.css 183 2010-02-11 13:07:40Z amazeika $
+ * @package JWallpapers
+ * @copyright Copyright (C) 2010 Arunas Mazeika, http://www.wextend.com. All rights reserved
+ * @author Arunas Mazeika
+ * @license GNU General Public License v2+ (GNU GPL v2+). See license.php
+ * 
+ */
+
+ul.thumbnails_nxt_prev img {
+	display: block;
+	margin: 0 auto 0 auto;
+	border: 1px solid #ccc;
+	border-bottom-color: #eee;
+	border-left-color: #ddd;
+	border-top-color: #bbb;
+}
+
+.nxt_and_prev_current  {
+	/* Setting some transparency */
+	/* Firefox */	
+	opacity:0.4;
+	/* IE */
+	filter:alpha(opacity=40);
+	/* Setting the mouse over colors */
+	border-color: #ccc !important;
+	background-color: #eee !important;
+	text-decoration: none !important;
+}
+
+ul.thumbnails_nxt_prev a {
+	display: block;
+	margin: 0 !important;
+	padding: 2px !important;
+	border: 1px solid #ccc;
+	border-top-color: #eee;
+	border-right-color: #ddd;
+	border-bottom-color: #bbb;
+	background-color: #fff;
+	text-align: center;
+}
+
+ul.thumbnails_nxt_prev div {
+	text-align: center;
+	/* width: 158px; Depreciated this is now added dynamically */
+	padding: 0;
+	margin: 0 auto 0 auto;
+}
+
+ul.thumbnails_nxt_prev a:hover {
+	border-color: #ccc;
+	background-color: #eee;
+	text-decoration: none;
+}
+
+ul.thumbnails_nxt_prev {
+	/* IE seems to align ul items to the right */
+	margin: 0 auto 0 auto !important;
+	padding: 0 !important;
+	/* background-color: #fff; For transparency */
+	line-height: 1em;
+	list-style: none !important;
+	/* This forces the browser to dynamically calculate the height of the element.
+	   Floating elements inside avoid the height calculation of this element.
+	   Because of this, we need to force the height calculation by using this hack.
+	   The problem was present in Opera when putting the module in the left menu
+	   with default Joomla template. */
+	overflow: auto;
+}
+
+ul.thumbnails_nxt_prev li {
+	float: left;
+	/* min-width: 160px; Depreciated this is now done dynamically */
+	/* This one needs to be defined to avoid next line floating problems with IE */
+	/* height: 200px; Depreciated this is now done dynamically */
+	/* This one is a IE6 fix, otherwise the height property is not respected */
+	overflow: hidden;
+	padding: 0 !important;
+	margin-top: 5px;
+	/* Added in order to safely allow calculating the width by dividing 100% by the number of columns */
+	border: none !important;
+}

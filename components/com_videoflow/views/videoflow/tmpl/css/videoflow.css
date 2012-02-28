@@ -1,0 +1,109 @@
+/* CSS Document */
+
+  .vf_table{
+  margin-right:auto;
+  margin-left:auto;
+  }
+    
+  table.vftable {
+    border:none;
+    width:100%;
+    border:none;
+  }
+  
+  table.vftable td {
+    border: none;
+    padding: 1px;
+    vertical-align: top;
+  }
+
+  
+  table.vftable tr {
+    padding: 0px;
+    border: none;
+  }
+  
+  table.vfmedinfo{
+   margin:auto;
+   text-align:left; 
+  }
+  
+  table.vfmedinfo td {
+   padding: 2px 10px; 
+  }
+         
+  .vfaligntop{
+  vertical-align:top;
+  }
+  
+    
+  .vf_img a {text-decoration: none !important;}
+
+  
+/*Container box for each list item*/
+
+ 
+	.vflist1 { position:absolute; top:0px; left:0px; }
+	.vflist2 { position:absolute; top:7px; left:7px; overflow: hidden; height:73px; padding-top: 0px; }
+	.vflist3 { position:relative; text-align:left; width:100%; font-size:11px; line-height:15px; }
+	/*.vflist4 { position:relative; text-align:left; width:260; font-size:11px; line-height:15px;  }*/
+	.vflist5 { font-size:10px; font-weight:bold; }
+	.vflist6 { font-size:11px; font-family:arial; }
+	.vflist7 { padding-top:4px; padding-bottom:1px; }
+	.vflist8 { position:relative; width:100%; margin-left: auto; margin-right:auto; height:20px; margin-top:8px; }
+	.vflist10 { padding-left:7px; padding-top:2px; }
+		
+  .vf_lightbox{
+  background-color: #000000;
+  color:#FFFFFF;
+  padding: 0px;
+  margin:0px;
+  }
+	
+  /* VideoFlow Modules */
+	
+  .mod_vflow {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; 
+  border:1px solid #CCCCCC;
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center; 
+  width:100%; 
+  }
+    
+ 	
+  #vffooter{
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center; 
+  width:100%; 
+  }
+  
+  #vffooter li {
+  display:inline;
+  padding: 2px 4px;
+  }
+        
+    .vf_rating {
+    float:right;
+    overflow:hidden;
+    font-size: 12px;
+    margin: 8px 0px 0px 4px;
+    max-height:40px;
+    }
+    
+    .mod_vfshare {
+    float: left;
+    margin: 8px 4px 2px 0px;
+    max-height:36px;
+    }
+    
+    .vf_infostats{width:100%; padding: 2px 0px;} .vf_cstats1{float:left;} .vf_cstats2{float:right}
+    .vf_tools_icons {vertical-align:bottom;} 
+    .vf_tools{float:left; margin:0px 5px 0px 2px; white-space:nowrap;}
+    #vf_vidinfo{max-height:200px; overflow:hidden; margin:0px; padding: 0px;font-size:11px;}
+ 
+    .vf_fbcomments{
+    margin-bottom: 0px;
+    }

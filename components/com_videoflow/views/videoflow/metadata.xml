@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+        <view title="Media List">
+                <message><![CDATA[Displays a paginated list of media items.]]></message>
+        </view>
+</metadata>

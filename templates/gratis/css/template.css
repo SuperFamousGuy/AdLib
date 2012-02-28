@@ -1,0 +1,523 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimpleGrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla LLC. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla LLC                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+@import url("layout.css");        /*layout css file*/
+@import url("newsitems.css");     /*newsitems css file*/
+@import url("menus.css");         /*menu css file*/
+@import url("typo.css");          /*typo css file*/
+@import url("joomla16.css");      /*new style from joomla 1.6*/
+
+#navbarin li li.gratis{background: #fff url(http://pixelpointcreative.com/navbar/current.jpg) 80% 50% no-repeat;}
+#navbarin li li.gratis:hover{background: url(http://pixelpointcreative.com/navbar/free.jpg) 80% 50% no-repeat;}
+/* THIS TEMPLATE IS EQUIPED WITH  ROUND AND SQUARE CORNERS
+TO SEE ROUND CORNERS SIMPLY CHANGE THE MODULE style1 STYLE IN TEMPLATE MANAGER
+UNDER ACCORDION ADVANCED OPTIONS. SEE ALSO rounded.css FILE".
+
+/* ROUND MODULES STYLING
+--------------------- */
+/* ROUND IMAGE. YOU CAN CHANGE TO YOUR OWN. 1 IMAGE TECHNIQUE USED */
+.yjround .content, .yjround .t, .yjround .b, .yjround .b div {
+	background:url(../images/mods/rounded.png);
+}
+.yjroundblack .content, .yjroundblack .t, .yjroundblack .b, .yjroundblack .b div {
+	background:url(../images/mods/roundedblack.png);
+}
+.yjroundsilver .content, .yjroundsilver .t, .yjroundsilver .b, .yjroundsilver .b div {
+	background:url(../images/mods/roundedsilver.png);
+}
+.yjroundblue .content, .yjroundblue .t, .yjroundblue .b, .yjroundblue .b div {
+	background:url(../images/mods/roundedblue.png);
+}
+.yjroundgreen .content, .yjroundgreen .t, .yjroundgreen .b, .yjroundgreen .b div {
+	background:url(../images/mods/roundedgreen.png);
+}
+.yjroundgold .content, .yjroundgold .t, .yjroundgold .b, .yjroundgold .b div {
+	background:url(../images/mods/roundedgold.png);
+}
+
+
+
+
+.pplogo{width:32px;height:32px;left: 0px; background:url(../images/ppsquarelogo.png) no-repeat;display:block;position:relative; }
+.pplogo span {line-height: 999px;}
+body {
+	
+	padding:0;
+	margin:0;
+	line-height:18px;
+	background-color:#FFFFFF;
+}
+#stylef1 {
+	font-family:"Bookman Old Style", serif;
+}
+#stylef2 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#stylef3 {
+	font-family: "Times New Roman", Times, serif;
+}
+#stylef4 {
+	font-family:Century Gothic, sans-serif;
+}
+#stylef5 {
+	font-family:"Lucida Grande", sans-serif;
+}
+#stylef6 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#stylef7 {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#stylef8 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#stylef9 {
+	font-family: Copperplate Gothic Light, sans-serif;
+}
+#stylef10 {
+	font-family:"Lucida Console", Monaco, monospace;
+}
+#stylef11 {
+	font-family: Gill Sans MT, sans-serif;
+}
+#stylef12 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#stylef13 {
+	font-family: "Courier New", Courier, monospace;
+}
+#stylef14 {
+	font-family: Cambria, serif;
+}
+#stylef15 {
+	font-family: Georgia, Serif;
+}
+/* JOOMLA! STYLING
+--------------------- */
+a:focus {
+	outline:0px;
+}
+focus {
+	outline:0px;
+}
+h1, h2, h3, h4, h5, h6, p, blockquote, form, label, ul, ol, dl, fieldset, address {
+	margin:0.5em 0;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style:none;
+}
+ul li {
+	padding-left:15px;
+}
+body ol {
+	list-style: decimal inside;
+	margin:0;
+	padding:0;
+}
+body ol li {
+	margin: 0px;
+	padding: 5px 3px;
+	list-style-image:none;
+	background:none;
+}
+/* ORDERED LIST FOR MODULES ONLY */
+.yjsquare_in ol li, .yjround_in ol li {
+}
+/*END*/
+
+body a, body a:hover {
+	cursor: pointer;
+}
+a:link, a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1 {
+	font-size:2.5em;
+	line-height:1.5em;
+}
+h2 {
+	font-size:1.7em;
+	line-height:1.7em;
+}
+h3 {
+	font-size:1.3em;
+	line-height:1.3em;
+}
+h4 {
+	font-size:1.2em;
+	line-height:1.2em;
+}
+h5 {
+	font-size:1.1em;
+	line-height:1.1em;
+}
+h6 {
+	font-size:1em;
+	line-height:1em;
+	font-weight:bold;
+}
+h1 .cufon {
+	padding:5px 0 0 0;
+}
+.componentheading {
+	letter-spacing: normal;
+	margin:0 0px 4px 0px;
+}
+.contentpaneopen {
+	padding:0 0px;
+	text-align: left;
+}
+.contentpane {
+	padding:0 0px 0px 0px !important;
+	text-align: left;
+}
+.category {
+	margin-left:0px;
+}
+.insidem ul {
+	margin-left:10px;
+}
+.contentpaneopen, .contentpane {
+}
+.contentpaneopen {
+	border-collapse: separate;
+	border-spacing: 3px;
+}
+#article-index {
+	margin: 0 0 10px 10px;
+	padding: 0;
+	width: 30%;
+	float: right;
+}
+#article-index ul li {
+	background:none;
+}
+a.toclink {
+	padding:5px;
+	display:block;
+	margin: 2px 0;
+}
+/*SITE IMAGES*/
+img a, img {
+	border:0;
+	padding:0;
+}
+.img_caption {
+	text-align:center;
+}
+.img_caption.left {
+	float: left;
+	margin-right: 1em;
+}
+.img_caption.right {
+	float: right;
+	margin-left: 1em;
+}
+.img_caption.left p {
+	clear: left;
+	text-align: center;
+	padding:3px;
+}
+.img_caption.right p {
+	clear: right;
+	text-align: center;
+	padding:3px;
+}
+.contentdescription img {
+	padding:5px;
+	margin:0px;
+}
+/* END SITE IMAGES */
+input#search_searchword {
+	padding:2px;
+}
+table.searchintro {
+	padding: 10px 0;
+	width: 100%;
+}
+table.searchintro td {
+	padding: 5px!important;
+}
+.clr {
+	clear:both;
+	height:1px;
+}
+fieldset {
+	padding:.5em;
+}
+.inputbox {
+	margin-top:5px;
+}
+.input {
+	border:0;
+}
+/* BUTTONS
+--------------------- */
+.required {
+	margin:5px 0 0 0;
+}
+.button {
+	padding:1px 3px;
+	border:none;
+	margin-top:5px;
+	text-align:center;
+}
+.back_button {
+	padding: 0 5px;
+}
+.readon {
+	height:23px;
+	line-height:23px;
+	display:block;
+	clear:both;
+	float:left;
+	padding:0 0 0 10px;
+	margin:10px 0 0 0;
+}
+.readon span {
+	display: block;
+	height:23px;
+	line-height:23px;
+	padding:0 10px 0 0px;
+}
+/* Page navigation*/
+ul.pagenav, div.pagination {
+	width:100%;
+	display:block;
+	text-align:center;
+}
+ul.pagenav li, div.pagination ul li {
+	display:block;
+	float:left;
+	background:none;
+	padding:0;
+	margin:0 5px 0 0;
+}
+ul.pagenav li a, div.pagination ul li a, a.pagenav, .pagenav_prev a, .pagenav_next a, .pagenavbar a, .back_button a {
+	height:21px;
+	text-transform:uppercase;
+	font-weight:normal;
+	line-height:21px;
+	padding:0 5px;
+}
+/*END BUTTONS*/
+/*POLL */
+.yjsg_poll {
+	padding:0 5px;
+}
+div.yjsg_poll div.poll fieldset {
+	margin: 15px 0px 10px 0px;
+}
+table.pollstableborder td.sectiontableentry0, table.pollstableborder td.sectiontableentry1, table.pollstableborder td.sectiontableentry2, table.pollstableborder tr.sectiontableentry0 td, table.pollstableborder tr.sectiontableentry1 td, table.pollstableborder tr.sectiontableentry2 td {
+	height: 20px;
+	padding-left: 5px;
+	text-align:left;
+	padding-right: 10px;
+	line-height: 18px;
+	margin-bottom:5px;
+	background: none;
+	border:none;
+}
+table.pollstableborder {
+	border: none;
+	padding: 0;
+	width: 100%;
+	text-align: left;
+}
+table.pollstableborder img {
+	vertical-align: baseline;
+}
+table.pollstableborder td {
+	padding:0 5px !important;
+}
+/*SECTION TABLE ENTERIES */
+tr.sectiontableentry0 td, tr.sectiontableentry1 td, tr.sectiontableentry2 td, td.sectiontableentry0, td.sectiontableentry1, td.sectiontableentry2 {
+	height: 20px;
+	padding: 0 10px;
+	line-height: 29px;
+}
+.sectiontableheader {
+	padding: 5px;
+	font-weight: bold;
+}
+/*SECTION TABLE ENTERY COLORS. MOVE TO COLOR.CSS IF YOU LIKE TO CHANGE THEM
+--------------------- */
+table.pollstableborder tr.sectiontableentry0 td {
+	border: none;
+	background: #f3f2f2;
+}
+table.pollstableborder tr.sectiontableentry1 td, table.pollstableborder tr.sectiontableentry2 td {
+	border: none;
+}
+.sectiontableheader {
+	border: 1px solid #d4d4d4;
+	background:#DEDEDE;
+}
+.sectiontableentry1 {
+	background-color : #DEDEDE;
+}
+tr.sectiontableentry0 td, tr.sectiontableentry1 td, tr.sectiontableentry2 td, td.sectiontableentry0, td.sectiontableentry1, td.sectiontableentry2 {
+	border-bottom: 1px solid #fff;
+}
+tr.sectiontableentry0 td, td.sectiontableentry0, tr.sectiontableentry2 td, td.sectiontableentry2 {
+	background-color: #f3f2f2;
+}
+tr.sectiontableentry1 td, td.sectiontableentry1 {
+	background-color: #E9E9E9;
+}
+tr.sectiontableentry0:hover td, tr.sectiontableentry1:hover td, tr.sectiontableentry2:hover td {
+	background-color: #EEEEEE;
+}
+/* default system 
+--------------------- */
+/* Tooltips */
+.tip {
+	float: left;
+	background: #ffc;
+	border: 1px solid #D4D5AA;
+	padding: 5px;
+	max-width: 200px;
+	text-align:left;
+}
+.tip-title {
+	padding: 0;
+	margin: 0;
+	font-size:12px;
+	font-weight: bold;
+	margin-top: -15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	text-align:left;
+	background: url(../../system/images/selector-arrow.png) no-repeat;
+}
+.tip-text {
+	font-size:11px;
+	margin: 0;
+	text-align:left;
+}
+/*Mail to*/
+#mailto-window {
+/*padding:0 10px;*/
+}
+/* OpenID icon style */
+input.system-openid {
+	background: url(http://openid.net/login-bg.gif) no-repeat;
+	background-color: #fff;
+	background-position: 0 50%;
+	color: #000;
+	padding-left: 18px;
+}
+/* Unpublished */
+.system-unpublished {
+	background: #FDFDFD;
+	border-top: 1px solid #EAEAEA;
+	border-bottom: 1px solid #EAEAEA;
+}
+/* System Messages */
+#system-message {
+	margin-bottom: 10px;
+	padding: 0;
+}
+#system-message dt {
+	font-weight: bold;
+}
+#system-message dd {
+	margin: 0;
+	font-weight: bold;
+	text-indent: 30px;
+	background-image:none;
+}
+#system-message dd ul {
+	background-color:#FDFDFD;
+	color: #c02;
+	margin-bottom: 10px;
+	list-style: none;
+	padding: 10px;
+	border-top: 1px solid #EAEAEA;
+	border-bottom: 1px solid #EAEAEA;
+}
+/* System Standard Messages */
+#system-message dt.message {
+	display: none;
+}
+#system-message dd.message {
+}
+#system-message dd.message ul li {
+	background-image:none;
+}
+/* System Error Messages */
+#system-message dt.error {
+	display: none;
+}
+#system-message dd.error ul {
+	color: #c00;
+	background-color: #FDFDFD;
+	border-top: 1px solid #EAEAEA;
+	border-bottom: 1px solid #EAEAEA;
+}
+#system-message dd.error ul li {
+	background-image:none;
+}
+/* System Notice Messages */
+#system-message dt.notice {
+	display: none;
+}
+#system-message dd.notice ul {
+	color: #c00;
+	background: #FDFDFD;
+	border-top: 1px solid #EAEAEA;
+	border-bottom: 1px solid #EAEAEA;
+}
+#system-message dd.notice ul li {
+	background-image:none;
+}
+/* Debug */
+#system-debug {
+	color: #ccc;
+	background-color: #fff;
+	padding: 10px;
+	margin: 10px;
+	text-align:left;
+}
+#system-debug div {
+	font-size: 11px;
+}
+/* Form validation */
+.invalid {
+	border-color: #ff0000;
+}
+label.invalid {
+	color: #ff0000;
+}
+/* Editor */
+#editor-xtd-buttons {
+	padding: 5px;
+}
+
+.button2-left,.button2-right {
+	float: left;
+	margin-left: 5px;
+}
+
+/*contact*/
+#component-contact {
+	padding:0 8px;
+}
+
+/*TYPO*/
+

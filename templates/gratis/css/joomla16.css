@@ -1,0 +1,144 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimpleGrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla LLC. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla LLC                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+/* 1.6 default changes */
+/* can be used in all components as surrounding wrap */
+.component {
+	padding:10px 5px;
+	overflow:hidden;
+	display:block;
+}
+.category {
+	width:100%;
+}
+/* web links*/
+.category-desc {
+	padding:15px 0;
+}
+/* mod preview tp=1*/
+.mod-preview {
+	background:#fff;
+	border: 1px solid red;
+	padding:2px;
+	margin:0 5px;
+}
+div.mod-preview-info {
+	display:none;
+}
+.mod-preview-wrapper .yjsquare_in {
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+}
+/* EDITOR */
+.form_view {
+	padding:10px;
+}
+legend {
+	padding:3px 5px;
+	font-weight:bold;
+}
+form#adminForm {
+}
+.edit form#adminForm fieldset {
+	padding:20px 15px;
+	margin:10px 0 15px 0;
+}
+.formelm {
+	margin:5px 0
+}
+.formelm label {
+	width:13em;
+	display:inline-block;
+	vertical-align:top;
+}
+form#adminForm .formelm-area {
+	padding:5px 0
+}
+form#adminForm .formelm-area label {
+	vertical-align:top;
+	display:inline-block;
+	width:7.9em
+}
+.formelm-buttons {
+	text-align:right;
+	margin-bottom:10px
+}
+#editor-xtd-buttons a, .toggle-editor a {
+	background:#eee;
+	padding:0 5px;
+	height:20px;
+	margin:10px 0 0 0;
+	line-height:20px;
+	border:solid 1px #ddd;
+	font-weight:bold;
+	text-decoration:none;
+}
+.toggle-editor {
+	float:right;
+}
+/* menus 1.6 changes */
+/* Menu item with image only , no text*/
+/* level1*/
+span.no_text {
+	padding:5px 0 0 0!important;
+	display:block;
+}
+/* all other levels*/
+ul.subul_main span.no_text {
+	padding:3px 0 6px 18px !important;
+	height:26px!important;
+}
+/* actual image class that you can use*/
+img.imsolo_mega {
+}
+/* footer menu links*/
+#footer a.mainlevel {
+	background:none;
+	display:inline;
+	text-indent:0!important;
+}
+/* mail to*/
+#mailtoForm{
+	padding:0 5px;
+	background:#efefef;
+	border:1px solid #ccc;
+	margin:0 10px;
+}
+#mailtoForm label{
+	width:100px;
+}
+.mailto-close {
+	position:absolute;
+	right:0;
+	top:62px;
+	background:none;
+}
+.mailto-close a {
+	background:url(../images/system/closebox.gif) no-repeat !important;
+	min-width:22px;
+	display:block;
+	min-height:22px;
+	overflow:visible;
+}
+.mailto-close a span {
+	position:absolute;
+	left:-3000px;
+	top:-3000px;
+	display:inline;
+}
+.warning ul{
+	text-align:left;
+	padding-left:0;
+
+}

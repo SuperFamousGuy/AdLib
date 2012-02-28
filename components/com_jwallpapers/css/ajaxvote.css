@@ -1,0 +1,110 @@
+/**
+ * JWallpapers - A lightweight yet powerful image gallery component with community building capabilities
+ * 
+ * @version 2.0.1 $Id: ajaxvote.css 126 2009-11-27 15:54:01Z amazeika $
+ * @package JWallpapers
+ * @copyright Copyright (C) 2009 Arunas Mazeika, http://www.wextend.com. All rights reserved
+ * @author Arunas Mazeika
+ * @license GNU General Public License v2+ (GNU GPL v2+). See license.php
+ * 
+ */ /*
+
+// License:http://www.gnu.org/copyleft/gpl.html
+
+// Copyright (c) 2006 - 2007 JoomlaWorks.gr - http://www.joomlaworks.gr
+// Project page at http://www.joomlaworks.gr - Demos at http://demo.joomlaworks.gr
+
+*/
+#jwajaxvote-inline-rating {
+	display: block !important;
+	vertical-align: middle !important;
+	line-height: 25px !important;
+}
+
+.jwajaxvote-star-rating {
+	width: 175px !important;
+	float: left !important;
+}
+
+.jwajaxvote-star-rating,.jwajaxvote-star-rating a:hover,.jwajaxvote-star-rating .current-rating
+	{
+	background: url(../images/ajax_vote/star.gif) left -1000px repeat-x
+		!important;
+}
+
+.jwajaxvote-star-rating {
+	position: relative !important;
+	width: 125px !important;
+	height: 25px !important;
+	overflow: hidden !important;
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	background-position: left top !important;
+}
+
+.jwajaxvote-star-rating li {
+	display: inline !important;
+	background-image: none !important;
+	padding: 0 !important;
+}
+
+.jwajaxvote-star-rating a,.jwajaxvote-star-rating .current-rating {
+	background-color: transparent !important;
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	text-indent: -1000px !important;
+	height: 25px !important;
+	line-height: 25px !important;
+	outline: none !important;
+	overflow: hidden !important;
+	border: none !important;
+	cursor: pointer !important;
+}
+
+.jwajaxvote-star-rating a:hover {
+	background-position: left bottom !important;
+}
+
+.jwajaxvote-star-rating a.one-star {
+	width: 20% !important;
+	z-index: 6 !important;
+}
+
+.jwajaxvote-star-rating a.two-stars {
+	width: 40% !important;
+	z-index: 5 !important;
+}
+
+.jwajaxvote-star-rating a.three-stars {
+	width: 60% !important;
+	z-index: 4 !important;
+}
+
+.jwajaxvote-star-rating a.four-stars {
+	width: 80% !important;
+	z-index: 3 !important;
+}
+
+.jwajaxvote-star-rating a.five-stars {
+	width: 100% !important;
+	z-index: 2 !important;
+}
+
+.jwajaxvote-star-rating .current-rating {
+	z-index: 1 !important;
+	background-position: 0 center !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.jwajaxvote-box {
+	margin: 0 0 0 5px !important;
+	padding: 0 !important;
+}
+
+.jwajaxvote-clr {
+	clear: both !important;
+}
+/* --- End of stylesheet --- */
